@@ -11,6 +11,85 @@
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
 		A8F9883427BCB6FC00EF772F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9883327BCB6FC00EF772F /* main.m */; };
+		A8F9883E27BCBA5F00EF772F /* ServerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9883D27BCBA5F00EF772F /* ServerModel.m */; };
+		A8F9887527BCBC3200EF772F /* InformationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9887427BCBC3200EF772F /* InformationModel.m */; };
+		A8F9887827BCBC4600EF772F /* AddressBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9887727BCBC4600EF772F /* AddressBookModel.m */; };
+		A8F9888427BCBC7B00EF772F /* FirewallModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9888327BCBC7B00EF772F /* FirewallModel.m */; };
+		A8F9888727BCBC8C00EF772F /* FtpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9888627BCBC8C00EF772F /* FtpModel.m */; };
+		A8F9888A27BCBC9700EF772F /* iCalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9888927BCBC9700EF772F /* iCalModel.m */; };
+		A8F9888D27BCBC9F00EF772F /* iChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9888C27BCBC9F00EF772F /* iChatModel.m */; };
+		A8F9889027BCBCAA00EF772F /* MailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9888F27BCBCAA00EF772F /* MailModel.m */; };
+		A8F9889327BCBCB500EF772F /* MobileAccessModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9889227BCBCB500EF772F /* MobileAccessModel.m */; };
+		A8F9889627BCBCCF00EF772F /* MySQLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9889527BCBCCF00EF772F /* MySQLModel.m */; };
+		A8F9889927BCBCD900EF772F /* NatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9889827BCBCD900EF772F /* NatModel.m */; };
+		A8F9889C27BCBCE300EF772F /* NetBootModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9889B27BCBCE300EF772F /* NetBootModel.m */; };
+		A8F9889F27BCBCED00EF772F /* NfsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9889E27BCBCED00EF772F /* NfsModel.m */; };
+		A8F988A227BCBCF800EF772F /* OpenDirectoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988A127BCBCF800EF772F /* OpenDirectoryModel.m */; };
+		A8F988A527BCBD0300EF772F /* PodcastProducerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988A427BCBD0300EF772F /* PodcastProducerModel.m */; };
+		A8F988A827BCBD0F00EF772F /* PrintModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988A727BCBD0F00EF772F /* PrintModel.m */; };
+		A8F988AB27BCBD2300EF772F /* DnsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988AA27BCBD2300EF772F /* DnsModel.m */; };
+		A8F988AE27BCBD3200EF772F /* DhcpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988AD27BCBD3200EF772F /* DhcpModel.m */; };
+		A8F988B127BCBD3F00EF772F /* AfpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988B027BCBD3F00EF772F /* AfpModel.m */; };
+		A8F988B427BCBD4D00EF772F /* PushNotificationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988B327BCBD4D00EF772F /* PushNotificationModel.m */; };
+		A8F988B727BCBD5E00EF772F /* QuickTimeStreamingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988B627BCBD5E00EF772F /* QuickTimeStreamingModel.m */; };
+		A8F988BA27BCBD6700EF772F /* RadiusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988B927BCBD6700EF772F /* RadiusModel.m */; };
+		A8F988BD27BCBD6E00EF772F /* SmbModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988BC27BCBD6E00EF772F /* SmbModel.m */; };
+		A8F988C027BCBD7700EF772F /* SoftwareUpdateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988BF27BCBD7700EF772F /* SoftwareUpdateModel.m */; };
+		A8F988C327BCBD8000EF772F /* VpnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988C227BCBD8000EF772F /* VpnModel.m */; };
+		A8F988C627BCBD8600EF772F /* WebModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988C527BCBD8600EF772F /* WebModel.m */; };
+		A8F988C927BCBD9100EF772F /* XgridModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988C827BCBD9100EF772F /* XgridModel.m */; };
+		A8F988CD27BCBDEC00EF772F /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988CB27BCBDEC00EF772F /* InformationViewController.m */; };
+		A8F988CE27BCBDEC00EF772F /* InformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F988CC27BCBDEC00EF772F /* InformationViewController.xib */; };
+		A8F988D727BCBE0400EF772F /* AfpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988D527BCBE0400EF772F /* AfpViewController.m */; };
+		A8F988D827BCBE0400EF772F /* AfpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F988D627BCBE0400EF772F /* AfpViewController.xib */; };
+		A8F988DC27BCBE1700EF772F /* AddressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988DA27BCBE1700EF772F /* AddressBookViewController.m */; };
+		A8F988DD27BCBE1700EF772F /* AddressBookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F988DB27BCBE1700EF772F /* AddressBookViewController.xib */; };
+		A8F988E127BCBE2200EF772F /* DhcpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988DF27BCBE2200EF772F /* DhcpViewController.m */; };
+		A8F988E227BCBE2200EF772F /* DhcpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F988E027BCBE2200EF772F /* DhcpViewController.xib */; };
+		A8F988E627BCBE2F00EF772F /* DnsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988E427BCBE2F00EF772F /* DnsViewController.m */; };
+		A8F988E727BCBE2F00EF772F /* DnsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F988E527BCBE2F00EF772F /* DnsViewController.xib */; };
+		A8F988EB27BCBE3900EF772F /* FirewallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988E927BCBE3900EF772F /* FirewallViewController.m */; };
+		A8F988EC27BCBE3900EF772F /* FirewallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F988EA27BCBE3900EF772F /* FirewallViewController.xib */; };
+		A8F988F027BCBE4300EF772F /* FtpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988EE27BCBE4300EF772F /* FtpViewController.m */; };
+		A8F988F127BCBE4300EF772F /* FtpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F988EF27BCBE4300EF772F /* FtpViewController.xib */; };
+		A8F988F527BCBE5000EF772F /* iCalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988F327BCBE5000EF772F /* iCalViewController.m */; };
+		A8F988F627BCBE5000EF772F /* iCalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F988F427BCBE5000EF772F /* iCalViewController.xib */; };
+		A8F988FA27BCBE5900EF772F /* iChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988F827BCBE5900EF772F /* iChatViewController.m */; };
+		A8F988FB27BCBE5900EF772F /* iChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F988F927BCBE5900EF772F /* iChatViewController.xib */; };
+		A8F988FF27BCBE6200EF772F /* MailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F988FD27BCBE6200EF772F /* MailViewController.m */; };
+		A8F9890027BCBE6200EF772F /* MailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F988FE27BCBE6200EF772F /* MailViewController.xib */; };
+		A8F9890427BCBE6C00EF772F /* MobileAccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9890227BCBE6C00EF772F /* MobileAccessViewController.m */; };
+		A8F9890527BCBE6C00EF772F /* MobileAccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9890327BCBE6C00EF772F /* MobileAccessViewController.xib */; };
+		A8F9890927BCBE7800EF772F /* MySqlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9890727BCBE7800EF772F /* MySqlViewController.m */; };
+		A8F9890A27BCBE7800EF772F /* MySqlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9890827BCBE7800EF772F /* MySqlViewController.xib */; };
+		A8F9890E27BCBE8300EF772F /* NatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9890C27BCBE8300EF772F /* NatViewController.m */; };
+		A8F9890F27BCBE8300EF772F /* NatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9890D27BCBE8300EF772F /* NatViewController.xib */; };
+		A8F9891327BCBE9100EF772F /* NetBootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9891127BCBE9100EF772F /* NetBootViewController.m */; };
+		A8F9891427BCBE9100EF772F /* NetBootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9891227BCBE9100EF772F /* NetBootViewController.xib */; };
+		A8F9891827BCBE9A00EF772F /* OpenDirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9891627BCBE9A00EF772F /* OpenDirectoryViewController.m */; };
+		A8F9891927BCBE9A00EF772F /* OpenDirectoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9891727BCBE9A00EF772F /* OpenDirectoryViewController.xib */; };
+		A8F9891D27BCBEA500EF772F /* PodcastProducerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9891B27BCBEA500EF772F /* PodcastProducerViewController.m */; };
+		A8F9891E27BCBEA500EF772F /* PodcastProducerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9891C27BCBEA500EF772F /* PodcastProducerViewController.xib */; };
+		A8F9892227BCBEB000EF772F /* PrintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9892027BCBEB000EF772F /* PrintViewController.m */; };
+		A8F9892327BCBEB000EF772F /* PrintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9892127BCBEB000EF772F /* PrintViewController.xib */; };
+		A8F9892727BCBEBA00EF772F /* PushNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9892527BCBEBA00EF772F /* PushNotificationViewController.m */; };
+		A8F9892827BCBEBA00EF772F /* PushNotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9892627BCBEBA00EF772F /* PushNotificationViewController.xib */; };
+		A8F9892C27BCBEC700EF772F /* QuickTimeStreamingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9892A27BCBEC700EF772F /* QuickTimeStreamingViewController.m */; };
+		A8F9892D27BCBEC700EF772F /* QuickTimeStreamingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9892B27BCBEC700EF772F /* QuickTimeStreamingViewController.xib */; };
+		A8F9893127BCBED100EF772F /* RadiusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9892F27BCBED100EF772F /* RadiusViewController.m */; };
+		A8F9893227BCBED100EF772F /* RadiusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9893027BCBED100EF772F /* RadiusViewController.xib */; };
+		A8F9893627BCBEDB00EF772F /* SmbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9893427BCBEDB00EF772F /* SmbViewController.m */; };
+		A8F9893727BCBEDB00EF772F /* SmbViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9893527BCBEDB00EF772F /* SmbViewController.xib */; };
+		A8F9893B27BCBEE500EF772F /* SoftwareUpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9893927BCBEE500EF772F /* SoftwareUpdateViewController.m */; };
+		A8F9893C27BCBEE500EF772F /* SoftwareUpdateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9893A27BCBEE500EF772F /* SoftwareUpdateViewController.xib */; };
+		A8F9894027BCBEF100EF772F /* VpnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9893E27BCBEF100EF772F /* VpnViewController.m */; };
+		A8F9894127BCBEF100EF772F /* VpnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9893F27BCBEF100EF772F /* VpnViewController.xib */; };
+		A8F9894527BCBEF900EF772F /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9894327BCBEF900EF772F /* WebViewController.m */; };
+		A8F9894627BCBEF900EF772F /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9894427BCBEF900EF772F /* WebViewController.xib */; };
+		A8F9894A27BCBF0300EF772F /* XgridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9894827BCBF0300EF772F /* XgridViewController.m */; };
+		A8F9894B27BCBF0300EF772F /* XgridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9894927BCBF0300EF772F /* XgridViewController.xib */; };
+		A8F9894F27BCC57600EF772F /* NfsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9894D27BCC57600EF772F /* NfsViewController.m */; };
+		A8F9895027BCC57600EF772F /* NfsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9894E27BCC57600EF772F /* NfsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +100,138 @@
 		A8F9883127BCB6FC00EF772F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A8F9883327BCB6FC00EF772F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A8F9883527BCB6FC00EF772F /* Server_Admin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Server_Admin.entitlements; sourceTree = "<group>"; };
+		A8F9883C27BCBA5F00EF772F /* ServerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerModel.h; sourceTree = "<group>"; };
+		A8F9883D27BCBA5F00EF772F /* ServerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerModel.m; sourceTree = "<group>"; };
+		A8F9887327BCBC3200EF772F /* InformationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InformationModel.h; sourceTree = "<group>"; };
+		A8F9887427BCBC3200EF772F /* InformationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformationModel.m; sourceTree = "<group>"; };
+		A8F9887627BCBC4600EF772F /* AddressBookModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBookModel.h; sourceTree = "<group>"; };
+		A8F9887727BCBC4600EF772F /* AddressBookModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookModel.m; sourceTree = "<group>"; };
+		A8F9888227BCBC7B00EF772F /* FirewallModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirewallModel.h; sourceTree = "<group>"; };
+		A8F9888327BCBC7B00EF772F /* FirewallModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirewallModel.m; sourceTree = "<group>"; };
+		A8F9888527BCBC8C00EF772F /* FtpModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FtpModel.h; sourceTree = "<group>"; };
+		A8F9888627BCBC8C00EF772F /* FtpModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FtpModel.m; sourceTree = "<group>"; };
+		A8F9888827BCBC9700EF772F /* iCalModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCalModel.h; sourceTree = "<group>"; };
+		A8F9888927BCBC9700EF772F /* iCalModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCalModel.m; sourceTree = "<group>"; };
+		A8F9888B27BCBC9F00EF772F /* iChatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iChatModel.h; sourceTree = "<group>"; };
+		A8F9888C27BCBC9F00EF772F /* iChatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iChatModel.m; sourceTree = "<group>"; };
+		A8F9888E27BCBCAA00EF772F /* MailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailModel.h; sourceTree = "<group>"; };
+		A8F9888F27BCBCAA00EF772F /* MailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailModel.m; sourceTree = "<group>"; };
+		A8F9889127BCBCB500EF772F /* MobileAccessModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileAccessModel.h; sourceTree = "<group>"; };
+		A8F9889227BCBCB500EF772F /* MobileAccessModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileAccessModel.m; sourceTree = "<group>"; };
+		A8F9889427BCBCCF00EF772F /* MySQLModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySQLModel.h; sourceTree = "<group>"; };
+		A8F9889527BCBCCF00EF772F /* MySQLModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySQLModel.m; sourceTree = "<group>"; };
+		A8F9889727BCBCD900EF772F /* NatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NatModel.h; sourceTree = "<group>"; };
+		A8F9889827BCBCD900EF772F /* NatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NatModel.m; sourceTree = "<group>"; };
+		A8F9889A27BCBCE300EF772F /* NetBootModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetBootModel.h; sourceTree = "<group>"; };
+		A8F9889B27BCBCE300EF772F /* NetBootModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetBootModel.m; sourceTree = "<group>"; };
+		A8F9889D27BCBCED00EF772F /* NfsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NfsModel.h; sourceTree = "<group>"; };
+		A8F9889E27BCBCED00EF772F /* NfsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NfsModel.m; sourceTree = "<group>"; };
+		A8F988A027BCBCF800EF772F /* OpenDirectoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenDirectoryModel.h; sourceTree = "<group>"; };
+		A8F988A127BCBCF800EF772F /* OpenDirectoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenDirectoryModel.m; sourceTree = "<group>"; };
+		A8F988A327BCBD0300EF772F /* PodcastProducerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodcastProducerModel.h; sourceTree = "<group>"; };
+		A8F988A427BCBD0300EF772F /* PodcastProducerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodcastProducerModel.m; sourceTree = "<group>"; };
+		A8F988A627BCBD0F00EF772F /* PrintModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintModel.h; sourceTree = "<group>"; };
+		A8F988A727BCBD0F00EF772F /* PrintModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintModel.m; sourceTree = "<group>"; };
+		A8F988A927BCBD2300EF772F /* DnsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DnsModel.h; sourceTree = "<group>"; };
+		A8F988AA27BCBD2300EF772F /* DnsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DnsModel.m; sourceTree = "<group>"; };
+		A8F988AC27BCBD3200EF772F /* DhcpModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DhcpModel.h; sourceTree = "<group>"; };
+		A8F988AD27BCBD3200EF772F /* DhcpModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DhcpModel.m; sourceTree = "<group>"; };
+		A8F988AF27BCBD3F00EF772F /* AfpModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AfpModel.h; sourceTree = "<group>"; };
+		A8F988B027BCBD3F00EF772F /* AfpModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AfpModel.m; sourceTree = "<group>"; };
+		A8F988B227BCBD4D00EF772F /* PushNotificationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNotificationModel.h; sourceTree = "<group>"; };
+		A8F988B327BCBD4D00EF772F /* PushNotificationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushNotificationModel.m; sourceTree = "<group>"; };
+		A8F988B527BCBD5E00EF772F /* QuickTimeStreamingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickTimeStreamingModel.h; sourceTree = "<group>"; };
+		A8F988B627BCBD5E00EF772F /* QuickTimeStreamingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickTimeStreamingModel.m; sourceTree = "<group>"; };
+		A8F988B827BCBD6700EF772F /* RadiusModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadiusModel.h; sourceTree = "<group>"; };
+		A8F988B927BCBD6700EF772F /* RadiusModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadiusModel.m; sourceTree = "<group>"; };
+		A8F988BB27BCBD6E00EF772F /* SmbModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmbModel.h; sourceTree = "<group>"; };
+		A8F988BC27BCBD6E00EF772F /* SmbModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmbModel.m; sourceTree = "<group>"; };
+		A8F988BE27BCBD7700EF772F /* SoftwareUpdateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoftwareUpdateModel.h; sourceTree = "<group>"; };
+		A8F988BF27BCBD7700EF772F /* SoftwareUpdateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftwareUpdateModel.m; sourceTree = "<group>"; };
+		A8F988C127BCBD8000EF772F /* VpnModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VpnModel.h; sourceTree = "<group>"; };
+		A8F988C227BCBD8000EF772F /* VpnModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VpnModel.m; sourceTree = "<group>"; };
+		A8F988C427BCBD8600EF772F /* WebModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebModel.h; sourceTree = "<group>"; };
+		A8F988C527BCBD8600EF772F /* WebModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebModel.m; sourceTree = "<group>"; };
+		A8F988C727BCBD9100EF772F /* XgridModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XgridModel.h; sourceTree = "<group>"; };
+		A8F988C827BCBD9100EF772F /* XgridModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XgridModel.m; sourceTree = "<group>"; };
+		A8F988CA27BCBDEC00EF772F /* InformationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		A8F988CB27BCBDEC00EF772F /* InformationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
+		A8F988CC27BCBDEC00EF772F /* InformationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InformationViewController.xib; sourceTree = "<group>"; };
+		A8F988D427BCBE0400EF772F /* AfpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AfpViewController.h; sourceTree = "<group>"; };
+		A8F988D527BCBE0400EF772F /* AfpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AfpViewController.m; sourceTree = "<group>"; };
+		A8F988D627BCBE0400EF772F /* AfpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AfpViewController.xib; sourceTree = "<group>"; };
+		A8F988D927BCBE1700EF772F /* AddressBookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBookViewController.h; sourceTree = "<group>"; };
+		A8F988DA27BCBE1700EF772F /* AddressBookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookViewController.m; sourceTree = "<group>"; };
+		A8F988DB27BCBE1700EF772F /* AddressBookViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressBookViewController.xib; sourceTree = "<group>"; };
+		A8F988DE27BCBE2200EF772F /* DhcpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DhcpViewController.h; sourceTree = "<group>"; };
+		A8F988DF27BCBE2200EF772F /* DhcpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DhcpViewController.m; sourceTree = "<group>"; };
+		A8F988E027BCBE2200EF772F /* DhcpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DhcpViewController.xib; sourceTree = "<group>"; };
+		A8F988E327BCBE2F00EF772F /* DnsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DnsViewController.h; sourceTree = "<group>"; };
+		A8F988E427BCBE2F00EF772F /* DnsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DnsViewController.m; sourceTree = "<group>"; };
+		A8F988E527BCBE2F00EF772F /* DnsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DnsViewController.xib; sourceTree = "<group>"; };
+		A8F988E827BCBE3900EF772F /* FirewallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirewallViewController.h; sourceTree = "<group>"; };
+		A8F988E927BCBE3900EF772F /* FirewallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirewallViewController.m; sourceTree = "<group>"; };
+		A8F988EA27BCBE3900EF772F /* FirewallViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirewallViewController.xib; sourceTree = "<group>"; };
+		A8F988ED27BCBE4300EF772F /* FtpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FtpViewController.h; sourceTree = "<group>"; };
+		A8F988EE27BCBE4300EF772F /* FtpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FtpViewController.m; sourceTree = "<group>"; };
+		A8F988EF27BCBE4300EF772F /* FtpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FtpViewController.xib; sourceTree = "<group>"; };
+		A8F988F227BCBE5000EF772F /* iCalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCalViewController.h; sourceTree = "<group>"; };
+		A8F988F327BCBE5000EF772F /* iCalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCalViewController.m; sourceTree = "<group>"; };
+		A8F988F427BCBE5000EF772F /* iCalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iCalViewController.xib; sourceTree = "<group>"; };
+		A8F988F727BCBE5900EF772F /* iChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iChatViewController.h; sourceTree = "<group>"; };
+		A8F988F827BCBE5900EF772F /* iChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iChatViewController.m; sourceTree = "<group>"; };
+		A8F988F927BCBE5900EF772F /* iChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iChatViewController.xib; sourceTree = "<group>"; };
+		A8F988FC27BCBE6200EF772F /* MailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailViewController.h; sourceTree = "<group>"; };
+		A8F988FD27BCBE6200EF772F /* MailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailViewController.m; sourceTree = "<group>"; };
+		A8F988FE27BCBE6200EF772F /* MailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MailViewController.xib; sourceTree = "<group>"; };
+		A8F9890127BCBE6C00EF772F /* MobileAccessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileAccessViewController.h; sourceTree = "<group>"; };
+		A8F9890227BCBE6C00EF772F /* MobileAccessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileAccessViewController.m; sourceTree = "<group>"; };
+		A8F9890327BCBE6C00EF772F /* MobileAccessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MobileAccessViewController.xib; sourceTree = "<group>"; };
+		A8F9890627BCBE7800EF772F /* MySqlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySqlViewController.h; sourceTree = "<group>"; };
+		A8F9890727BCBE7800EF772F /* MySqlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySqlViewController.m; sourceTree = "<group>"; };
+		A8F9890827BCBE7800EF772F /* MySqlViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySqlViewController.xib; sourceTree = "<group>"; };
+		A8F9890B27BCBE8300EF772F /* NatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NatViewController.h; sourceTree = "<group>"; };
+		A8F9890C27BCBE8300EF772F /* NatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NatViewController.m; sourceTree = "<group>"; };
+		A8F9890D27BCBE8300EF772F /* NatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NatViewController.xib; sourceTree = "<group>"; };
+		A8F9891027BCBE9100EF772F /* NetBootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetBootViewController.h; sourceTree = "<group>"; };
+		A8F9891127BCBE9100EF772F /* NetBootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetBootViewController.m; sourceTree = "<group>"; };
+		A8F9891227BCBE9100EF772F /* NetBootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetBootViewController.xib; sourceTree = "<group>"; };
+		A8F9891527BCBE9A00EF772F /* OpenDirectoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenDirectoryViewController.h; sourceTree = "<group>"; };
+		A8F9891627BCBE9A00EF772F /* OpenDirectoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenDirectoryViewController.m; sourceTree = "<group>"; };
+		A8F9891727BCBE9A00EF772F /* OpenDirectoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpenDirectoryViewController.xib; sourceTree = "<group>"; };
+		A8F9891A27BCBEA500EF772F /* PodcastProducerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodcastProducerViewController.h; sourceTree = "<group>"; };
+		A8F9891B27BCBEA500EF772F /* PodcastProducerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodcastProducerViewController.m; sourceTree = "<group>"; };
+		A8F9891C27BCBEA500EF772F /* PodcastProducerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PodcastProducerViewController.xib; sourceTree = "<group>"; };
+		A8F9891F27BCBEB000EF772F /* PrintViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintViewController.h; sourceTree = "<group>"; };
+		A8F9892027BCBEB000EF772F /* PrintViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintViewController.m; sourceTree = "<group>"; };
+		A8F9892127BCBEB000EF772F /* PrintViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrintViewController.xib; sourceTree = "<group>"; };
+		A8F9892427BCBEBA00EF772F /* PushNotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNotificationViewController.h; sourceTree = "<group>"; };
+		A8F9892527BCBEBA00EF772F /* PushNotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushNotificationViewController.m; sourceTree = "<group>"; };
+		A8F9892627BCBEBA00EF772F /* PushNotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PushNotificationViewController.xib; sourceTree = "<group>"; };
+		A8F9892927BCBEC700EF772F /* QuickTimeStreamingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickTimeStreamingViewController.h; sourceTree = "<group>"; };
+		A8F9892A27BCBEC700EF772F /* QuickTimeStreamingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickTimeStreamingViewController.m; sourceTree = "<group>"; };
+		A8F9892B27BCBEC700EF772F /* QuickTimeStreamingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuickTimeStreamingViewController.xib; sourceTree = "<group>"; };
+		A8F9892E27BCBED100EF772F /* RadiusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadiusViewController.h; sourceTree = "<group>"; };
+		A8F9892F27BCBED100EF772F /* RadiusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadiusViewController.m; sourceTree = "<group>"; };
+		A8F9893027BCBED100EF772F /* RadiusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadiusViewController.xib; sourceTree = "<group>"; };
+		A8F9893327BCBEDB00EF772F /* SmbViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmbViewController.h; sourceTree = "<group>"; };
+		A8F9893427BCBEDB00EF772F /* SmbViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmbViewController.m; sourceTree = "<group>"; };
+		A8F9893527BCBEDB00EF772F /* SmbViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmbViewController.xib; sourceTree = "<group>"; };
+		A8F9893827BCBEE500EF772F /* SoftwareUpdateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoftwareUpdateViewController.h; sourceTree = "<group>"; };
+		A8F9893927BCBEE500EF772F /* SoftwareUpdateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftwareUpdateViewController.m; sourceTree = "<group>"; };
+		A8F9893A27BCBEE500EF772F /* SoftwareUpdateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SoftwareUpdateViewController.xib; sourceTree = "<group>"; };
+		A8F9893D27BCBEF100EF772F /* VpnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VpnViewController.h; sourceTree = "<group>"; };
+		A8F9893E27BCBEF100EF772F /* VpnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VpnViewController.m; sourceTree = "<group>"; };
+		A8F9893F27BCBEF100EF772F /* VpnViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VpnViewController.xib; sourceTree = "<group>"; };
+		A8F9894227BCBEF900EF772F /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		A8F9894327BCBEF900EF772F /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		A8F9894427BCBEF900EF772F /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		A8F9894727BCBF0300EF772F /* XgridViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XgridViewController.h; sourceTree = "<group>"; };
+		A8F9894827BCBF0300EF772F /* XgridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XgridViewController.m; sourceTree = "<group>"; };
+		A8F9894927BCBF0300EF772F /* XgridViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XgridViewController.xib; sourceTree = "<group>"; };
+		A8F9894C27BCC57600EF772F /* NfsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NfsViewController.h; sourceTree = "<group>"; };
+		A8F9894D27BCC57600EF772F /* NfsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NfsViewController.m; sourceTree = "<group>"; };
+		A8F9894E27BCC57600EF772F /* NfsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NfsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +264,33 @@
 		A8F9882A27BCB6FB00EF772F /* Server Admin */ = {
 			isa = PBXGroup;
 			children = (
+				A8F9885827BCBB6700EF772F /* Xgrid */,
+				A8F9885727BCBB6300EF772F /* Web */,
+				A8F9885627BCBB5F00EF772F /* VPN */,
+				A8F9885527BCBB5600EF772F /* SoftwareUpdate */,
+				A8F9885427BCBB4F00EF772F /* SMB */,
+				A8F9885327BCBB4900EF772F /* RADIUS */,
+				A8F9885227BCBB4000EF772F /* QuickTimeStreaming */,
+				A8F9885127BCBB2400EF772F /* PushNotification */,
+				A8F9885027BCBB1C00EF772F /* Print */,
+				A8F9884F27BCBB1400EF772F /* PodcastProducer */,
+				A8F9884E27BCBB0B00EF772F /* OpenDirectory */,
+				A8F9884D27BCBB0400EF772F /* NFS */,
+				A8F9884C27BCBAFC00EF772F /* NetBoot */,
+				A8F9884B27BCBAF600EF772F /* NAT */,
+				A8F9884A27BCBAE900EF772F /* MySQL */,
+				A8F9884927BCBAE000EF772F /* MobileAccess */,
+				A8F9884827BCBADC00EF772F /* Mail */,
+				A8F9884727BCBAD500EF772F /* iChat */,
+				A8F9884627BCBAD100EF772F /* iCal */,
+				A8F9884527BCBAC800EF772F /* FTP */,
+				A8F9884427BCBAC300EF772F /* Firewall */,
+				A8F9884327BCBAB700EF772F /* DNS */,
+				A8F9884227BCBAAE00EF772F /* DHCP */,
+				A8F9884127BCBAAA00EF772F /* AFP */,
+				A8F9884027BCBAA300EF772F /* AddressBook */,
+				A8F9883F27BCBA8600EF772F /* Information */,
+				A8F9883B27BCBA5200EF772F /* Models */,
 				A8F9882B27BCB6FB00EF772F /* AppDelegate.h */,
 				A8F9882C27BCB6FB00EF772F /* AppDelegate.m */,
 				A8F9882E27BCB6FC00EF772F /* Assets.xcassets */,
@@ -61,6 +299,535 @@
 				A8F9883527BCB6FC00EF772F /* Server_Admin.entitlements */,
 			);
 			path = "Server Admin";
+			sourceTree = "<group>";
+		};
+		A8F9883B27BCBA5200EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9883C27BCBA5F00EF772F /* ServerModel.h */,
+				A8F9883D27BCBA5F00EF772F /* ServerModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9883F27BCBA8600EF772F /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9885927BCBB8A00EF772F /* Models */,
+				A8F988CA27BCBDEC00EF772F /* InformationViewController.h */,
+				A8F988CB27BCBDEC00EF772F /* InformationViewController.m */,
+				A8F988CC27BCBDEC00EF772F /* InformationViewController.xib */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		A8F9884027BCBAA300EF772F /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9885A27BCBB9600EF772F /* Models */,
+				A8F988D927BCBE1700EF772F /* AddressBookViewController.h */,
+				A8F988DA27BCBE1700EF772F /* AddressBookViewController.m */,
+				A8F988DB27BCBE1700EF772F /* AddressBookViewController.xib */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		A8F9884127BCBAAA00EF772F /* AFP */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9885B27BCBB9F00EF772F /* Models */,
+				A8F988D427BCBE0400EF772F /* AfpViewController.h */,
+				A8F988D527BCBE0400EF772F /* AfpViewController.m */,
+				A8F988D627BCBE0400EF772F /* AfpViewController.xib */,
+			);
+			path = AFP;
+			sourceTree = "<group>";
+		};
+		A8F9884227BCBAAE00EF772F /* DHCP */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9885C27BCBBA400EF772F /* Models */,
+				A8F988DE27BCBE2200EF772F /* DhcpViewController.h */,
+				A8F988DF27BCBE2200EF772F /* DhcpViewController.m */,
+				A8F988E027BCBE2200EF772F /* DhcpViewController.xib */,
+			);
+			path = DHCP;
+			sourceTree = "<group>";
+		};
+		A8F9884327BCBAB700EF772F /* DNS */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9885D27BCBBA900EF772F /* Models */,
+				A8F988E327BCBE2F00EF772F /* DnsViewController.h */,
+				A8F988E427BCBE2F00EF772F /* DnsViewController.m */,
+				A8F988E527BCBE2F00EF772F /* DnsViewController.xib */,
+			);
+			path = DNS;
+			sourceTree = "<group>";
+		};
+		A8F9884427BCBAC300EF772F /* Firewall */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9885E27BCBBAE00EF772F /* Models */,
+				A8F988E827BCBE3900EF772F /* FirewallViewController.h */,
+				A8F988E927BCBE3900EF772F /* FirewallViewController.m */,
+				A8F988EA27BCBE3900EF772F /* FirewallViewController.xib */,
+			);
+			path = Firewall;
+			sourceTree = "<group>";
+		};
+		A8F9884527BCBAC800EF772F /* FTP */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9885F27BCBBB300EF772F /* Models */,
+				A8F988ED27BCBE4300EF772F /* FtpViewController.h */,
+				A8F988EE27BCBE4300EF772F /* FtpViewController.m */,
+				A8F988EF27BCBE4300EF772F /* FtpViewController.xib */,
+			);
+			path = FTP;
+			sourceTree = "<group>";
+		};
+		A8F9884627BCBAD100EF772F /* iCal */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9886027BCBBB700EF772F /* Models */,
+				A8F988F227BCBE5000EF772F /* iCalViewController.h */,
+				A8F988F327BCBE5000EF772F /* iCalViewController.m */,
+				A8F988F427BCBE5000EF772F /* iCalViewController.xib */,
+			);
+			path = iCal;
+			sourceTree = "<group>";
+		};
+		A8F9884727BCBAD500EF772F /* iChat */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9886127BCBBBB00EF772F /* Models */,
+				A8F988F727BCBE5900EF772F /* iChatViewController.h */,
+				A8F988F827BCBE5900EF772F /* iChatViewController.m */,
+				A8F988F927BCBE5900EF772F /* iChatViewController.xib */,
+			);
+			path = iChat;
+			sourceTree = "<group>";
+		};
+		A8F9884827BCBADC00EF772F /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9886227BCBBC000EF772F /* Models */,
+				A8F988FC27BCBE6200EF772F /* MailViewController.h */,
+				A8F988FD27BCBE6200EF772F /* MailViewController.m */,
+				A8F988FE27BCBE6200EF772F /* MailViewController.xib */,
+			);
+			path = Mail;
+			sourceTree = "<group>";
+		};
+		A8F9884927BCBAE000EF772F /* MobileAccess */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9886327BCBBC400EF772F /* Models */,
+				A8F9890127BCBE6C00EF772F /* MobileAccessViewController.h */,
+				A8F9890227BCBE6C00EF772F /* MobileAccessViewController.m */,
+				A8F9890327BCBE6C00EF772F /* MobileAccessViewController.xib */,
+			);
+			path = MobileAccess;
+			sourceTree = "<group>";
+		};
+		A8F9884A27BCBAE900EF772F /* MySQL */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9886427BCBBC900EF772F /* Models */,
+				A8F9890627BCBE7800EF772F /* MySqlViewController.h */,
+				A8F9890727BCBE7800EF772F /* MySqlViewController.m */,
+				A8F9890827BCBE7800EF772F /* MySqlViewController.xib */,
+			);
+			path = MySQL;
+			sourceTree = "<group>";
+		};
+		A8F9884B27BCBAF600EF772F /* NAT */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9886527BCBBCE00EF772F /* Models */,
+				A8F9890B27BCBE8300EF772F /* NatViewController.h */,
+				A8F9890C27BCBE8300EF772F /* NatViewController.m */,
+				A8F9890D27BCBE8300EF772F /* NatViewController.xib */,
+			);
+			path = NAT;
+			sourceTree = "<group>";
+		};
+		A8F9884C27BCBAFC00EF772F /* NetBoot */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9886627BCBBD300EF772F /* Models */,
+				A8F9891027BCBE9100EF772F /* NetBootViewController.h */,
+				A8F9891127BCBE9100EF772F /* NetBootViewController.m */,
+				A8F9891227BCBE9100EF772F /* NetBootViewController.xib */,
+			);
+			path = NetBoot;
+			sourceTree = "<group>";
+		};
+		A8F9884D27BCBB0400EF772F /* NFS */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9886727BCBBD800EF772F /* Models */,
+				A8F9894C27BCC57600EF772F /* NfsViewController.h */,
+				A8F9894D27BCC57600EF772F /* NfsViewController.m */,
+				A8F9894E27BCC57600EF772F /* NfsViewController.xib */,
+			);
+			path = NFS;
+			sourceTree = "<group>";
+		};
+		A8F9884E27BCBB0B00EF772F /* OpenDirectory */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9886827BCBBE300EF772F /* Models */,
+				A8F9891527BCBE9A00EF772F /* OpenDirectoryViewController.h */,
+				A8F9891627BCBE9A00EF772F /* OpenDirectoryViewController.m */,
+				A8F9891727BCBE9A00EF772F /* OpenDirectoryViewController.xib */,
+			);
+			path = OpenDirectory;
+			sourceTree = "<group>";
+		};
+		A8F9884F27BCBB1400EF772F /* PodcastProducer */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9886927BCBBE900EF772F /* Models */,
+				A8F9891A27BCBEA500EF772F /* PodcastProducerViewController.h */,
+				A8F9891B27BCBEA500EF772F /* PodcastProducerViewController.m */,
+				A8F9891C27BCBEA500EF772F /* PodcastProducerViewController.xib */,
+			);
+			path = PodcastProducer;
+			sourceTree = "<group>";
+		};
+		A8F9885027BCBB1C00EF772F /* Print */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9886A27BCBBF100EF772F /* Models */,
+				A8F9891F27BCBEB000EF772F /* PrintViewController.h */,
+				A8F9892027BCBEB000EF772F /* PrintViewController.m */,
+				A8F9892127BCBEB000EF772F /* PrintViewController.xib */,
+			);
+			path = Print;
+			sourceTree = "<group>";
+		};
+		A8F9885127BCBB2400EF772F /* PushNotification */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9886B27BCBBF600EF772F /* Models */,
+				A8F9892427BCBEBA00EF772F /* PushNotificationViewController.h */,
+				A8F9892527BCBEBA00EF772F /* PushNotificationViewController.m */,
+				A8F9892627BCBEBA00EF772F /* PushNotificationViewController.xib */,
+			);
+			path = PushNotification;
+			sourceTree = "<group>";
+		};
+		A8F9885227BCBB4000EF772F /* QuickTimeStreaming */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9886C27BCBBFB00EF772F /* Models */,
+				A8F9892927BCBEC700EF772F /* QuickTimeStreamingViewController.h */,
+				A8F9892A27BCBEC700EF772F /* QuickTimeStreamingViewController.m */,
+				A8F9892B27BCBEC700EF772F /* QuickTimeStreamingViewController.xib */,
+			);
+			path = QuickTimeStreaming;
+			sourceTree = "<group>";
+		};
+		A8F9885327BCBB4900EF772F /* RADIUS */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9886D27BCBC0100EF772F /* Models */,
+				A8F9892E27BCBED100EF772F /* RadiusViewController.h */,
+				A8F9892F27BCBED100EF772F /* RadiusViewController.m */,
+				A8F9893027BCBED100EF772F /* RadiusViewController.xib */,
+			);
+			path = RADIUS;
+			sourceTree = "<group>";
+		};
+		A8F9885427BCBB4F00EF772F /* SMB */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9886E27BCBC0600EF772F /* Models */,
+				A8F9893327BCBEDB00EF772F /* SmbViewController.h */,
+				A8F9893427BCBEDB00EF772F /* SmbViewController.m */,
+				A8F9893527BCBEDB00EF772F /* SmbViewController.xib */,
+			);
+			path = SMB;
+			sourceTree = "<group>";
+		};
+		A8F9885527BCBB5600EF772F /* SoftwareUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9886F27BCBC0C00EF772F /* Models */,
+				A8F9893827BCBEE500EF772F /* SoftwareUpdateViewController.h */,
+				A8F9893927BCBEE500EF772F /* SoftwareUpdateViewController.m */,
+				A8F9893A27BCBEE500EF772F /* SoftwareUpdateViewController.xib */,
+			);
+			path = SoftwareUpdate;
+			sourceTree = "<group>";
+		};
+		A8F9885627BCBB5F00EF772F /* VPN */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9887027BCBC1000EF772F /* Models */,
+				A8F9893D27BCBEF100EF772F /* VpnViewController.h */,
+				A8F9893E27BCBEF100EF772F /* VpnViewController.m */,
+				A8F9893F27BCBEF100EF772F /* VpnViewController.xib */,
+			);
+			path = VPN;
+			sourceTree = "<group>";
+		};
+		A8F9885727BCBB6300EF772F /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9887127BCBC1400EF772F /* Models */,
+				A8F9894227BCBEF900EF772F /* WebViewController.h */,
+				A8F9894327BCBEF900EF772F /* WebViewController.m */,
+				A8F9894427BCBEF900EF772F /* WebViewController.xib */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		A8F9885827BCBB6700EF772F /* Xgrid */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9887227BCBC1A00EF772F /* Models */,
+				A8F9894727BCBF0300EF772F /* XgridViewController.h */,
+				A8F9894827BCBF0300EF772F /* XgridViewController.m */,
+				A8F9894927BCBF0300EF772F /* XgridViewController.xib */,
+			);
+			path = Xgrid;
+			sourceTree = "<group>";
+		};
+		A8F9885927BCBB8A00EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9887327BCBC3200EF772F /* InformationModel.h */,
+				A8F9887427BCBC3200EF772F /* InformationModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9885A27BCBB9600EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9887627BCBC4600EF772F /* AddressBookModel.h */,
+				A8F9887727BCBC4600EF772F /* AddressBookModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9885B27BCBB9F00EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F988AF27BCBD3F00EF772F /* AfpModel.h */,
+				A8F988B027BCBD3F00EF772F /* AfpModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9885C27BCBBA400EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F988AC27BCBD3200EF772F /* DhcpModel.h */,
+				A8F988AD27BCBD3200EF772F /* DhcpModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9885D27BCBBA900EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F988A927BCBD2300EF772F /* DnsModel.h */,
+				A8F988AA27BCBD2300EF772F /* DnsModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9885E27BCBBAE00EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9888227BCBC7B00EF772F /* FirewallModel.h */,
+				A8F9888327BCBC7B00EF772F /* FirewallModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9885F27BCBBB300EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9888527BCBC8C00EF772F /* FtpModel.h */,
+				A8F9888627BCBC8C00EF772F /* FtpModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9886027BCBBB700EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9888827BCBC9700EF772F /* iCalModel.h */,
+				A8F9888927BCBC9700EF772F /* iCalModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9886127BCBBBB00EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9888B27BCBC9F00EF772F /* iChatModel.h */,
+				A8F9888C27BCBC9F00EF772F /* iChatModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9886227BCBBC000EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9888E27BCBCAA00EF772F /* MailModel.h */,
+				A8F9888F27BCBCAA00EF772F /* MailModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9886327BCBBC400EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9889127BCBCB500EF772F /* MobileAccessModel.h */,
+				A8F9889227BCBCB500EF772F /* MobileAccessModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9886427BCBBC900EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9889427BCBCCF00EF772F /* MySQLModel.h */,
+				A8F9889527BCBCCF00EF772F /* MySQLModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9886527BCBBCE00EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9889727BCBCD900EF772F /* NatModel.h */,
+				A8F9889827BCBCD900EF772F /* NatModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9886627BCBBD300EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9889A27BCBCE300EF772F /* NetBootModel.h */,
+				A8F9889B27BCBCE300EF772F /* NetBootModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9886727BCBBD800EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9889D27BCBCED00EF772F /* NfsModel.h */,
+				A8F9889E27BCBCED00EF772F /* NfsModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9886827BCBBE300EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F988A027BCBCF800EF772F /* OpenDirectoryModel.h */,
+				A8F988A127BCBCF800EF772F /* OpenDirectoryModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9886927BCBBE900EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F988A327BCBD0300EF772F /* PodcastProducerModel.h */,
+				A8F988A427BCBD0300EF772F /* PodcastProducerModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9886A27BCBBF100EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F988A627BCBD0F00EF772F /* PrintModel.h */,
+				A8F988A727BCBD0F00EF772F /* PrintModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9886B27BCBBF600EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F988B227BCBD4D00EF772F /* PushNotificationModel.h */,
+				A8F988B327BCBD4D00EF772F /* PushNotificationModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9886C27BCBBFB00EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F988B527BCBD5E00EF772F /* QuickTimeStreamingModel.h */,
+				A8F988B627BCBD5E00EF772F /* QuickTimeStreamingModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9886D27BCBC0100EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F988B827BCBD6700EF772F /* RadiusModel.h */,
+				A8F988B927BCBD6700EF772F /* RadiusModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9886E27BCBC0600EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F988BB27BCBD6E00EF772F /* SmbModel.h */,
+				A8F988BC27BCBD6E00EF772F /* SmbModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9886F27BCBC0C00EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F988BE27BCBD7700EF772F /* SoftwareUpdateModel.h */,
+				A8F988BF27BCBD7700EF772F /* SoftwareUpdateModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9887027BCBC1000EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F988C127BCBD8000EF772F /* VpnModel.h */,
+				A8F988C227BCBD8000EF772F /* VpnModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9887127BCBC1400EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F988C427BCBD8600EF772F /* WebModel.h */,
+				A8F988C527BCBD8600EF772F /* WebModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8F9887227BCBC1A00EF772F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8F988C727BCBD9100EF772F /* XgridModel.h */,
+				A8F988C827BCBD9100EF772F /* XgridModel.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,8 +887,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8F9894127BCBEF100EF772F /* VpnViewController.xib in Resources */,
+				A8F9891927BCBE9A00EF772F /* OpenDirectoryViewController.xib in Resources */,
+				A8F9892827BCBEBA00EF772F /* PushNotificationViewController.xib in Resources */,
+				A8F9894627BCBEF900EF772F /* WebViewController.xib in Resources */,
+				A8F9892327BCBEB000EF772F /* PrintViewController.xib in Resources */,
+				A8F988EC27BCBE3900EF772F /* FirewallViewController.xib in Resources */,
+				A8F9890027BCBE6200EF772F /* MailViewController.xib in Resources */,
+				A8F988F627BCBE5000EF772F /* iCalViewController.xib in Resources */,
+				A8F9893227BCBED100EF772F /* RadiusViewController.xib in Resources */,
+				A8F988DD27BCBE1700EF772F /* AddressBookViewController.xib in Resources */,
+				A8F9891E27BCBEA500EF772F /* PodcastProducerViewController.xib in Resources */,
+				A8F9891427BCBE9100EF772F /* NetBootViewController.xib in Resources */,
+				A8F988F127BCBE4300EF772F /* FtpViewController.xib in Resources */,
+				A8F988FB27BCBE5900EF772F /* iChatViewController.xib in Resources */,
+				A8F988E727BCBE2F00EF772F /* DnsViewController.xib in Resources */,
+				A8F9892D27BCBEC700EF772F /* QuickTimeStreamingViewController.xib in Resources */,
+				A8F988E227BCBE2200EF772F /* DhcpViewController.xib in Resources */,
+				A8F988D827BCBE0400EF772F /* AfpViewController.xib in Resources */,
 				A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */,
+				A8F9893727BCBEDB00EF772F /* SmbViewController.xib in Resources */,
+				A8F9895027BCC57600EF772F /* NfsViewController.xib in Resources */,
+				A8F9894B27BCBF0300EF772F /* XgridViewController.xib in Resources */,
 				A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */,
+				A8F9890A27BCBE7800EF772F /* MySqlViewController.xib in Resources */,
+				A8F9893C27BCBEE500EF772F /* SoftwareUpdateViewController.xib in Resources */,
+				A8F988CE27BCBDEC00EF772F /* InformationViewController.xib in Resources */,
+				A8F9890F27BCBE8300EF772F /* NatViewController.xib in Resources */,
+				A8F9890527BCBE6C00EF772F /* MobileAccessViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +925,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8F9890927BCBE7800EF772F /* MySqlViewController.m in Sources */,
+				A8F988B427BCBD4D00EF772F /* PushNotificationModel.m in Sources */,
+				A8F988A527BCBD0300EF772F /* PodcastProducerModel.m in Sources */,
+				A8F9888A27BCBC9700EF772F /* iCalModel.m in Sources */,
+				A8F988B727BCBD5E00EF772F /* QuickTimeStreamingModel.m in Sources */,
+				A8F988D727BCBE0400EF772F /* AfpViewController.m in Sources */,
+				A8F988A827BCBD0F00EF772F /* PrintModel.m in Sources */,
+				A8F9891327BCBE9100EF772F /* NetBootViewController.m in Sources */,
+				A8F988E127BCBE2200EF772F /* DhcpViewController.m in Sources */,
+				A8F988EB27BCBE3900EF772F /* FirewallViewController.m in Sources */,
+				A8F9892C27BCBEC700EF772F /* QuickTimeStreamingViewController.m in Sources */,
+				A8F9893627BCBEDB00EF772F /* SmbViewController.m in Sources */,
+				A8F9893127BCBED100EF772F /* RadiusViewController.m in Sources */,
+				A8F9890427BCBE6C00EF772F /* MobileAccessViewController.m in Sources */,
+				A8F9890E27BCBE8300EF772F /* NatViewController.m in Sources */,
+				A8F988FF27BCBE6200EF772F /* MailViewController.m in Sources */,
+				A8F988DC27BCBE1700EF772F /* AddressBookViewController.m in Sources */,
+				A8F988C927BCBD9100EF772F /* XgridModel.m in Sources */,
+				A8F988F527BCBE5000EF772F /* iCalViewController.m in Sources */,
+				A8F988AB27BCBD2300EF772F /* DnsModel.m in Sources */,
+				A8F988A227BCBCF800EF772F /* OpenDirectoryModel.m in Sources */,
+				A8F9888727BCBC8C00EF772F /* FtpModel.m in Sources */,
+				A8F988C627BCBD8600EF772F /* WebModel.m in Sources */,
+				A8F9889327BCBCB500EF772F /* MobileAccessModel.m in Sources */,
+				A8F988FA27BCBE5900EF772F /* iChatViewController.m in Sources */,
+				A8F9894527BCBEF900EF772F /* WebViewController.m in Sources */,
+				A8F9891827BCBE9A00EF772F /* OpenDirectoryViewController.m in Sources */,
+				A8F988BA27BCBD6700EF772F /* RadiusModel.m in Sources */,
+				A8F988AE27BCBD3200EF772F /* DhcpModel.m in Sources */,
+				A8F9887527BCBC3200EF772F /* InformationModel.m in Sources */,
+				A8F988B127BCBD3F00EF772F /* AfpModel.m in Sources */,
+				A8F988F027BCBE4300EF772F /* FtpViewController.m in Sources */,
+				A8F988CD27BCBDEC00EF772F /* InformationViewController.m in Sources */,
+				A8F9891D27BCBEA500EF772F /* PodcastProducerViewController.m in Sources */,
+				A8F988C027BCBD7700EF772F /* SoftwareUpdateModel.m in Sources */,
+				A8F9894A27BCBF0300EF772F /* XgridViewController.m in Sources */,
+				A8F9889027BCBCAA00EF772F /* MailModel.m in Sources */,
+				A8F9889627BCBCCF00EF772F /* MySQLModel.m in Sources */,
 				A8F9883427BCB6FC00EF772F /* main.m in Sources */,
+				A8F9894F27BCC57600EF772F /* NfsViewController.m in Sources */,
+				A8F9888427BCBC7B00EF772F /* FirewallModel.m in Sources */,
+				A8F9889927BCBCD900EF772F /* NatModel.m in Sources */,
+				A8F9892227BCBEB000EF772F /* PrintViewController.m in Sources */,
+				A8F988C327BCBD8000EF772F /* VpnModel.m in Sources */,
+				A8F988E627BCBE2F00EF772F /* DnsViewController.m in Sources */,
 				A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */,
+				A8F9893B27BCBEE500EF772F /* SoftwareUpdateViewController.m in Sources */,
+				A8F9888D27BCBC9F00EF772F /* iChatModel.m in Sources */,
+				A8F9894027BCBEF100EF772F /* VpnViewController.m in Sources */,
+				A8F9883E27BCBA5F00EF772F /* ServerModel.m in Sources */,
+				A8F9889F27BCBCED00EF772F /* NfsModel.m in Sources */,
+				A8F988BD27BCBD6E00EF772F /* SmbModel.m in Sources */,
+				A8F9889C27BCBCE300EF772F /* NetBootModel.m in Sources */,
+				A8F9892727BCBEBA00EF772F /* PushNotificationViewController.m in Sources */,
+				A8F9887827BCBC4600EF772F /* AddressBookModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
