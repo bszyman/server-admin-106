@@ -46,4 +46,4 @@ This project is going to be licensed as MIT.
 
 ## Maintainers
 
-* [https://bszyman.com](Ben Szymanski)
+* [Ben Szymanski](https://bszyman.com)
