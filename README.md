@@ -37,12 +37,23 @@ attempts in the past.)
 If implementing the user interface is successful, I 
 may again attempt to do an implementation where this
 application can connect to FreeBSD servers and manage them.
+
 This would be a MASSIVE undertaking for a single 
 engineer, though.
 
 ## License
 
-This project is going to be licensed as MIT.
+This project is licensed under MIT.
+
+## Guidance
+
+This repository should represent Server Admin as closely as possible
+to how it appeared and functioned in 10.6.
+
+If you want to make changes, please fork this repository.
+
+If I attempt to implement actual functionality, I will also fork this
+repository and link to it from here.
 
 ## Maintainers
 
