@@ -234,6 +234,7 @@
 		A8F9894E27BCC57600EF772F /* NfsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NfsViewController.xib; sourceTree = "<group>"; };
 		A8F9895127BCCDFC00EF772F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A8F9895227BCD04300EF772F /* sa-screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sa-screenshot.png"; sourceTree = "<group>"; };
+		A8F9895327BCD0B000EF772F /* LICENSE.md */ = {isa = PBXFileReference; explicitFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +251,7 @@
 		A8F9881F27BCB6FB00EF772F = {
 			isa = PBXGroup;
 			children = (
+				A8F9895327BCD0B000EF772F /* LICENSE.md */,
 				A8F9895127BCCDFC00EF772F /* README.md */,
 				A8F9895227BCD04300EF772F /* sa-screenshot.png */,
 				A8F9882A27BCB6FB00EF772F /* Server Admin */,
