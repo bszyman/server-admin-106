@@ -50,10 +50,14 @@ This project is licensed under MIT.
 This repository should represent Server Admin as closely as possible
 to how it appeared and functioned in 10.6.
 
-If you want to make changes, please fork this repository.
+If you are looking to deviate, please fork this repository and make
+your changes there.
 
-If I attempt to implement actual functionality, I will also fork this
-repository and link to it from here.
+If I attempt to modernize and implement functionality, I will 
+also fork this repository and link to it from here.
+
+In short, you can use this project as a starting point for your own
+project.
 
 ## Maintainers
 

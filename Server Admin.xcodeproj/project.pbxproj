@@ -90,6 +90,8 @@
 		A8F9894B27BCBF0300EF772F /* XgridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9894927BCBF0300EF772F /* XgridViewController.xib */; };
 		A8F9894F27BCC57600EF772F /* NfsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9894D27BCC57600EF772F /* NfsViewController.m */; };
 		A8F9895027BCC57600EF772F /* NfsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9894E27BCC57600EF772F /* NfsViewController.xib */; };
+		A8F9895627BDDA9200EF772F /* NavigationSourceListDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9895527BDDA9200EF772F /* NavigationSourceListDelegate.m */; };
+		A8F9895C27C0191A00EF772F /* ServiceNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9895B27C0191A00EF772F /* ServiceNavigationItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -235,6 +237,10 @@
 		A8F9895127BCCDFC00EF772F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A8F9895227BCD04300EF772F /* sa-screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sa-screenshot.png"; sourceTree = "<group>"; };
 		A8F9895327BCD0B000EF772F /* LICENSE.md */ = {isa = PBXFileReference; explicitFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
+		A8F9895427BDDA9200EF772F /* NavigationSourceListDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationSourceListDelegate.h; sourceTree = "<group>"; };
+		A8F9895527BDDA9200EF772F /* NavigationSourceListDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationSourceListDelegate.m; sourceTree = "<group>"; };
+		A8F9895A27C0191A00EF772F /* ServiceNavigationItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceNavigationItem.h; sourceTree = "<group>"; };
+		A8F9895B27C0191A00EF772F /* ServiceNavigationItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceNavigationItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +309,8 @@
 				A8F9883027BCB6FC00EF772F /* MainMenu.xib */,
 				A8F9883327BCB6FC00EF772F /* main.m */,
 				A8F9883527BCB6FC00EF772F /* Server_Admin.entitlements */,
+				A8F9895427BDDA9200EF772F /* NavigationSourceListDelegate.h */,
+				A8F9895527BDDA9200EF772F /* NavigationSourceListDelegate.m */,
 			);
 			path = "Server Admin";
 			sourceTree = "<group>";
@@ -312,6 +320,8 @@
 			children = (
 				A8F9883C27BCBA5F00EF772F /* ServerModel.h */,
 				A8F9883D27BCBA5F00EF772F /* ServerModel.m */,
+				A8F9895A27C0191A00EF772F /* ServiceNavigationItem.h */,
+				A8F9895B27C0191A00EF772F /* ServiceNavigationItem.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -932,6 +942,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8F9890927BCBE7800EF772F /* MySqlViewController.m in Sources */,
+				A8F9895627BDDA9200EF772F /* NavigationSourceListDelegate.m in Sources */,
 				A8F988B427BCBD4D00EF772F /* PushNotificationModel.m in Sources */,
 				A8F988A527BCBD0300EF772F /* PodcastProducerModel.m in Sources */,
 				A8F9888A27BCBC9700EF772F /* iCalModel.m in Sources */,
@@ -940,6 +951,7 @@
 				A8F988A827BCBD0F00EF772F /* PrintModel.m in Sources */,
 				A8F9891327BCBE9100EF772F /* NetBootViewController.m in Sources */,
 				A8F988E127BCBE2200EF772F /* DhcpViewController.m in Sources */,
+				A8F9895C27C0191A00EF772F /* ServiceNavigationItem.m in Sources */,
 				A8F988EB27BCBE3900EF772F /* FirewallViewController.m in Sources */,
 				A8F9892C27BCBEC700EF772F /* QuickTimeStreamingViewController.m in Sources */,
 				A8F9893627BCBEDB00EF772F /* SmbViewController.m in Sources */,

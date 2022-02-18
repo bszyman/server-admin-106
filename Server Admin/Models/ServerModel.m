@@ -6,6 +6,7 @@
 //
 
 #import "ServerModel.h"
+#import "ServiceNavigationItem.h"
 
 @implementation ServerModel
 
@@ -14,7 +15,7 @@
     self = [super init];
     
     if (self) {
-        self.serverName = @"New Server";
+        self.serverName = @"new-server.local";
 
         self.addressBookEnabled = YES;
         self.afpEnabled = YES;
@@ -48,233 +49,232 @@
 
 - (NSTreeNode *)sourceListStructure
 {
-    NSTreeNode *serverNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-        @"title": self.serverName,
-        @"key": @"server-node"
-    }];
+    ServiceNavigationItem *serverItem = [[ServiceNavigationItem alloc] initWithTitle:self.serverName
+                                                                          serverHost:self.serverName
+                                                                        andServiceId:@"server-node"];
+    NSTreeNode *serverNode = [NSTreeNode treeNodeWithRepresentedObject:serverItem];
     
     if (self.addressBookEnabled) {
-        NSTreeNode *addressBookNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"Address Book",
-            @"key": @"address-book"
-        }];
-        
+        ServiceNavigationItem *addressBookService = [[ServiceNavigationItem alloc] initWithTitle:@"Address Book"
+                                                                                      serverHost:self.serverName
+                                                                                    andServiceId:@"address-book"];
+        NSTreeNode *addressBookNode = [NSTreeNode treeNodeWithRepresentedObject:addressBookService];
         [serverNode.mutableChildNodes addObject:addressBookNode];
     }
     
     if (self.afpEnabled) {
-        NSTreeNode *afpNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"AFP",
-            @"key": @"afp"
-        }];
+        ServiceNavigationItem *afpService = [[ServiceNavigationItem alloc] initWithTitle:@"AFP"
+                                                                              serverHost:self.serverName
+                                                                            andServiceId:@"afp"];
         
+        NSTreeNode *afpNode = [NSTreeNode treeNodeWithRepresentedObject:afpService];
         [serverNode.mutableChildNodes addObject:afpNode];
     }
-    
+
     if (self.dhcpEnabled) {
-        NSTreeNode *dhcpNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"DHCP",
-            @"key": @"dhcp"
-        }];
+        ServiceNavigationItem *dhcpService = [[ServiceNavigationItem alloc] initWithTitle:@"DHCP"
+                                                                               serverHost:self.serverName
+                                                                             andServiceId:@"dhcp"];
         
+        NSTreeNode *dhcpNode = [NSTreeNode treeNodeWithRepresentedObject:dhcpService];
         [serverNode.mutableChildNodes addObject:dhcpNode];
     }
-    
+
     if (self.dnsEnabled) {
-        NSTreeNode *dnsNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"DNS",
-            @"key": @"dns"
-        }];
+        ServiceNavigationItem *dnsService = [[ServiceNavigationItem alloc] initWithTitle:@"DNS"
+                                                                              serverHost:self.serverName
+                                                                            andServiceId:@"dns"];
         
+        NSTreeNode *dnsNode = [NSTreeNode treeNodeWithRepresentedObject:dnsService];
         [serverNode.mutableChildNodes addObject:dnsNode];
     }
-    
+
     if (self.firewallEnabled) {
-        NSTreeNode *firewallNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"Firewall",
-            @"key": @"firewall"
-        }];
+        ServiceNavigationItem *firewallService = [[ServiceNavigationItem alloc] initWithTitle:@"Firewall"
+                                                                                   serverHost:self.serverName
+                                                                                 andServiceId:@"firewall"];
         
+        NSTreeNode *firewallNode = [NSTreeNode treeNodeWithRepresentedObject:firewallService];
         [serverNode.mutableChildNodes addObject:firewallNode];
     }
-    
+
     if (self.ftpEnabled) {
-        NSTreeNode *ftpNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"FTP",
-            @"key": @"ftp"
-        }];
+        ServiceNavigationItem *ftpService = [[ServiceNavigationItem alloc] initWithTitle:@"FTP"
+                                                                              serverHost:self.serverName
+                                                                            andServiceId:@"ftp"];
         
+        NSTreeNode *ftpNode = [NSTreeNode treeNodeWithRepresentedObject:ftpService];
         [serverNode.mutableChildNodes addObject:ftpNode];
     }
-    
+
     if (self.iCalEnabled) {
-        NSTreeNode *iCalNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"iCal",
-            @"key": @"ical"
-        }];
+        ServiceNavigationItem *iCalService = [[ServiceNavigationItem alloc] initWithTitle:@"iCal"
+                                                                               serverHost:self.serverName
+                                                                             andServiceId:@"ical"];
         
+        NSTreeNode *iCalNode = [NSTreeNode treeNodeWithRepresentedObject:iCalService];
         [serverNode.mutableChildNodes addObject:iCalNode];
     }
-    
+
     if (self.iChatEnabled) {
-        NSTreeNode *iChatNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"iChat",
-            @"key": @"ichat"
-        }];
+        ServiceNavigationItem *iChatService = [[ServiceNavigationItem alloc] initWithTitle:@"iChat"
+                                                                                serverHost:self.serverName
+                                                                              andServiceId:@"ichat"];
         
+        NSTreeNode *iChatNode = [NSTreeNode treeNodeWithRepresentedObject:iChatService];
         [serverNode.mutableChildNodes addObject:iChatNode];
     }
-    
+
     if (self.mailEnabled) {
-        NSTreeNode *mailNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"Mail",
-            @"key": @"mail"
-        }];
+        ServiceNavigationItem *mailService = [[ServiceNavigationItem alloc] initWithTitle:@"Mail"
+                                                                               serverHost:self.serverName
+                                                                             andServiceId:@"mail"];
         
+        NSTreeNode *mailNode = [NSTreeNode treeNodeWithRepresentedObject:mailService];
         [serverNode.mutableChildNodes addObject:mailNode];
     }
-    
+
     if (self.mobileAccessEnabled) {
-        NSTreeNode *mobileAccessNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"Mobile Access",
-            @"key": @"mobile-access"
-        }];
+        ServiceNavigationItem *mobileAccessService = [[ServiceNavigationItem alloc] initWithTitle:@"Mobile Access"
+                                                                                       serverHost:self.serverName
+                                                                                     andServiceId:@"mobile-access"];
         
+        NSTreeNode *mobileAccessNode = [NSTreeNode treeNodeWithRepresentedObject:mobileAccessService];
         [serverNode.mutableChildNodes addObject:mobileAccessNode];
     }
-    
+
     if (self.mySqlEnabled) {
-        NSTreeNode *mySqlNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"MySQL",
-            @"key": @"mysql"
-        }];
+        ServiceNavigationItem *mySqlService = [[ServiceNavigationItem alloc] initWithTitle:@"MySQL"
+                                                                                serverHost:self.serverName
+                                                                              andServiceId:@"mysql"];
         
+        NSTreeNode *mySqlNode = [NSTreeNode treeNodeWithRepresentedObject:mySqlService];
         [serverNode.mutableChildNodes addObject:mySqlNode];
     }
-    
+
     if (self.natEnabled) {
-        NSTreeNode *natNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"NAT",
-            @"key": @"nat"
-        }];
+        ServiceNavigationItem *natService = [[ServiceNavigationItem alloc] initWithTitle:@"NAT"
+                                                                              serverHost:self.serverName
+                                                                            andServiceId:@"nat"];
         
+        NSTreeNode *natNode = [NSTreeNode treeNodeWithRepresentedObject:natService];
         [serverNode.mutableChildNodes addObject:natNode];
     }
-    
+
     if (self.netBootEnabled) {
-        NSTreeNode *netBootNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"NetBoot",
-            @"key": @"netboot"
-        }];
+        ServiceNavigationItem *netBootService = [[ServiceNavigationItem alloc] initWithTitle:@"NetBoot"
+                                                                                  serverHost:self.serverName
+                                                                                andServiceId:@"netboot"];
         
+        NSTreeNode *netBootNode = [NSTreeNode treeNodeWithRepresentedObject:netBootService];
         [serverNode.mutableChildNodes addObject:netBootNode];
     }
-    
+
     if (self.nfsEnabled) {
-        NSTreeNode *nfsNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"NFS",
-            @"key": @"nfs"
-        }];
+        ServiceNavigationItem *nfsService = [[ServiceNavigationItem alloc] initWithTitle:@"NFS"
+                                                                              serverHost:self.serverName
+                                                                            andServiceId:@"nfs"];
         
+        NSTreeNode *nfsNode = [NSTreeNode treeNodeWithRepresentedObject:nfsService];
         [serverNode.mutableChildNodes addObject:nfsNode];
     }
-    
+
     if (self.openDirectoryEnabled) {
-        NSTreeNode *openDirectoryNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"OpenDirectory",
-            @"key": @"open-directory"
-        }];
+        ServiceNavigationItem *openDirectoryService = [[ServiceNavigationItem alloc] initWithTitle:@"OpenDirectory"
+                                                                                        serverHost:self.serverName
+                                                                                      andServiceId:@"opendirectory"];
         
+        NSTreeNode *openDirectoryNode = [NSTreeNode treeNodeWithRepresentedObject:openDirectoryService];
         [serverNode.mutableChildNodes addObject:openDirectoryNode];
     }
-    
+
     if (self.podcastProducerEnabled) {
-        NSTreeNode *podcastProducerNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"Podcast Producer",
-            @"key": @"podcast-producer"
-        }];
+        ServiceNavigationItem *podcastProducerService = [[ServiceNavigationItem alloc] initWithTitle:@"Podcast Producer"
+                                                                                          serverHost:self.serverName
+                                                                                        andServiceId:@"podcast-producer"];
         
+        NSTreeNode *podcastProducerNode = [NSTreeNode treeNodeWithRepresentedObject:podcastProducerService];
         [serverNode.mutableChildNodes addObject:podcastProducerNode];
     }
-    
+
     if (self.printEnabled) {
-        NSTreeNode *printNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"Print",
-            @"key": @"print"
-        }];
+        ServiceNavigationItem *printService = [[ServiceNavigationItem alloc] initWithTitle:@"Print"
+                                                                                serverHost:self.serverName
+                                                                              andServiceId:@"print"];
         
+        NSTreeNode *printNode = [NSTreeNode treeNodeWithRepresentedObject:printService];
         [serverNode.mutableChildNodes addObject:printNode];
     }
-    
+
     if (self.pushNotificationEnabled) {
-        NSTreeNode *pushNotificationNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"Push Notification",
-            @"key": @"push-notification"
-        }];
+        ServiceNavigationItem *pushNotificationService = [[ServiceNavigationItem alloc] initWithTitle:@"Push Notification"
+                                                                                           serverHost:self.serverName
+                                                                                         andServiceId:@"push-notification"];
         
+        NSTreeNode *pushNotificationNode = [NSTreeNode treeNodeWithRepresentedObject:pushNotificationService];
         [serverNode.mutableChildNodes addObject:pushNotificationNode];
     }
-    
+
     if (self.quickTimeStreamingEnabled) {
-        NSTreeNode *quickTimeStreamingNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"QuickTime Streaming",
-            @"key": @"quicktime-streaming"
-        }];
+        ServiceNavigationItem *quickTimeStreamingService = [[ServiceNavigationItem alloc] initWithTitle:@"QuickTime Streaming"
+                                                                                           serverHost:self.serverName
+                                                                                         andServiceId:@"quicktime-streaming"];
         
+        NSTreeNode *quickTimeStreamingNode = [NSTreeNode treeNodeWithRepresentedObject:quickTimeStreamingService];
         [serverNode.mutableChildNodes addObject:quickTimeStreamingNode];
     }
-    
+
     if (self.radiusEnabled) {
-        NSTreeNode *radiusNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"RADIUS",
-            @"key": @"radius"
-        }];
+        ServiceNavigationItem *radiusService = [[ServiceNavigationItem alloc] initWithTitle:@"RADIUS"
+                                                                                 serverHost:self.serverName
+                                                                               andServiceId:@"radius"];
         
+        NSTreeNode *radiusNode = [NSTreeNode treeNodeWithRepresentedObject:radiusService];
         [serverNode.mutableChildNodes addObject:radiusNode];
     }
-    
+
     if (self.smbEnabled) {
-        NSTreeNode *smbNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"SMB",
-            @"key": @"smb"
-        }];
+        ServiceNavigationItem *smbService = [[ServiceNavigationItem alloc] initWithTitle:@"SMB"
+                                                                              serverHost:self.serverName
+                                                                            andServiceId:@"smb"];
         
+        NSTreeNode *smbNode = [NSTreeNode treeNodeWithRepresentedObject:smbService];
         [serverNode.mutableChildNodes addObject:smbNode];
     }
-    
+
     if (self.softwareUpdateEnabled) {
-        NSTreeNode *softwareUpdateNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"Software Update",
-            @"key": @"software-update"
-        }];
+        ServiceNavigationItem *softwareUpdateService = [[ServiceNavigationItem alloc] initWithTitle:@"Software Update"
+                                                                                         serverHost:self.serverName
+                                                                                       andServiceId:@"software-update"];
         
+        NSTreeNode *softwareUpdateNode = [NSTreeNode treeNodeWithRepresentedObject:softwareUpdateService];
         [serverNode.mutableChildNodes addObject:softwareUpdateNode];
     }
-    
+
     if (self.vpnEnabled) {
-        NSTreeNode *vpnNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"VPN",
-            @"key": @"vpn"
-        }];
+        ServiceNavigationItem *vpnService = [[ServiceNavigationItem alloc] initWithTitle:@"VPN"
+                                                                              serverHost:self.serverName
+                                                                            andServiceId:@"vpn"];
         
+        NSTreeNode *vpnNode = [NSTreeNode treeNodeWithRepresentedObject:vpnService];
         [serverNode.mutableChildNodes addObject:vpnNode];
     }
-    
+
     if (self.webEnabled) {
-        NSTreeNode *webNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"Web",
-            @"key": @"web"
-        }];
+        ServiceNavigationItem *webService = [[ServiceNavigationItem alloc] initWithTitle:@"Web"
+                                                                              serverHost:self.serverName
+                                                                            andServiceId:@"web"];
         
+        NSTreeNode *webNode = [NSTreeNode treeNodeWithRepresentedObject:webService];
         [serverNode.mutableChildNodes addObject:webNode];
     }
-    
+
     if (self.xgridEnabled) {
-        NSTreeNode *xgridNode = [NSTreeNode treeNodeWithRepresentedObject:@{
-            @"title": @"Xgrid",
-            @"key": @"xgrid"
-        }];
+        ServiceNavigationItem *xgridService = [[ServiceNavigationItem alloc] initWithTitle:@"Xgrid"
+                                                                                serverHost:self.serverName
+                                                                              andServiceId:@"xgrid"];
         
+        NSTreeNode *xgridNode = [NSTreeNode treeNodeWithRepresentedObject:xgridService];
         [serverNode.mutableChildNodes addObject:xgridNode];
     }
     
