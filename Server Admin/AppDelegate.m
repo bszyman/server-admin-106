@@ -44,6 +44,7 @@
 @property (strong) NSMutableDictionary *servicePanels;
 
 @property (weak) IBOutlet NSView *servicePanelDetailView;
+@property (weak) IBOutlet NSWindow *preferencesWindow;
 
 @end
 
@@ -106,62 +107,95 @@
         NSString *sid = selectedNavigation.serviceId;
         
         if ([sid isEqualToString:@"address-book"]) {
-            vc = [[AddressBookViewController alloc] initWithNibName:@"AddressBookViewController" bundle:NSBundle.mainBundle];
+            vc = [[AddressBookViewController alloc] initWithNibName:@"AddressBookViewController"
+                                                             bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"afp"]) {
-            vc = [[AfpViewController alloc] initWithNibName:@"AfpViewController" bundle:NSBundle.mainBundle];
+            vc = [[AfpViewController alloc] initWithNibName:@"AfpViewController"
+                                                     bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"dhcp"]) {
-            vc = [[DhcpViewController alloc] initWithNibName:@"DhcpViewController" bundle:NSBundle.mainBundle];
+            vc = [[DhcpViewController alloc] initWithNibName:@"DhcpViewController"
+                                                      bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"dns"]) {
-            vc = [[DnsViewController alloc] initWithNibName:@"DnsViewController" bundle:NSBundle.mainBundle];
+            vc = [[DnsViewController alloc] initWithNibName:@"DnsViewController"
+                                                     bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"firewall"]) {
-            vc = [[FirewallViewController alloc] initWithNibName:@"FirewallViewController" bundle:NSBundle.mainBundle];
+            vc = [[FirewallViewController alloc] initWithNibName:@"FirewallViewController"
+                                                          bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"ftp"]) {
-            vc = [[FtpViewController alloc] initWithNibName:@"FtpViewController" bundle:NSBundle.mainBundle];
+            vc = [[FtpViewController alloc] initWithNibName:@"FtpViewController"
+                                                     bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"ical"]) {
-            vc = [[iCalViewController alloc] initWithNibName:@"iCalViewController" bundle:NSBundle.mainBundle];
+            vc = [[iCalViewController alloc] initWithNibName:@"iCalViewController"
+                                                      bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"ichat"]) {
-            vc = [[iChatViewController alloc] initWithNibName:@"iChatViewController" bundle:NSBundle.mainBundle];
+            vc = [[iChatViewController alloc] initWithNibName:@"iChatViewController"
+                                                       bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"mail"]) {
-            vc = [[MailViewController alloc] initWithNibName:@"MailViewController" bundle:NSBundle.mainBundle];
+            vc = [[MailViewController alloc] initWithNibName:@"MailViewController"
+                                                      bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"mobile-access"]) {
-            vc = [[MobileAccessViewController alloc] initWithNibName:@"MobileAccessViewController" bundle:NSBundle.mainBundle];
+            vc = [[MobileAccessViewController alloc] initWithNibName:@"MobileAccessViewController"
+                                                              bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"mysql"]) {
-            vc = [[MySqlViewController alloc] initWithNibName:@"MySqlViewController" bundle:NSBundle.mainBundle];
+            vc = [[MySqlViewController alloc] initWithNibName:@"MySqlViewController"
+                                                       bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"nat"]) {
-            vc = [[NatViewController alloc] initWithNibName:@"NatViewController" bundle:NSBundle.mainBundle];
+            vc = [[NatViewController alloc] initWithNibName:@"NatViewController"
+                                                     bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"netboot"]) {
-            vc = [[NetBootViewController alloc] initWithNibName:@"NetBootViewController" bundle:NSBundle.mainBundle];
+            vc = [[NetBootViewController alloc] initWithNibName:@"NetBootViewController"
+                                                         bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"nfs"]) {
-            vc = [[NfsViewController alloc] initWithNibName:@"NfsViewController" bundle:NSBundle.mainBundle];
+            vc = [[NfsViewController alloc] initWithNibName:@"NfsViewController"
+                                                     bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"opendirectory"]) {
-            vc = [[OpenDirectoryViewController alloc] initWithNibName:@"OpenDirectoryViewController" bundle:NSBundle.mainBundle];
+            vc = [[OpenDirectoryViewController alloc] initWithNibName:@"OpenDirectoryViewController"
+                                                               bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"podcast-producer"]) {
-            vc = [[PodcastProducerViewController alloc] initWithNibName:@"PodcastProducerViewController" bundle:NSBundle.mainBundle];
+            vc = [[PodcastProducerViewController alloc] initWithNibName:@"PodcastProducerViewController"
+                                                                 bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"print"]) {
-            vc = [[PrintViewController alloc] initWithNibName:@"PrintViewController" bundle:NSBundle.mainBundle];
+            vc = [[PrintViewController alloc] initWithNibName:@"PrintViewController"
+                                                       bundle:NSBundle.mainBundle];
         }else if ([sid isEqualToString:@"push-notification"]) {
-            vc = [[PushNotificationViewController alloc] initWithNibName:@"PushNotificationViewController" bundle:NSBundle.mainBundle];
+            vc = [[PushNotificationViewController alloc] initWithNibName:@"PushNotificationViewController"
+                                                                  bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"quicktime-streaming"]) {
-            vc = [[QuickTimeStreamingViewController alloc] initWithNibName:@"QuickTimeStreamingViewController" bundle:NSBundle.mainBundle];
+            vc = [[QuickTimeStreamingViewController alloc] initWithNibName:@"QuickTimeStreamingViewController"
+                                                                    bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"radius"]) {
-            vc = [[RadiusViewController alloc] initWithNibName:@"RadiusViewController" bundle:NSBundle.mainBundle];
+            vc = [[RadiusViewController alloc] initWithNibName:@"RadiusViewController"
+                                                        bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"smb"]) {
-            vc = [[SmbViewController alloc] initWithNibName:@"SmbViewController" bundle:NSBundle.mainBundle];
+            vc = [[SmbViewController alloc] initWithNibName:@"SmbViewController"
+                                                     bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"software-update"]) {
-            vc = [[SoftwareUpdateViewController alloc] initWithNibName:@"SoftwareUpdateViewController" bundle:NSBundle.mainBundle];
+            vc = [[SoftwareUpdateViewController alloc] initWithNibName:@"SoftwareUpdateViewController"
+                                                                bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"vpn"]) {
-            vc = [[VpnViewController alloc] initWithNibName:@"VpnViewController" bundle:NSBundle.mainBundle];
+            vc = [[VpnViewController alloc] initWithNibName:@"VpnViewController"
+                                                     bundle:NSBundle.mainBundle];
         }  else if ([sid isEqualToString:@"web"]) {
-            vc = [[WebViewController alloc] initWithNibName:@"WebViewController" bundle:NSBundle.mainBundle];
+            vc = [[WebViewController alloc] initWithNibName:@"WebViewController"
+                                                     bundle:NSBundle.mainBundle];
         } else if ([sid isEqualToString:@"xgrid"]) {
-           vc = [[XgridViewController alloc] initWithNibName:@"XgridViewController" bundle:NSBundle.mainBundle];
+           vc = [[XgridViewController alloc] initWithNibName:@"XgridViewController"
+                                                      bundle:NSBundle.mainBundle];
         } else {
-            vc = [[InformationViewController alloc] initWithNibName:@"InformationViewController" bundle:NSBundle.mainBundle];
+            vc = [[InformationViewController alloc] initWithNibName:@"InformationViewController"
+                                                             bundle:NSBundle.mainBundle];
         }
         
         [self.servicePanelDetailView addSubview:vc.view];
         [self.servicePanels setObject:vc forKey:viewCode];
     }
+}
+
+#pragma mark - Actions
+
+- (IBAction)showPreferencesWindow:(id)sender
+{
+    [self.preferencesWindow makeKeyAndOrderFront:sender];
 }
 
 
