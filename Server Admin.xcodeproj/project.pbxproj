@@ -92,6 +92,8 @@
 		A8F9895027BCC57600EF772F /* NfsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9894E27BCC57600EF772F /* NfsViewController.xib */; };
 		A8F9895627BDDA9200EF772F /* NavigationSourceListDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9895527BDDA9200EF772F /* NavigationSourceListDelegate.m */; };
 		A8F9895C27C0191A00EF772F /* ServiceNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9895B27C0191A00EF772F /* ServiceNavigationItem.m */; };
+		A8F9895E27C0AAC000EF772F /* ModuleGraphicalTabs.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9895D27C0AAC000EF772F /* ModuleGraphicalTabs.xib */; };
+		A8F9896227C0B01E00EF772F /* ModuleGraphicalTabs.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9896127C0B01E00EF772F /* ModuleGraphicalTabs.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -241,6 +243,9 @@
 		A8F9895527BDDA9200EF772F /* NavigationSourceListDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationSourceListDelegate.m; sourceTree = "<group>"; };
 		A8F9895A27C0191A00EF772F /* ServiceNavigationItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceNavigationItem.h; sourceTree = "<group>"; };
 		A8F9895B27C0191A00EF772F /* ServiceNavigationItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceNavigationItem.m; sourceTree = "<group>"; };
+		A8F9895D27C0AAC000EF772F /* ModuleGraphicalTabs.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModuleGraphicalTabs.xib; sourceTree = "<group>"; };
+		A8F9896027C0B01E00EF772F /* ModuleGraphicalTabs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleGraphicalTabs.h; sourceTree = "<group>"; };
+		A8F9896127C0B01E00EF772F /* ModuleGraphicalTabs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleGraphicalTabs.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +307,7 @@
 				A8F9884127BCBAAA00EF772F /* AFP */,
 				A8F9884027BCBAA300EF772F /* AddressBook */,
 				A8F9883F27BCBA8600EF772F /* Information */,
+				A8F9895F27C0AFF100EF772F /* Views */,
 				A8F9883B27BCBA5200EF772F /* Models */,
 				A8F9882B27BCB6FB00EF772F /* AppDelegate.h */,
 				A8F9882C27BCB6FB00EF772F /* AppDelegate.m */,
@@ -311,6 +317,7 @@
 				A8F9883527BCB6FC00EF772F /* Server_Admin.entitlements */,
 				A8F9895427BDDA9200EF772F /* NavigationSourceListDelegate.h */,
 				A8F9895527BDDA9200EF772F /* NavigationSourceListDelegate.m */,
+				A8F9895D27C0AAC000EF772F /* ModuleGraphicalTabs.xib */,
 			);
 			path = "Server Admin";
 			sourceTree = "<group>";
@@ -846,6 +853,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		A8F9895F27C0AFF100EF772F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9896027C0B01E00EF772F /* ModuleGraphicalTabs.h */,
+				A8F9896127C0B01E00EF772F /* ModuleGraphicalTabs.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -903,6 +919,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8F9895E27C0AAC000EF772F /* ModuleGraphicalTabs.xib in Resources */,
 				A8F9894127BCBEF100EF772F /* VpnViewController.xib in Resources */,
 				A8F9891927BCBE9A00EF772F /* OpenDirectoryViewController.xib in Resources */,
 				A8F9892827BCBEBA00EF772F /* PushNotificationViewController.xib in Resources */,
@@ -954,6 +971,7 @@
 				A8F9895C27C0191A00EF772F /* ServiceNavigationItem.m in Sources */,
 				A8F988EB27BCBE3900EF772F /* FirewallViewController.m in Sources */,
 				A8F9892C27BCBEC700EF772F /* QuickTimeStreamingViewController.m in Sources */,
+				A8F9896227C0B01E00EF772F /* ModuleGraphicalTabs.m in Sources */,
 				A8F9893627BCBEDB00EF772F /* SmbViewController.m in Sources */,
 				A8F9893127BCBED100EF772F /* RadiusViewController.m in Sources */,
 				A8F9890427BCBE6C00EF772F /* MobileAccessViewController.m in Sources */,
