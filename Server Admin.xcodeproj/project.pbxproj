@@ -100,6 +100,18 @@
 		A8F9896C27C2AB6100EF772F /* AddressBookLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9896A27C2AB6100EF772F /* AddressBookLogsViewController.xib */; };
 		A8F9897027C2AB6E00EF772F /* AddressBookSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9896E27C2AB6E00EF772F /* AddressBookSettingsViewController.m */; };
 		A8F9897127C2AB6E00EF772F /* AddressBookSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9896F27C2AB6E00EF772F /* AddressBookSettingsViewController.xib */; };
+		A8F9897527C360F700EF772F /* AfpOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9897327C360F700EF772F /* AfpOverviewViewController.m */; };
+		A8F9897627C360F700EF772F /* AfpOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9897427C360F700EF772F /* AfpOverviewViewController.xib */; };
+		A8F9897A27C3610B00EF772F /* AfpLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9897827C3610B00EF772F /* AfpLogsViewController.m */; };
+		A8F9897B27C3610B00EF772F /* AfpLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9897927C3610B00EF772F /* AfpLogsViewController.xib */; };
+		A8F9897F27C3611700EF772F /* AfpGraphsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9897D27C3611700EF772F /* AfpGraphsViewController.m */; };
+		A8F9898027C3611700EF772F /* AfpGraphsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9897E27C3611700EF772F /* AfpGraphsViewController.xib */; };
+		A8F9898427C3612A00EF772F /* AfpConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9898227C3612A00EF772F /* AfpConnectionsViewController.m */; };
+		A8F9898527C3612A00EF772F /* AfpConnectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9898327C3612A00EF772F /* AfpConnectionsViewController.xib */; };
+		A8F9898927C3613B00EF772F /* AfpSharePointsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9898727C3613B00EF772F /* AfpSharePointsViewController.m */; };
+		A8F9898A27C3613B00EF772F /* AfpSharePointsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9898827C3613B00EF772F /* AfpSharePointsViewController.xib */; };
+		A8F9898E27C3614A00EF772F /* AfpSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9898C27C3614A00EF772F /* AfpSettingsViewController.m */; };
+		A8F9898F27C3614A00EF772F /* AfpSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9898D27C3614A00EF772F /* AfpSettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -261,6 +273,24 @@
 		A8F9896D27C2AB6E00EF772F /* AddressBookSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBookSettingsViewController.h; sourceTree = "<group>"; };
 		A8F9896E27C2AB6E00EF772F /* AddressBookSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookSettingsViewController.m; sourceTree = "<group>"; };
 		A8F9896F27C2AB6E00EF772F /* AddressBookSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressBookSettingsViewController.xib; sourceTree = "<group>"; };
+		A8F9897227C360F700EF772F /* AfpOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AfpOverviewViewController.h; sourceTree = "<group>"; };
+		A8F9897327C360F700EF772F /* AfpOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AfpOverviewViewController.m; sourceTree = "<group>"; };
+		A8F9897427C360F700EF772F /* AfpOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AfpOverviewViewController.xib; sourceTree = "<group>"; };
+		A8F9897727C3610B00EF772F /* AfpLogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AfpLogsViewController.h; sourceTree = "<group>"; };
+		A8F9897827C3610B00EF772F /* AfpLogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AfpLogsViewController.m; sourceTree = "<group>"; };
+		A8F9897927C3610B00EF772F /* AfpLogsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AfpLogsViewController.xib; sourceTree = "<group>"; };
+		A8F9897C27C3611700EF772F /* AfpGraphsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AfpGraphsViewController.h; sourceTree = "<group>"; };
+		A8F9897D27C3611700EF772F /* AfpGraphsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AfpGraphsViewController.m; sourceTree = "<group>"; };
+		A8F9897E27C3611700EF772F /* AfpGraphsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AfpGraphsViewController.xib; sourceTree = "<group>"; };
+		A8F9898127C3612A00EF772F /* AfpConnectionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AfpConnectionsViewController.h; sourceTree = "<group>"; };
+		A8F9898227C3612A00EF772F /* AfpConnectionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AfpConnectionsViewController.m; sourceTree = "<group>"; };
+		A8F9898327C3612A00EF772F /* AfpConnectionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AfpConnectionsViewController.xib; sourceTree = "<group>"; };
+		A8F9898627C3613B00EF772F /* AfpSharePointsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AfpSharePointsViewController.h; sourceTree = "<group>"; };
+		A8F9898727C3613B00EF772F /* AfpSharePointsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AfpSharePointsViewController.m; sourceTree = "<group>"; };
+		A8F9898827C3613B00EF772F /* AfpSharePointsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AfpSharePointsViewController.xib; sourceTree = "<group>"; };
+		A8F9898B27C3614A00EF772F /* AfpSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AfpSettingsViewController.h; sourceTree = "<group>"; };
+		A8F9898C27C3614A00EF772F /* AfpSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AfpSettingsViewController.m; sourceTree = "<group>"; };
+		A8F9898D27C3614A00EF772F /* AfpSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AfpSettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -386,6 +416,24 @@
 				A8F988D427BCBE0400EF772F /* AfpViewController.h */,
 				A8F988D527BCBE0400EF772F /* AfpViewController.m */,
 				A8F988D627BCBE0400EF772F /* AfpViewController.xib */,
+				A8F9897227C360F700EF772F /* AfpOverviewViewController.h */,
+				A8F9897327C360F700EF772F /* AfpOverviewViewController.m */,
+				A8F9897427C360F700EF772F /* AfpOverviewViewController.xib */,
+				A8F9897727C3610B00EF772F /* AfpLogsViewController.h */,
+				A8F9897827C3610B00EF772F /* AfpLogsViewController.m */,
+				A8F9897927C3610B00EF772F /* AfpLogsViewController.xib */,
+				A8F9897C27C3611700EF772F /* AfpGraphsViewController.h */,
+				A8F9897D27C3611700EF772F /* AfpGraphsViewController.m */,
+				A8F9897E27C3611700EF772F /* AfpGraphsViewController.xib */,
+				A8F9898127C3612A00EF772F /* AfpConnectionsViewController.h */,
+				A8F9898227C3612A00EF772F /* AfpConnectionsViewController.m */,
+				A8F9898327C3612A00EF772F /* AfpConnectionsViewController.xib */,
+				A8F9898627C3613B00EF772F /* AfpSharePointsViewController.h */,
+				A8F9898727C3613B00EF772F /* AfpSharePointsViewController.m */,
+				A8F9898827C3613B00EF772F /* AfpSharePointsViewController.xib */,
+				A8F9898B27C3614A00EF772F /* AfpSettingsViewController.h */,
+				A8F9898C27C3614A00EF772F /* AfpSettingsViewController.m */,
+				A8F9898D27C3614A00EF772F /* AfpSettingsViewController.xib */,
 			);
 			path = AFP;
 			sourceTree = "<group>";
@@ -946,12 +994,15 @@
 				A8F9895E27C0AAC000EF772F /* ModuleGraphicalTabs.xib in Resources */,
 				A8F9894127BCBEF100EF772F /* VpnViewController.xib in Resources */,
 				A8F9891927BCBE9A00EF772F /* OpenDirectoryViewController.xib in Resources */,
+				A8F9897B27C3610B00EF772F /* AfpLogsViewController.xib in Resources */,
+				A8F9898527C3612A00EF772F /* AfpConnectionsViewController.xib in Resources */,
 				A8F9892827BCBEBA00EF772F /* PushNotificationViewController.xib in Resources */,
 				A8F9894627BCBEF900EF772F /* WebViewController.xib in Resources */,
 				A8F9892327BCBEB000EF772F /* PrintViewController.xib in Resources */,
 				A8F988EC27BCBE3900EF772F /* FirewallViewController.xib in Resources */,
 				A8F9890027BCBE6200EF772F /* MailViewController.xib in Resources */,
 				A8F988F627BCBE5000EF772F /* iCalViewController.xib in Resources */,
+				A8F9898F27C3614A00EF772F /* AfpSettingsViewController.xib in Resources */,
 				A8F9893227BCBED100EF772F /* RadiusViewController.xib in Resources */,
 				A8F988DD27BCBE1700EF772F /* AddressBookViewController.xib in Resources */,
 				A8F9896727C2AB5200EF772F /* AddressBookOverviewViewController.xib in Resources */,
@@ -963,7 +1014,9 @@
 				A8F9892D27BCBEC700EF772F /* QuickTimeStreamingViewController.xib in Resources */,
 				A8F988E227BCBE2200EF772F /* DhcpViewController.xib in Resources */,
 				A8F988D827BCBE0400EF772F /* AfpViewController.xib in Resources */,
+				A8F9898027C3611700EF772F /* AfpGraphsViewController.xib in Resources */,
 				A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */,
+				A8F9898A27C3613B00EF772F /* AfpSharePointsViewController.xib in Resources */,
 				A8F9893727BCBEDB00EF772F /* SmbViewController.xib in Resources */,
 				A8F9895027BCC57600EF772F /* NfsViewController.xib in Resources */,
 				A8F9897127C2AB6E00EF772F /* AddressBookSettingsViewController.xib in Resources */,
@@ -974,6 +1027,7 @@
 				A8F9893C27BCBEE500EF772F /* SoftwareUpdateViewController.xib in Resources */,
 				A8F988CE27BCBDEC00EF772F /* InformationViewController.xib in Resources */,
 				A8F9890F27BCBE8300EF772F /* NatViewController.xib in Resources */,
+				A8F9897627C360F700EF772F /* AfpOverviewViewController.xib in Resources */,
 				A8F9890527BCBE6C00EF772F /* MobileAccessViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -987,6 +1041,7 @@
 			files = (
 				A8F9890927BCBE7800EF772F /* MySqlViewController.m in Sources */,
 				A8F9895627BDDA9200EF772F /* NavigationSourceListDelegate.m in Sources */,
+				A8F9897A27C3610B00EF772F /* AfpLogsViewController.m in Sources */,
 				A8F988B427BCBD4D00EF772F /* PushNotificationModel.m in Sources */,
 				A8F988A527BCBD0300EF772F /* PodcastProducerModel.m in Sources */,
 				A8F9888A27BCBC9700EF772F /* iCalModel.m in Sources */,
@@ -1010,11 +1065,13 @@
 				A8F988F527BCBE5000EF772F /* iCalViewController.m in Sources */,
 				A8F988AB27BCBD2300EF772F /* DnsModel.m in Sources */,
 				A8F988A227BCBCF800EF772F /* OpenDirectoryModel.m in Sources */,
+				A8F9897527C360F700EF772F /* AfpOverviewViewController.m in Sources */,
 				A8F9888727BCBC8C00EF772F /* FtpModel.m in Sources */,
 				A8F988C627BCBD8600EF772F /* WebModel.m in Sources */,
 				A8F9889327BCBCB500EF772F /* MobileAccessModel.m in Sources */,
 				A8F9896B27C2AB6100EF772F /* AddressBookLogsViewController.m in Sources */,
 				A8F988FA27BCBE5900EF772F /* iChatViewController.m in Sources */,
+				A8F9898427C3612A00EF772F /* AfpConnectionsViewController.m in Sources */,
 				A8F9894527BCBEF900EF772F /* WebViewController.m in Sources */,
 				A8F9891827BCBE9A00EF772F /* OpenDirectoryViewController.m in Sources */,
 				A8F988BA27BCBD6700EF772F /* RadiusModel.m in Sources */,
@@ -1030,6 +1087,7 @@
 				A8F9889027BCBCAA00EF772F /* MailModel.m in Sources */,
 				A8F9889627BCBCCF00EF772F /* MySQLModel.m in Sources */,
 				A8F9883427BCB6FC00EF772F /* main.m in Sources */,
+				A8F9897F27C3611700EF772F /* AfpGraphsViewController.m in Sources */,
 				A8F9894F27BCC57600EF772F /* NfsViewController.m in Sources */,
 				A8F9888427BCBC7B00EF772F /* FirewallModel.m in Sources */,
 				A8F9889927BCBCD900EF772F /* NatModel.m in Sources */,
@@ -1043,9 +1101,11 @@
 				A8F9883E27BCBA5F00EF772F /* ServerModel.m in Sources */,
 				A8F9889F27BCBCED00EF772F /* NfsModel.m in Sources */,
 				A8F988BD27BCBD6E00EF772F /* SmbModel.m in Sources */,
+				A8F9898E27C3614A00EF772F /* AfpSettingsViewController.m in Sources */,
 				A8F9889C27BCBCE300EF772F /* NetBootModel.m in Sources */,
 				A8F9892727BCBEBA00EF772F /* PushNotificationViewController.m in Sources */,
 				A8F9887827BCBC4600EF772F /* AddressBookModel.m in Sources */,
+				A8F9898927C3613B00EF772F /* AfpSharePointsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
