@@ -94,6 +94,12 @@
 		A8F9895C27C0191A00EF772F /* ServiceNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9895B27C0191A00EF772F /* ServiceNavigationItem.m */; };
 		A8F9895E27C0AAC000EF772F /* ModuleGraphicalTabs.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9895D27C0AAC000EF772F /* ModuleGraphicalTabs.xib */; };
 		A8F9896227C0B01E00EF772F /* ModuleGraphicalTabs.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9896127C0B01E00EF772F /* ModuleGraphicalTabs.m */; };
+		A8F9896627C2AB5200EF772F /* AddressBookOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9896427C2AB5200EF772F /* AddressBookOverviewViewController.m */; };
+		A8F9896727C2AB5200EF772F /* AddressBookOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9896527C2AB5200EF772F /* AddressBookOverviewViewController.xib */; };
+		A8F9896B27C2AB6100EF772F /* AddressBookLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9896927C2AB6100EF772F /* AddressBookLogsViewController.m */; };
+		A8F9896C27C2AB6100EF772F /* AddressBookLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9896A27C2AB6100EF772F /* AddressBookLogsViewController.xib */; };
+		A8F9897027C2AB6E00EF772F /* AddressBookSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9896E27C2AB6E00EF772F /* AddressBookSettingsViewController.m */; };
+		A8F9897127C2AB6E00EF772F /* AddressBookSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9896F27C2AB6E00EF772F /* AddressBookSettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -246,6 +252,15 @@
 		A8F9895D27C0AAC000EF772F /* ModuleGraphicalTabs.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModuleGraphicalTabs.xib; sourceTree = "<group>"; };
 		A8F9896027C0B01E00EF772F /* ModuleGraphicalTabs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleGraphicalTabs.h; sourceTree = "<group>"; };
 		A8F9896127C0B01E00EF772F /* ModuleGraphicalTabs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleGraphicalTabs.m; sourceTree = "<group>"; };
+		A8F9896327C2AB5200EF772F /* AddressBookOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBookOverviewViewController.h; sourceTree = "<group>"; };
+		A8F9896427C2AB5200EF772F /* AddressBookOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookOverviewViewController.m; sourceTree = "<group>"; };
+		A8F9896527C2AB5200EF772F /* AddressBookOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressBookOverviewViewController.xib; sourceTree = "<group>"; };
+		A8F9896827C2AB6100EF772F /* AddressBookLogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBookLogsViewController.h; sourceTree = "<group>"; };
+		A8F9896927C2AB6100EF772F /* AddressBookLogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookLogsViewController.m; sourceTree = "<group>"; };
+		A8F9896A27C2AB6100EF772F /* AddressBookLogsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressBookLogsViewController.xib; sourceTree = "<group>"; };
+		A8F9896D27C2AB6E00EF772F /* AddressBookSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBookSettingsViewController.h; sourceTree = "<group>"; };
+		A8F9896E27C2AB6E00EF772F /* AddressBookSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookSettingsViewController.m; sourceTree = "<group>"; };
+		A8F9896F27C2AB6E00EF772F /* AddressBookSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressBookSettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -351,6 +366,15 @@
 				A8F988D927BCBE1700EF772F /* AddressBookViewController.h */,
 				A8F988DA27BCBE1700EF772F /* AddressBookViewController.m */,
 				A8F988DB27BCBE1700EF772F /* AddressBookViewController.xib */,
+				A8F9896327C2AB5200EF772F /* AddressBookOverviewViewController.h */,
+				A8F9896427C2AB5200EF772F /* AddressBookOverviewViewController.m */,
+				A8F9896527C2AB5200EF772F /* AddressBookOverviewViewController.xib */,
+				A8F9896827C2AB6100EF772F /* AddressBookLogsViewController.h */,
+				A8F9896927C2AB6100EF772F /* AddressBookLogsViewController.m */,
+				A8F9896A27C2AB6100EF772F /* AddressBookLogsViewController.xib */,
+				A8F9896D27C2AB6E00EF772F /* AddressBookSettingsViewController.h */,
+				A8F9896E27C2AB6E00EF772F /* AddressBookSettingsViewController.m */,
+				A8F9896F27C2AB6E00EF772F /* AddressBookSettingsViewController.xib */,
 			);
 			path = AddressBook;
 			sourceTree = "<group>";
@@ -930,6 +954,7 @@
 				A8F988F627BCBE5000EF772F /* iCalViewController.xib in Resources */,
 				A8F9893227BCBED100EF772F /* RadiusViewController.xib in Resources */,
 				A8F988DD27BCBE1700EF772F /* AddressBookViewController.xib in Resources */,
+				A8F9896727C2AB5200EF772F /* AddressBookOverviewViewController.xib in Resources */,
 				A8F9891E27BCBEA500EF772F /* PodcastProducerViewController.xib in Resources */,
 				A8F9891427BCBE9100EF772F /* NetBootViewController.xib in Resources */,
 				A8F988F127BCBE4300EF772F /* FtpViewController.xib in Resources */,
@@ -941,7 +966,9 @@
 				A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */,
 				A8F9893727BCBEDB00EF772F /* SmbViewController.xib in Resources */,
 				A8F9895027BCC57600EF772F /* NfsViewController.xib in Resources */,
+				A8F9897127C2AB6E00EF772F /* AddressBookSettingsViewController.xib in Resources */,
 				A8F9894B27BCBF0300EF772F /* XgridViewController.xib in Resources */,
+				A8F9896C27C2AB6100EF772F /* AddressBookLogsViewController.xib in Resources */,
 				A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */,
 				A8F9890A27BCBE7800EF772F /* MySqlViewController.xib in Resources */,
 				A8F9893C27BCBEE500EF772F /* SoftwareUpdateViewController.xib in Resources */,
@@ -969,6 +996,7 @@
 				A8F9891327BCBE9100EF772F /* NetBootViewController.m in Sources */,
 				A8F988E127BCBE2200EF772F /* DhcpViewController.m in Sources */,
 				A8F9895C27C0191A00EF772F /* ServiceNavigationItem.m in Sources */,
+				A8F9897027C2AB6E00EF772F /* AddressBookSettingsViewController.m in Sources */,
 				A8F988EB27BCBE3900EF772F /* FirewallViewController.m in Sources */,
 				A8F9892C27BCBEC700EF772F /* QuickTimeStreamingViewController.m in Sources */,
 				A8F9896227C0B01E00EF772F /* ModuleGraphicalTabs.m in Sources */,
@@ -985,6 +1013,7 @@
 				A8F9888727BCBC8C00EF772F /* FtpModel.m in Sources */,
 				A8F988C627BCBD8600EF772F /* WebModel.m in Sources */,
 				A8F9889327BCBCB500EF772F /* MobileAccessModel.m in Sources */,
+				A8F9896B27C2AB6100EF772F /* AddressBookLogsViewController.m in Sources */,
 				A8F988FA27BCBE5900EF772F /* iChatViewController.m in Sources */,
 				A8F9894527BCBEF900EF772F /* WebViewController.m in Sources */,
 				A8F9891827BCBE9A00EF772F /* OpenDirectoryViewController.m in Sources */,
@@ -993,6 +1022,7 @@
 				A8F9887527BCBC3200EF772F /* InformationModel.m in Sources */,
 				A8F988B127BCBD3F00EF772F /* AfpModel.m in Sources */,
 				A8F988F027BCBE4300EF772F /* FtpViewController.m in Sources */,
+				A8F9896627C2AB5200EF772F /* AddressBookOverviewViewController.m in Sources */,
 				A8F988CD27BCBDEC00EF772F /* InformationViewController.m in Sources */,
 				A8F9891D27BCBEA500EF772F /* PodcastProducerViewController.m in Sources */,
 				A8F988C027BCBD7700EF772F /* SoftwareUpdateModel.m in Sources */,

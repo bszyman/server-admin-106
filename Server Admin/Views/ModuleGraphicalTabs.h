@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ModuleGraphicalTabs : NSView
 
+@property (copy) NSString *notificationName;
+
 - (void)addTabWithImageNamed:(NSString *)imageName
                        title:(NSString *)title;
 

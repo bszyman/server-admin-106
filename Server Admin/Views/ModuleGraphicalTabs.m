@@ -44,11 +44,13 @@
     CGFloat yPosition = self.frame.size.height - 53.0;
     
     NSSize textSize = [title sizeWithAttributes:@{}];
-    CGFloat width = 50.0;
+    CGFloat width = 55.0;
     
     if (textSize.width > width) {
-        // Adding 7.0px for some padding
-        width = textSize.width + 7.0;
+        // Adding 5.0px for some padding
+        width = textSize.width + 5.0;
+    } else {
+        width = 50.0;
     }
     
     NSButton *newButton = [[NSButton alloc] initWithFrame:NSMakeRect(xPosition, yPosition, width, 50.0)];
@@ -57,6 +59,7 @@
     [newButton setBezelStyle:NSBezelStyleRegularSquare];
     [newButton setFont:[NSFont systemFontOfSize:10.0]];
     [newButton setAction:@selector(tabClicked:)];
+    [newButton setTarget:self];
     [newButton setImagePosition:(NSCellHasImageOnLeftOrBottom)];
     [newButton setBordered:NO];
     
@@ -72,7 +75,9 @@
 
 - (IBAction)tabClicked:(NSButton *)sender
 {
-    NSLog(@"tab clicked");
+    [[NSNotificationCenter defaultCenter] postNotificationName:self.notificationName
+                                                        object:self
+                                                      userInfo:@{@"tabTitle": sender.title}];
 }
 
 @end
