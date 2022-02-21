@@ -253,7 +253,7 @@
                                                             <rect key="frame" x="1" y="1" width="605" height="257"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
-                                                                <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" multipleSelection="NO" autosaveColumns="NO" rowHeight="24" rowSizeStyle="automatic" headerView="aUB-Pu-vP9" viewBased="YES" indentationPerLevel="13" outlineTableColumn="pM9-NY-wRQ" id="7rv-ep-esq">
+                                                                <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="24" rowSizeStyle="automatic" headerView="aUB-Pu-vP9" viewBased="YES" indentationPerLevel="13" outlineTableColumn="pM9-NY-wRQ" id="7rv-ep-esq">
                                                                     <rect key="frame" x="0.0" y="0.0" width="605" height="229"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <size key="intercellSpacing" width="17" height="0.0"/>
@@ -474,11 +474,11 @@
                                         </tabViewItem>
                                         <tabViewItem label="Quotas" identifier="" id="SPX-Ux-bz1">
                                             <view key="view" id="t6V-3e-Ob5">
-                                                <rect key="frame" x="10" y="33" width="641" height="297"/>
+                                                <rect key="frame" x="10" y="25" width="641" height="302"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
                                                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lWl-TS-e8l">
-                                                        <rect key="frame" x="16" y="279" width="175" height="16"/>
+                                                        <rect key="frame" x="16" y="284" width="175" height="16"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <buttonCell key="cell" type="check" title="Enable quotas on this volume" bezelStyle="regularSquare" imagePosition="left" controlSize="small" state="on" inset="2" id="jaR-qG-ySs">
                                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -486,14 +486,14 @@
                                                         </buttonCell>
                                                     </button>
                                                     <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="24" horizontalPageScroll="10" verticalLineScroll="24" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6R-hS-KQ8">
-                                                        <rect key="frame" x="17" y="17" width="607" height="255"/>
+                                                        <rect key="frame" x="17" y="17" width="607" height="260"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <clipView key="contentView" id="BwB-FH-oiu">
-                                                            <rect key="frame" x="1" y="1" width="605" height="253"/>
+                                                            <rect key="frame" x="1" y="1" width="605" height="258"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
-                                                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" multipleSelection="NO" autosaveColumns="NO" rowHeight="24" rowSizeStyle="automatic" headerView="OfF-vF-nDV" viewBased="YES" id="MlF-4G-fsp">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="605" height="225"/>
+                                                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="24" rowSizeStyle="automatic" headerView="OfF-vF-nDV" viewBased="YES" id="MlF-4G-fsp">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="605" height="230"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <size key="intercellSpacing" width="17" height="0.0"/>
                                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
