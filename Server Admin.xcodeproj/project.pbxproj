@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8E1C7B027C4A0EE0054EF15 /* DhcpOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7AE27C4A0EE0054EF15 /* DhcpOverviewViewController.m */; };
+		A8E1C7B127C4A0EE0054EF15 /* DhcpOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7AF27C4A0EE0054EF15 /* DhcpOverviewViewController.xib */; };
+		A8E1C7B527C4A0FB0054EF15 /* DhcpLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7B327C4A0FB0054EF15 /* DhcpLogViewController.m */; };
+		A8E1C7B627C4A0FB0054EF15 /* DhcpLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7B427C4A0FB0054EF15 /* DhcpLogViewController.xib */; };
+		A8E1C7BA27C4A1060054EF15 /* DhcpClientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7B827C4A1060054EF15 /* DhcpClientsViewController.m */; };
+		A8E1C7BB27C4A1060054EF15 /* DhcpClientsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7B927C4A1060054EF15 /* DhcpClientsViewController.xib */; };
+		A8E1C7BF27C4A1140054EF15 /* DhcpSubnetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7BD27C4A1140054EF15 /* DhcpSubnetsViewController.m */; };
+		A8E1C7C027C4A1140054EF15 /* DhcpSubnetsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7BE27C4A1140054EF15 /* DhcpSubnetsViewController.xib */; };
+		A8E1C7C427C4A1210054EF15 /* DhcpStaticMapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7C227C4A1210054EF15 /* DhcpStaticMapsViewController.m */; };
+		A8E1C7C527C4A1210054EF15 /* DhcpStaticMapsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7C327C4A1210054EF15 /* DhcpStaticMapsViewController.xib */; };
+		A8E1C7C927C4A12C0054EF15 /* DhcpSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7C727C4A12C0054EF15 /* DhcpSettingsViewController.m */; };
+		A8E1C7CA27C4A12C0054EF15 /* DhcpSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7C827C4A12C0054EF15 /* DhcpSettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -115,6 +127,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8E1C7AD27C4A0EE0054EF15 /* DhcpOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DhcpOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C7AE27C4A0EE0054EF15 /* DhcpOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DhcpOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C7AF27C4A0EE0054EF15 /* DhcpOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DhcpOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C7B227C4A0FB0054EF15 /* DhcpLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DhcpLogViewController.h; sourceTree = "<group>"; };
+		A8E1C7B327C4A0FB0054EF15 /* DhcpLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DhcpLogViewController.m; sourceTree = "<group>"; };
+		A8E1C7B427C4A0FB0054EF15 /* DhcpLogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DhcpLogViewController.xib; sourceTree = "<group>"; };
+		A8E1C7B727C4A1060054EF15 /* DhcpClientsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DhcpClientsViewController.h; sourceTree = "<group>"; };
+		A8E1C7B827C4A1060054EF15 /* DhcpClientsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DhcpClientsViewController.m; sourceTree = "<group>"; };
+		A8E1C7B927C4A1060054EF15 /* DhcpClientsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DhcpClientsViewController.xib; sourceTree = "<group>"; };
+		A8E1C7BC27C4A1140054EF15 /* DhcpSubnetsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DhcpSubnetsViewController.h; sourceTree = "<group>"; };
+		A8E1C7BD27C4A1140054EF15 /* DhcpSubnetsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DhcpSubnetsViewController.m; sourceTree = "<group>"; };
+		A8E1C7BE27C4A1140054EF15 /* DhcpSubnetsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DhcpSubnetsViewController.xib; sourceTree = "<group>"; };
+		A8E1C7C127C4A1210054EF15 /* DhcpStaticMapsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DhcpStaticMapsViewController.h; sourceTree = "<group>"; };
+		A8E1C7C227C4A1210054EF15 /* DhcpStaticMapsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DhcpStaticMapsViewController.m; sourceTree = "<group>"; };
+		A8E1C7C327C4A1210054EF15 /* DhcpStaticMapsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DhcpStaticMapsViewController.xib; sourceTree = "<group>"; };
+		A8E1C7C627C4A12C0054EF15 /* DhcpSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DhcpSettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C7C727C4A12C0054EF15 /* DhcpSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DhcpSettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C7C827C4A12C0054EF15 /* DhcpSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DhcpSettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -445,6 +475,24 @@
 				A8F988DE27BCBE2200EF772F /* DhcpViewController.h */,
 				A8F988DF27BCBE2200EF772F /* DhcpViewController.m */,
 				A8F988E027BCBE2200EF772F /* DhcpViewController.xib */,
+				A8E1C7AD27C4A0EE0054EF15 /* DhcpOverviewViewController.h */,
+				A8E1C7AE27C4A0EE0054EF15 /* DhcpOverviewViewController.m */,
+				A8E1C7AF27C4A0EE0054EF15 /* DhcpOverviewViewController.xib */,
+				A8E1C7B227C4A0FB0054EF15 /* DhcpLogViewController.h */,
+				A8E1C7B327C4A0FB0054EF15 /* DhcpLogViewController.m */,
+				A8E1C7B427C4A0FB0054EF15 /* DhcpLogViewController.xib */,
+				A8E1C7B727C4A1060054EF15 /* DhcpClientsViewController.h */,
+				A8E1C7B827C4A1060054EF15 /* DhcpClientsViewController.m */,
+				A8E1C7B927C4A1060054EF15 /* DhcpClientsViewController.xib */,
+				A8E1C7BC27C4A1140054EF15 /* DhcpSubnetsViewController.h */,
+				A8E1C7BD27C4A1140054EF15 /* DhcpSubnetsViewController.m */,
+				A8E1C7BE27C4A1140054EF15 /* DhcpSubnetsViewController.xib */,
+				A8E1C7C127C4A1210054EF15 /* DhcpStaticMapsViewController.h */,
+				A8E1C7C227C4A1210054EF15 /* DhcpStaticMapsViewController.m */,
+				A8E1C7C327C4A1210054EF15 /* DhcpStaticMapsViewController.xib */,
+				A8E1C7C627C4A12C0054EF15 /* DhcpSettingsViewController.h */,
+				A8E1C7C727C4A12C0054EF15 /* DhcpSettingsViewController.m */,
+				A8E1C7C827C4A12C0054EF15 /* DhcpSettingsViewController.xib */,
 			);
 			path = DHCP;
 			sourceTree = "<group>";
@@ -995,19 +1043,25 @@
 				A8F9894127BCBEF100EF772F /* VpnViewController.xib in Resources */,
 				A8F9891927BCBE9A00EF772F /* OpenDirectoryViewController.xib in Resources */,
 				A8F9897B27C3610B00EF772F /* AfpLogsViewController.xib in Resources */,
+				A8E1C7B127C4A0EE0054EF15 /* DhcpOverviewViewController.xib in Resources */,
 				A8F9898527C3612A00EF772F /* AfpConnectionsViewController.xib in Resources */,
+				A8E1C7CA27C4A12C0054EF15 /* DhcpSettingsViewController.xib in Resources */,
 				A8F9892827BCBEBA00EF772F /* PushNotificationViewController.xib in Resources */,
 				A8F9894627BCBEF900EF772F /* WebViewController.xib in Resources */,
 				A8F9892327BCBEB000EF772F /* PrintViewController.xib in Resources */,
 				A8F988EC27BCBE3900EF772F /* FirewallViewController.xib in Resources */,
+				A8E1C7B627C4A0FB0054EF15 /* DhcpLogViewController.xib in Resources */,
 				A8F9890027BCBE6200EF772F /* MailViewController.xib in Resources */,
 				A8F988F627BCBE5000EF772F /* iCalViewController.xib in Resources */,
+				A8E1C7BB27C4A1060054EF15 /* DhcpClientsViewController.xib in Resources */,
+				A8E1C7C027C4A1140054EF15 /* DhcpSubnetsViewController.xib in Resources */,
 				A8F9898F27C3614A00EF772F /* AfpSettingsViewController.xib in Resources */,
 				A8F9893227BCBED100EF772F /* RadiusViewController.xib in Resources */,
 				A8F988DD27BCBE1700EF772F /* AddressBookViewController.xib in Resources */,
 				A8F9896727C2AB5200EF772F /* AddressBookOverviewViewController.xib in Resources */,
 				A8F9891E27BCBEA500EF772F /* PodcastProducerViewController.xib in Resources */,
 				A8F9891427BCBE9100EF772F /* NetBootViewController.xib in Resources */,
+				A8E1C7C527C4A1210054EF15 /* DhcpStaticMapsViewController.xib in Resources */,
 				A8F988F127BCBE4300EF772F /* FtpViewController.xib in Resources */,
 				A8F988FB27BCBE5900EF772F /* iChatViewController.xib in Resources */,
 				A8F988E727BCBE2F00EF772F /* DnsViewController.xib in Resources */,
@@ -1055,10 +1109,14 @@
 				A8F988EB27BCBE3900EF772F /* FirewallViewController.m in Sources */,
 				A8F9892C27BCBEC700EF772F /* QuickTimeStreamingViewController.m in Sources */,
 				A8F9896227C0B01E00EF772F /* ModuleGraphicalTabs.m in Sources */,
+				A8E1C7C927C4A12C0054EF15 /* DhcpSettingsViewController.m in Sources */,
+				A8E1C7C427C4A1210054EF15 /* DhcpStaticMapsViewController.m in Sources */,
 				A8F9893627BCBEDB00EF772F /* SmbViewController.m in Sources */,
+				A8E1C7BF27C4A1140054EF15 /* DhcpSubnetsViewController.m in Sources */,
 				A8F9893127BCBED100EF772F /* RadiusViewController.m in Sources */,
 				A8F9890427BCBE6C00EF772F /* MobileAccessViewController.m in Sources */,
 				A8F9890E27BCBE8300EF772F /* NatViewController.m in Sources */,
+				A8E1C7BA27C4A1060054EF15 /* DhcpClientsViewController.m in Sources */,
 				A8F988FF27BCBE6200EF772F /* MailViewController.m in Sources */,
 				A8F988DC27BCBE1700EF772F /* AddressBookViewController.m in Sources */,
 				A8F988C927BCBD9100EF772F /* XgridModel.m in Sources */,
@@ -1067,6 +1125,7 @@
 				A8F988A227BCBCF800EF772F /* OpenDirectoryModel.m in Sources */,
 				A8F9897527C360F700EF772F /* AfpOverviewViewController.m in Sources */,
 				A8F9888727BCBC8C00EF772F /* FtpModel.m in Sources */,
+				A8E1C7B027C4A0EE0054EF15 /* DhcpOverviewViewController.m in Sources */,
 				A8F988C627BCBD8600EF772F /* WebModel.m in Sources */,
 				A8F9889327BCBCB500EF772F /* MobileAccessModel.m in Sources */,
 				A8F9896B27C2AB6100EF772F /* AddressBookLogsViewController.m in Sources */,
@@ -1105,6 +1164,7 @@
 				A8F9889C27BCBCE300EF772F /* NetBootModel.m in Sources */,
 				A8F9892727BCBEBA00EF772F /* PushNotificationViewController.m in Sources */,
 				A8F9887827BCBC4600EF772F /* AddressBookModel.m in Sources */,
+				A8E1C7B527C4A0FB0054EF15 /* DhcpLogViewController.m in Sources */,
 				A8F9898927C3613B00EF772F /* AfpSharePointsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

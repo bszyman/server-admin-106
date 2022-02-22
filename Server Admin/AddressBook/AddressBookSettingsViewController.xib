@@ -101,13 +101,13 @@
                                     <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y4e-Eu-epC">
                                         <rect key="frame" x="172" y="444" width="150" height="25"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <popUpButtonCell key="cell" type="push" title="Error" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="R7A-qe-Kh2" id="Rup-zN-o8L">
+                                        <popUpButtonCell key="cell" type="push" title="Error" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="R7A-qe-Kh2" id="Rup-zN-o8L">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="menu"/>
                                             <menu key="menu" id="XV0-Ol-b4P">
                                                 <items>
-                                                    <menuItem title="Error" id="R7A-qe-Kh2"/>
-                                                    <menuItem title="Warning" state="on" id="Z4J-d2-3TT"/>
+                                                    <menuItem title="Error" state="on" id="R7A-qe-Kh2"/>
+                                                    <menuItem title="Warning" id="Z4J-d2-3TT"/>
                                                     <menuItem title="Info" id="sOk-FG-QZR"/>
                                                     <menuItem title="Debug" id="GHB-Sy-Ouz">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
@@ -156,14 +156,14 @@
                                     <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aR5-O9-UHS">
                                         <rect key="frame" x="172" y="509" width="150" height="25"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <popUpButtonCell key="cell" type="push" title="Digest" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="nXv-ja-oy3" id="ZqO-qk-4cY">
+                                        <popUpButtonCell key="cell" type="push" title="Digest" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="nXv-ja-oy3" id="ZqO-qk-4cY">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="menu"/>
                                             <menu key="menu" id="cul-gn-vxn">
                                                 <items>
-                                                    <menuItem title="Digest" id="nXv-ja-oy3"/>
+                                                    <menuItem title="Digest" state="on" id="nXv-ja-oy3"/>
                                                     <menuItem title="Kerberos" id="2vx-OG-Uak"/>
-                                                    <menuItem title="Any Method" state="on" id="S9r-kW-EWU"/>
+                                                    <menuItem title="Any Method" id="S9r-kW-EWU"/>
                                                 </items>
                                             </menu>
                                         </popUpButtonCell>

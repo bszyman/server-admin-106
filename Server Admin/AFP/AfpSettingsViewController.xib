@@ -159,14 +159,14 @@
                                     <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WgN-Zz-7jJ">
                                         <rect key="frame" x="295" y="499" width="150" height="25"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <popUpButtonCell key="cell" type="push" title="Standard" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="wDI-RO-AQ5" id="vb2-Nz-JIc">
+                                        <popUpButtonCell key="cell" type="push" title="Standard" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="wDI-RO-AQ5" id="vb2-Nz-JIc">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="menu"/>
                                             <menu key="menu" id="5d5-UQ-E5K">
                                                 <items>
-                                                    <menuItem title="Standard" id="wDI-RO-AQ5"/>
+                                                    <menuItem title="Standard" state="on" id="wDI-RO-AQ5"/>
                                                     <menuItem title="Kerberos" id="6c0-Zd-x8u"/>
-                                                    <menuItem title="Any Method" state="on" id="D64-if-Aqb"/>
+                                                    <menuItem title="Any Method" id="D64-if-Aqb"/>
                                                 </items>
                                             </menu>
                                         </popUpButtonCell>
