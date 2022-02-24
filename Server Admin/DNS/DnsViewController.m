@@ -38,11 +38,11 @@
         self.tabs = [[ModuleGraphicalTabs alloc] initWithFrame:NSMakeRect(0.0, (self.view.frame.size.height - 55.0), 687.0, 55.0)];
         
         [self.tabs setNotificationName:@"DnsNavUpdate"];
-        [self.tabs addTabWithImageNamed:@"NSBonjour" title:@"Overview"];
+        [self.tabs addTabWithImageNamed:@"NSInfo" title:@"Overview"];
         [self.tabs addTabWithImageNamed:@"NSBonjour" title:@"Log"];
-        [self.tabs addTabWithImageNamed:@"NSBonjour" title:@"Zones"];
+        [self.tabs addTabWithImageNamed:@"NSNetwork" title:@"Zones"];
         [self.tabs addTabWithImageNamed:@"NSBonjour" title:@"Bonjour"];
-        [self.tabs addTabWithImageNamed:@"NSBonjour" title:@"Settings"];
+        [self.tabs addTabWithImageNamed:@"NSAdvanced" title:@"Settings"];
         
         [self.view addSubview:self.tabs];
         

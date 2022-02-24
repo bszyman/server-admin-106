@@ -20,14 +20,30 @@
                         <font key="font" metaFont="smallSystem"/>
                     </buttonCell>
                 </button>
-                <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="0at-ap-wxR">
-                    <rect key="frame" x="0.0" y="-2" width="687" height="5"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                </box>
                 <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iCW-7k-sX5">
                     <rect key="frame" x="64" y="6" width="49" height="48"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="square" title="Overview" bezelStyle="shadowlessSquare" image="NSNetwork" imagePosition="above" alignment="center" state="on" imageScaling="proportionallyUpOrDown" inset="2" id="WfK-HZ-Zg6">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                    </buttonCell>
+                </button>
+                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mGT-K0-kRt">
+                    <rect key="frame" x="123" y="6" width="49" height="48"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="square" title="Overview" bezelStyle="shadowlessSquare" image="NSInfo" imagePosition="above" alignment="center" state="on" imageScaling="proportionallyUpOrDown" inset="2" id="8bE-gi-L55">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                    </buttonCell>
+                </button>
+                <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="0at-ap-wxR">
+                    <rect key="frame" x="0.0" y="-2" width="687" height="5"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                </box>
+                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VHO-mJ-vRk">
+                    <rect key="frame" x="182" y="6" width="49" height="48"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="square" title="Overview" bezelStyle="shadowlessSquare" image="NSAdvanced" imagePosition="above" alignment="center" state="on" imageScaling="proportionallyUpOrDown" inset="2" id="PDP-az-0zi">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="smallSystem"/>
                     </buttonCell>
@@ -37,7 +53,9 @@
         </customView>
     </objects>
     <resources>
+        <image name="NSAdvanced" width="32" height="32"/>
         <image name="NSBonjour" width="32" height="32"/>
+        <image name="NSInfo" width="32" height="32"/>
         <image name="NSNetwork" width="32" height="32"/>
     </resources>
 </document>

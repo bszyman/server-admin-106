@@ -35,7 +35,7 @@
 {
     NSImage *image = [NSImage imageNamed:imageName];
     
-    CGFloat xPosition = 0.0;
+    CGFloat xPosition = 5.0;
     
     for (NSButton *button in self.tabs) {
         xPosition += button.frame.size.width;
