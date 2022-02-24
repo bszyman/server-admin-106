@@ -19,6 +19,16 @@
 		A8E1C7C527C4A1210054EF15 /* DhcpStaticMapsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7C327C4A1210054EF15 /* DhcpStaticMapsViewController.xib */; };
 		A8E1C7C927C4A12C0054EF15 /* DhcpSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7C727C4A12C0054EF15 /* DhcpSettingsViewController.m */; };
 		A8E1C7CA27C4A12C0054EF15 /* DhcpSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7C827C4A12C0054EF15 /* DhcpSettingsViewController.xib */; };
+		A8E1C7CE27C714C40054EF15 /* DnsOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7CC27C714C40054EF15 /* DnsOverviewViewController.m */; };
+		A8E1C7CF27C714C40054EF15 /* DnsOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7CD27C714C40054EF15 /* DnsOverviewViewController.xib */; };
+		A8E1C7D327C714D00054EF15 /* DnsLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7D127C714D00054EF15 /* DnsLogViewController.m */; };
+		A8E1C7D427C714D00054EF15 /* DnsLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7D227C714D00054EF15 /* DnsLogViewController.xib */; };
+		A8E1C7D827C714E30054EF15 /* DnsZonesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7D627C714E30054EF15 /* DnsZonesViewController.m */; };
+		A8E1C7D927C714E30054EF15 /* DnsZonesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7D727C714E30054EF15 /* DnsZonesViewController.xib */; };
+		A8E1C7DD27C714F60054EF15 /* DnsBonjourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7DB27C714F60054EF15 /* DnsBonjourViewController.m */; };
+		A8E1C7DE27C714F60054EF15 /* DnsBonjourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7DC27C714F60054EF15 /* DnsBonjourViewController.xib */; };
+		A8E1C7E227C7150A0054EF15 /* DnsSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7E027C7150A0054EF15 /* DnsSettingsViewController.m */; };
+		A8E1C7E327C7150A0054EF15 /* DnsSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7E127C7150A0054EF15 /* DnsSettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -145,6 +155,21 @@
 		A8E1C7C627C4A12C0054EF15 /* DhcpSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DhcpSettingsViewController.h; sourceTree = "<group>"; };
 		A8E1C7C727C4A12C0054EF15 /* DhcpSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DhcpSettingsViewController.m; sourceTree = "<group>"; };
 		A8E1C7C827C4A12C0054EF15 /* DhcpSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DhcpSettingsViewController.xib; sourceTree = "<group>"; };
+		A8E1C7CB27C714C40054EF15 /* DnsOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DnsOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C7CC27C714C40054EF15 /* DnsOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DnsOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C7CD27C714C40054EF15 /* DnsOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DnsOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C7D027C714D00054EF15 /* DnsLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DnsLogViewController.h; sourceTree = "<group>"; };
+		A8E1C7D127C714D00054EF15 /* DnsLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DnsLogViewController.m; sourceTree = "<group>"; };
+		A8E1C7D227C714D00054EF15 /* DnsLogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DnsLogViewController.xib; sourceTree = "<group>"; };
+		A8E1C7D527C714E30054EF15 /* DnsZonesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DnsZonesViewController.h; sourceTree = "<group>"; };
+		A8E1C7D627C714E30054EF15 /* DnsZonesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DnsZonesViewController.m; sourceTree = "<group>"; };
+		A8E1C7D727C714E30054EF15 /* DnsZonesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DnsZonesViewController.xib; sourceTree = "<group>"; };
+		A8E1C7DA27C714F60054EF15 /* DnsBonjourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DnsBonjourViewController.h; sourceTree = "<group>"; };
+		A8E1C7DB27C714F60054EF15 /* DnsBonjourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DnsBonjourViewController.m; sourceTree = "<group>"; };
+		A8E1C7DC27C714F60054EF15 /* DnsBonjourViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DnsBonjourViewController.xib; sourceTree = "<group>"; };
+		A8E1C7DF27C7150A0054EF15 /* DnsSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DnsSettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C7E027C7150A0054EF15 /* DnsSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DnsSettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C7E127C7150A0054EF15 /* DnsSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DnsSettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -504,6 +529,21 @@
 				A8F988E327BCBE2F00EF772F /* DnsViewController.h */,
 				A8F988E427BCBE2F00EF772F /* DnsViewController.m */,
 				A8F988E527BCBE2F00EF772F /* DnsViewController.xib */,
+				A8E1C7CB27C714C40054EF15 /* DnsOverviewViewController.h */,
+				A8E1C7CC27C714C40054EF15 /* DnsOverviewViewController.m */,
+				A8E1C7CD27C714C40054EF15 /* DnsOverviewViewController.xib */,
+				A8E1C7D027C714D00054EF15 /* DnsLogViewController.h */,
+				A8E1C7D127C714D00054EF15 /* DnsLogViewController.m */,
+				A8E1C7D227C714D00054EF15 /* DnsLogViewController.xib */,
+				A8E1C7D527C714E30054EF15 /* DnsZonesViewController.h */,
+				A8E1C7D627C714E30054EF15 /* DnsZonesViewController.m */,
+				A8E1C7D727C714E30054EF15 /* DnsZonesViewController.xib */,
+				A8E1C7DA27C714F60054EF15 /* DnsBonjourViewController.h */,
+				A8E1C7DB27C714F60054EF15 /* DnsBonjourViewController.m */,
+				A8E1C7DC27C714F60054EF15 /* DnsBonjourViewController.xib */,
+				A8E1C7DF27C7150A0054EF15 /* DnsSettingsViewController.h */,
+				A8E1C7E027C7150A0054EF15 /* DnsSettingsViewController.m */,
+				A8E1C7E127C7150A0054EF15 /* DnsSettingsViewController.xib */,
 			);
 			path = DNS;
 			sourceTree = "<group>";
@@ -1039,8 +1079,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E1C7DE27C714F60054EF15 /* DnsBonjourViewController.xib in Resources */,
 				A8F9895E27C0AAC000EF772F /* ModuleGraphicalTabs.xib in Resources */,
 				A8F9894127BCBEF100EF772F /* VpnViewController.xib in Resources */,
+				A8E1C7D927C714E30054EF15 /* DnsZonesViewController.xib in Resources */,
 				A8F9891927BCBE9A00EF772F /* OpenDirectoryViewController.xib in Resources */,
 				A8F9897B27C3610B00EF772F /* AfpLogsViewController.xib in Resources */,
 				A8E1C7B127C4A0EE0054EF15 /* DhcpOverviewViewController.xib in Resources */,
@@ -1058,16 +1100,19 @@
 				A8F9898F27C3614A00EF772F /* AfpSettingsViewController.xib in Resources */,
 				A8F9893227BCBED100EF772F /* RadiusViewController.xib in Resources */,
 				A8F988DD27BCBE1700EF772F /* AddressBookViewController.xib in Resources */,
+				A8E1C7D427C714D00054EF15 /* DnsLogViewController.xib in Resources */,
 				A8F9896727C2AB5200EF772F /* AddressBookOverviewViewController.xib in Resources */,
 				A8F9891E27BCBEA500EF772F /* PodcastProducerViewController.xib in Resources */,
 				A8F9891427BCBE9100EF772F /* NetBootViewController.xib in Resources */,
 				A8E1C7C527C4A1210054EF15 /* DhcpStaticMapsViewController.xib in Resources */,
 				A8F988F127BCBE4300EF772F /* FtpViewController.xib in Resources */,
+				A8E1C7CF27C714C40054EF15 /* DnsOverviewViewController.xib in Resources */,
 				A8F988FB27BCBE5900EF772F /* iChatViewController.xib in Resources */,
 				A8F988E727BCBE2F00EF772F /* DnsViewController.xib in Resources */,
 				A8F9892D27BCBEC700EF772F /* QuickTimeStreamingViewController.xib in Resources */,
 				A8F988E227BCBE2200EF772F /* DhcpViewController.xib in Resources */,
 				A8F988D827BCBE0400EF772F /* AfpViewController.xib in Resources */,
+				A8E1C7E327C7150A0054EF15 /* DnsSettingsViewController.xib in Resources */,
 				A8F9898027C3611700EF772F /* AfpGraphsViewController.xib in Resources */,
 				A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */,
 				A8F9898A27C3613B00EF772F /* AfpSharePointsViewController.xib in Resources */,
@@ -1098,6 +1143,7 @@
 				A8F9897A27C3610B00EF772F /* AfpLogsViewController.m in Sources */,
 				A8F988B427BCBD4D00EF772F /* PushNotificationModel.m in Sources */,
 				A8F988A527BCBD0300EF772F /* PodcastProducerModel.m in Sources */,
+				A8E1C7CE27C714C40054EF15 /* DnsOverviewViewController.m in Sources */,
 				A8F9888A27BCBC9700EF772F /* iCalModel.m in Sources */,
 				A8F988B727BCBD5E00EF772F /* QuickTimeStreamingModel.m in Sources */,
 				A8F988D727BCBE0400EF772F /* AfpViewController.m in Sources */,
@@ -1119,8 +1165,10 @@
 				A8E1C7BA27C4A1060054EF15 /* DhcpClientsViewController.m in Sources */,
 				A8F988FF27BCBE6200EF772F /* MailViewController.m in Sources */,
 				A8F988DC27BCBE1700EF772F /* AddressBookViewController.m in Sources */,
+				A8E1C7E227C7150A0054EF15 /* DnsSettingsViewController.m in Sources */,
 				A8F988C927BCBD9100EF772F /* XgridModel.m in Sources */,
 				A8F988F527BCBE5000EF772F /* iCalViewController.m in Sources */,
+				A8E1C7D327C714D00054EF15 /* DnsLogViewController.m in Sources */,
 				A8F988AB27BCBD2300EF772F /* DnsModel.m in Sources */,
 				A8F988A227BCBCF800EF772F /* OpenDirectoryModel.m in Sources */,
 				A8F9897527C360F700EF772F /* AfpOverviewViewController.m in Sources */,
@@ -1141,6 +1189,7 @@
 				A8F9896627C2AB5200EF772F /* AddressBookOverviewViewController.m in Sources */,
 				A8F988CD27BCBDEC00EF772F /* InformationViewController.m in Sources */,
 				A8F9891D27BCBEA500EF772F /* PodcastProducerViewController.m in Sources */,
+				A8E1C7D827C714E30054EF15 /* DnsZonesViewController.m in Sources */,
 				A8F988C027BCBD7700EF772F /* SoftwareUpdateModel.m in Sources */,
 				A8F9894A27BCBF0300EF772F /* XgridViewController.m in Sources */,
 				A8F9889027BCBCAA00EF772F /* MailModel.m in Sources */,
@@ -1152,6 +1201,7 @@
 				A8F9889927BCBCD900EF772F /* NatModel.m in Sources */,
 				A8F9892227BCBEB000EF772F /* PrintViewController.m in Sources */,
 				A8F988C327BCBD8000EF772F /* VpnModel.m in Sources */,
+				A8E1C7DD27C714F60054EF15 /* DnsBonjourViewController.m in Sources */,
 				A8F988E627BCBE2F00EF772F /* DnsViewController.m in Sources */,
 				A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */,
 				A8F9893B27BCBEE500EF772F /* SoftwareUpdateViewController.m in Sources */,

@@ -24,11 +24,20 @@
                     <rect key="frame" x="0.0" y="-2" width="687" height="5"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </box>
+                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iCW-7k-sX5">
+                    <rect key="frame" x="64" y="6" width="49" height="48"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="square" title="Overview" bezelStyle="shadowlessSquare" image="NSNetwork" imagePosition="above" alignment="center" state="on" imageScaling="proportionallyUpOrDown" inset="2" id="WfK-HZ-Zg6">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                    </buttonCell>
+                </button>
             </subviews>
             <point key="canvasLocation" x="139.5" y="193.5"/>
         </customView>
     </objects>
     <resources>
         <image name="NSBonjour" width="32" height="32"/>
+        <image name="NSNetwork" width="32" height="32"/>
     </resources>
 </document>
