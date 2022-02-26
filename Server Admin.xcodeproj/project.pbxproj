@@ -37,6 +37,18 @@
 		A8E1C7F227C8A44E0054EF15 /* FirewallActiveRulesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7F027C8A44E0054EF15 /* FirewallActiveRulesViewController.xib */; };
 		A8E1C7F627C8A45D0054EF15 /* FirewallSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7F427C8A45D0054EF15 /* FirewallSettingsViewController.m */; };
 		A8E1C7F727C8A45D0054EF15 /* FirewallSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7F527C8A45D0054EF15 /* FirewallSettingsViewController.xib */; };
+		A8E1C7FB27CAA7810054EF15 /* FtpOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7F927CAA7810054EF15 /* FtpOverviewViewController.m */; };
+		A8E1C7FC27CAA7810054EF15 /* FtpOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7FA27CAA7810054EF15 /* FtpOverviewViewController.xib */; };
+		A8E1C80027CAA78C0054EF15 /* FtpLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7FE27CAA78C0054EF15 /* FtpLogViewController.m */; };
+		A8E1C80127CAA78C0054EF15 /* FtpLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7FF27CAA78C0054EF15 /* FtpLogViewController.xib */; };
+		A8E1C80527CAA7970054EF15 /* FtpGraphsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C80327CAA7970054EF15 /* FtpGraphsViewController.m */; };
+		A8E1C80627CAA7970054EF15 /* FtpGraphsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C80427CAA7970054EF15 /* FtpGraphsViewController.xib */; };
+		A8E1C80A27CAA7A50054EF15 /* FtpConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C80827CAA7A50054EF15 /* FtpConnectionsViewController.m */; };
+		A8E1C80B27CAA7A50054EF15 /* FtpConnectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C80927CAA7A50054EF15 /* FtpConnectionsViewController.xib */; };
+		A8E1C80F27CAA7B00054EF15 /* FtpSharePointsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C80D27CAA7B00054EF15 /* FtpSharePointsViewController.m */; };
+		A8E1C81027CAA7B00054EF15 /* FtpSharePointsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C80E27CAA7B00054EF15 /* FtpSharePointsViewController.xib */; };
+		A8E1C81427CAA7BA0054EF15 /* FtpSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C81227CAA7BA0054EF15 /* FtpSettingsViewController.m */; };
+		A8E1C81527CAA7BA0054EF15 /* FtpSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C81327CAA7BA0054EF15 /* FtpSettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -190,6 +202,24 @@
 		A8E1C7F327C8A45D0054EF15 /* FirewallSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirewallSettingsViewController.h; sourceTree = "<group>"; };
 		A8E1C7F427C8A45D0054EF15 /* FirewallSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirewallSettingsViewController.m; sourceTree = "<group>"; };
 		A8E1C7F527C8A45D0054EF15 /* FirewallSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirewallSettingsViewController.xib; sourceTree = "<group>"; };
+		A8E1C7F827CAA7810054EF15 /* FtpOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FtpOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C7F927CAA7810054EF15 /* FtpOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FtpOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C7FA27CAA7810054EF15 /* FtpOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FtpOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C7FD27CAA78C0054EF15 /* FtpLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FtpLogViewController.h; sourceTree = "<group>"; };
+		A8E1C7FE27CAA78C0054EF15 /* FtpLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FtpLogViewController.m; sourceTree = "<group>"; };
+		A8E1C7FF27CAA78C0054EF15 /* FtpLogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FtpLogViewController.xib; sourceTree = "<group>"; };
+		A8E1C80227CAA7970054EF15 /* FtpGraphsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FtpGraphsViewController.h; sourceTree = "<group>"; };
+		A8E1C80327CAA7970054EF15 /* FtpGraphsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FtpGraphsViewController.m; sourceTree = "<group>"; };
+		A8E1C80427CAA7970054EF15 /* FtpGraphsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FtpGraphsViewController.xib; sourceTree = "<group>"; };
+		A8E1C80727CAA7A50054EF15 /* FtpConnectionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FtpConnectionsViewController.h; sourceTree = "<group>"; };
+		A8E1C80827CAA7A50054EF15 /* FtpConnectionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FtpConnectionsViewController.m; sourceTree = "<group>"; };
+		A8E1C80927CAA7A50054EF15 /* FtpConnectionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FtpConnectionsViewController.xib; sourceTree = "<group>"; };
+		A8E1C80C27CAA7B00054EF15 /* FtpSharePointsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FtpSharePointsViewController.h; sourceTree = "<group>"; };
+		A8E1C80D27CAA7B00054EF15 /* FtpSharePointsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FtpSharePointsViewController.m; sourceTree = "<group>"; };
+		A8E1C80E27CAA7B00054EF15 /* FtpSharePointsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FtpSharePointsViewController.xib; sourceTree = "<group>"; };
+		A8E1C81127CAA7BA0054EF15 /* FtpSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FtpSettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C81227CAA7BA0054EF15 /* FtpSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FtpSettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C81327CAA7BA0054EF15 /* FtpSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FtpSettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -598,6 +628,24 @@
 				A8F988ED27BCBE4300EF772F /* FtpViewController.h */,
 				A8F988EE27BCBE4300EF772F /* FtpViewController.m */,
 				A8F988EF27BCBE4300EF772F /* FtpViewController.xib */,
+				A8E1C7F827CAA7810054EF15 /* FtpOverviewViewController.h */,
+				A8E1C7F927CAA7810054EF15 /* FtpOverviewViewController.m */,
+				A8E1C7FA27CAA7810054EF15 /* FtpOverviewViewController.xib */,
+				A8E1C7FD27CAA78C0054EF15 /* FtpLogViewController.h */,
+				A8E1C7FE27CAA78C0054EF15 /* FtpLogViewController.m */,
+				A8E1C7FF27CAA78C0054EF15 /* FtpLogViewController.xib */,
+				A8E1C80227CAA7970054EF15 /* FtpGraphsViewController.h */,
+				A8E1C80327CAA7970054EF15 /* FtpGraphsViewController.m */,
+				A8E1C80427CAA7970054EF15 /* FtpGraphsViewController.xib */,
+				A8E1C80727CAA7A50054EF15 /* FtpConnectionsViewController.h */,
+				A8E1C80827CAA7A50054EF15 /* FtpConnectionsViewController.m */,
+				A8E1C80927CAA7A50054EF15 /* FtpConnectionsViewController.xib */,
+				A8E1C80C27CAA7B00054EF15 /* FtpSharePointsViewController.h */,
+				A8E1C80D27CAA7B00054EF15 /* FtpSharePointsViewController.m */,
+				A8E1C80E27CAA7B00054EF15 /* FtpSharePointsViewController.xib */,
+				A8E1C81127CAA7BA0054EF15 /* FtpSettingsViewController.h */,
+				A8E1C81227CAA7BA0054EF15 /* FtpSettingsViewController.m */,
+				A8E1C81327CAA7BA0054EF15 /* FtpSettingsViewController.xib */,
 			);
 			path = FTP;
 			sourceTree = "<group>";
@@ -1112,11 +1160,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8E1C7DE27C714F60054EF15 /* DnsBonjourViewController.xib in Resources */,
+				A8E1C80127CAA78C0054EF15 /* FtpLogViewController.xib in Resources */,
 				A8F9895E27C0AAC000EF772F /* ModuleGraphicalTabs.xib in Resources */,
 				A8E1C7F227C8A44E0054EF15 /* FirewallActiveRulesViewController.xib in Resources */,
 				A8F9894127BCBEF100EF772F /* VpnViewController.xib in Resources */,
 				A8E1C7D927C714E30054EF15 /* DnsZonesViewController.xib in Resources */,
 				A8F9891927BCBE9A00EF772F /* OpenDirectoryViewController.xib in Resources */,
+				A8E1C80B27CAA7A50054EF15 /* FtpConnectionsViewController.xib in Resources */,
 				A8F9897B27C3610B00EF772F /* AfpLogsViewController.xib in Resources */,
 				A8E1C7B127C4A0EE0054EF15 /* DhcpOverviewViewController.xib in Resources */,
 				A8F9898527C3612A00EF772F /* AfpConnectionsViewController.xib in Resources */,
@@ -1136,10 +1186,12 @@
 				A8E1C7E827C8A42F0054EF15 /* FirewallOverviewViewController.xib in Resources */,
 				A8E1C7D427C714D00054EF15 /* DnsLogViewController.xib in Resources */,
 				A8F9896727C2AB5200EF772F /* AddressBookOverviewViewController.xib in Resources */,
+				A8E1C80627CAA7970054EF15 /* FtpGraphsViewController.xib in Resources */,
 				A8F9891E27BCBEA500EF772F /* PodcastProducerViewController.xib in Resources */,
 				A8F9891427BCBE9100EF772F /* NetBootViewController.xib in Resources */,
 				A8E1C7C527C4A1210054EF15 /* DhcpStaticMapsViewController.xib in Resources */,
 				A8F988F127BCBE4300EF772F /* FtpViewController.xib in Resources */,
+				A8E1C81027CAA7B00054EF15 /* FtpSharePointsViewController.xib in Resources */,
 				A8E1C7CF27C714C40054EF15 /* DnsOverviewViewController.xib in Resources */,
 				A8F988FB27BCBE5900EF772F /* iChatViewController.xib in Resources */,
 				A8F988E727BCBE2F00EF772F /* DnsViewController.xib in Resources */,
@@ -1152,11 +1204,13 @@
 				A8F9898A27C3613B00EF772F /* AfpSharePointsViewController.xib in Resources */,
 				A8E1C7ED27C8A43C0054EF15 /* FirewallLogViewController.xib in Resources */,
 				A8F9893727BCBEDB00EF772F /* SmbViewController.xib in Resources */,
+				A8E1C81527CAA7BA0054EF15 /* FtpSettingsViewController.xib in Resources */,
 				A8E1C7F727C8A45D0054EF15 /* FirewallSettingsViewController.xib in Resources */,
 				A8F9895027BCC57600EF772F /* NfsViewController.xib in Resources */,
 				A8F9897127C2AB6E00EF772F /* AddressBookSettingsViewController.xib in Resources */,
 				A8F9894B27BCBF0300EF772F /* XgridViewController.xib in Resources */,
 				A8F9896C27C2AB6100EF772F /* AddressBookLogsViewController.xib in Resources */,
+				A8E1C7FC27CAA7810054EF15 /* FtpOverviewViewController.xib in Resources */,
 				A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */,
 				A8F9890A27BCBE7800EF772F /* MySqlViewController.xib in Resources */,
 				A8F9893C27BCBEE500EF772F /* SoftwareUpdateViewController.xib in Resources */,
@@ -1178,6 +1232,7 @@
 				A8F9895627BDDA9200EF772F /* NavigationSourceListDelegate.m in Sources */,
 				A8F9897A27C3610B00EF772F /* AfpLogsViewController.m in Sources */,
 				A8F988B427BCBD4D00EF772F /* PushNotificationModel.m in Sources */,
+				A8E1C80F27CAA7B00054EF15 /* FtpSharePointsViewController.m in Sources */,
 				A8F988A527BCBD0300EF772F /* PodcastProducerModel.m in Sources */,
 				A8E1C7CE27C714C40054EF15 /* DnsOverviewViewController.m in Sources */,
 				A8F9888A27BCBC9700EF772F /* iCalModel.m in Sources */,
@@ -1197,6 +1252,7 @@
 				A8E1C7BF27C4A1140054EF15 /* DhcpSubnetsViewController.m in Sources */,
 				A8F9893127BCBED100EF772F /* RadiusViewController.m in Sources */,
 				A8F9890427BCBE6C00EF772F /* MobileAccessViewController.m in Sources */,
+				A8E1C80527CAA7970054EF15 /* FtpGraphsViewController.m in Sources */,
 				A8F9890E27BCBE8300EF772F /* NatViewController.m in Sources */,
 				A8E1C7BA27C4A1060054EF15 /* DhcpClientsViewController.m in Sources */,
 				A8F988FF27BCBE6200EF772F /* MailViewController.m in Sources */,
@@ -1210,6 +1266,7 @@
 				A8F988A227BCBCF800EF772F /* OpenDirectoryModel.m in Sources */,
 				A8E1C7E727C8A42F0054EF15 /* FirewallOverviewViewController.m in Sources */,
 				A8F9897527C360F700EF772F /* AfpOverviewViewController.m in Sources */,
+				A8E1C80027CAA78C0054EF15 /* FtpLogViewController.m in Sources */,
 				A8F9888727BCBC8C00EF772F /* FtpModel.m in Sources */,
 				A8E1C7B027C4A0EE0054EF15 /* DhcpOverviewViewController.m in Sources */,
 				A8F988C627BCBD8600EF772F /* WebModel.m in Sources */,
@@ -1218,6 +1275,7 @@
 				A8F988FA27BCBE5900EF772F /* iChatViewController.m in Sources */,
 				A8F9898427C3612A00EF772F /* AfpConnectionsViewController.m in Sources */,
 				A8E1C7F127C8A44E0054EF15 /* FirewallActiveRulesViewController.m in Sources */,
+				A8E1C7FB27CAA7810054EF15 /* FtpOverviewViewController.m in Sources */,
 				A8F9894527BCBEF900EF772F /* WebViewController.m in Sources */,
 				A8F9891827BCBE9A00EF772F /* OpenDirectoryViewController.m in Sources */,
 				A8F988BA27BCBD6700EF772F /* RadiusModel.m in Sources */,
@@ -1234,6 +1292,7 @@
 				A8F9889027BCBCAA00EF772F /* MailModel.m in Sources */,
 				A8F9889627BCBCCF00EF772F /* MySQLModel.m in Sources */,
 				A8F9883427BCB6FC00EF772F /* main.m in Sources */,
+				A8E1C80A27CAA7A50054EF15 /* FtpConnectionsViewController.m in Sources */,
 				A8E1C7F627C8A45D0054EF15 /* FirewallSettingsViewController.m in Sources */,
 				A8F9897F27C3611700EF772F /* AfpGraphsViewController.m in Sources */,
 				A8F9894F27BCC57600EF772F /* NfsViewController.m in Sources */,
@@ -1241,6 +1300,7 @@
 				A8F9889927BCBCD900EF772F /* NatModel.m in Sources */,
 				A8F9892227BCBEB000EF772F /* PrintViewController.m in Sources */,
 				A8F988C327BCBD8000EF772F /* VpnModel.m in Sources */,
+				A8E1C81427CAA7BA0054EF15 /* FtpSettingsViewController.m in Sources */,
 				A8E1C7DD27C714F60054EF15 /* DnsBonjourViewController.m in Sources */,
 				A8F988E627BCBE2F00EF772F /* DnsViewController.m in Sources */,
 				A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */,
