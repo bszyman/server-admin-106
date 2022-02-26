@@ -61,6 +61,16 @@
 		A8E1C82E27CAB3A20054EF15 /* iChatLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C82C27CAB3A20054EF15 /* iChatLogsViewController.xib */; };
 		A8E1C83227CAB3AC0054EF15 /* iChatSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C83027CAB3AC0054EF15 /* iChatSettingsViewController.m */; };
 		A8E1C83327CAB3AC0054EF15 /* iChatSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C83127CAB3AC0054EF15 /* iChatSettingsViewController.xib */; };
+		A8E1C83727CAB7FF0054EF15 /* MailOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C83527CAB7FF0054EF15 /* MailOverviewViewController.m */; };
+		A8E1C83827CAB7FF0054EF15 /* MailOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C83627CAB7FF0054EF15 /* MailOverviewViewController.xib */; };
+		A8E1C83C27CAB8080054EF15 /* MailLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C83A27CAB8080054EF15 /* MailLogsViewController.m */; };
+		A8E1C83D27CAB8080054EF15 /* MailLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C83B27CAB8080054EF15 /* MailLogsViewController.xib */; };
+		A8E1C84127CAB8140054EF15 /* MailConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C83F27CAB8140054EF15 /* MailConnectionsViewController.m */; };
+		A8E1C84227CAB8140054EF15 /* MailConnectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C84027CAB8140054EF15 /* MailConnectionsViewController.xib */; };
+		A8E1C84627CAB81F0054EF15 /* MailMaintenanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C84427CAB81F0054EF15 /* MailMaintenanceViewController.m */; };
+		A8E1C84727CAB81F0054EF15 /* MailMaintenanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C84527CAB81F0054EF15 /* MailMaintenanceViewController.xib */; };
+		A8E1C84B27CAB82A0054EF15 /* MailSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C84927CAB82A0054EF15 /* MailSettingsViewController.m */; };
+		A8E1C84C27CAB82A0054EF15 /* MailSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C84A27CAB82A0054EF15 /* MailSettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -250,6 +260,21 @@
 		A8E1C82F27CAB3AC0054EF15 /* iChatSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iChatSettingsViewController.h; sourceTree = "<group>"; };
 		A8E1C83027CAB3AC0054EF15 /* iChatSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iChatSettingsViewController.m; sourceTree = "<group>"; };
 		A8E1C83127CAB3AC0054EF15 /* iChatSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iChatSettingsViewController.xib; sourceTree = "<group>"; };
+		A8E1C83427CAB7FF0054EF15 /* MailOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C83527CAB7FF0054EF15 /* MailOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C83627CAB7FF0054EF15 /* MailOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MailOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C83927CAB8080054EF15 /* MailLogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailLogsViewController.h; sourceTree = "<group>"; };
+		A8E1C83A27CAB8080054EF15 /* MailLogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailLogsViewController.m; sourceTree = "<group>"; };
+		A8E1C83B27CAB8080054EF15 /* MailLogsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MailLogsViewController.xib; sourceTree = "<group>"; };
+		A8E1C83E27CAB8140054EF15 /* MailConnectionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailConnectionsViewController.h; sourceTree = "<group>"; };
+		A8E1C83F27CAB8140054EF15 /* MailConnectionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailConnectionsViewController.m; sourceTree = "<group>"; };
+		A8E1C84027CAB8140054EF15 /* MailConnectionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MailConnectionsViewController.xib; sourceTree = "<group>"; };
+		A8E1C84327CAB81F0054EF15 /* MailMaintenanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailMaintenanceViewController.h; sourceTree = "<group>"; };
+		A8E1C84427CAB81F0054EF15 /* MailMaintenanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailMaintenanceViewController.m; sourceTree = "<group>"; };
+		A8E1C84527CAB81F0054EF15 /* MailMaintenanceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MailMaintenanceViewController.xib; sourceTree = "<group>"; };
+		A8E1C84827CAB82A0054EF15 /* MailSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailSettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C84927CAB82A0054EF15 /* MailSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailSettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C84A27CAB82A0054EF15 /* MailSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MailSettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -727,6 +752,21 @@
 				A8F988FC27BCBE6200EF772F /* MailViewController.h */,
 				A8F988FD27BCBE6200EF772F /* MailViewController.m */,
 				A8F988FE27BCBE6200EF772F /* MailViewController.xib */,
+				A8E1C83427CAB7FF0054EF15 /* MailOverviewViewController.h */,
+				A8E1C83527CAB7FF0054EF15 /* MailOverviewViewController.m */,
+				A8E1C83627CAB7FF0054EF15 /* MailOverviewViewController.xib */,
+				A8E1C83927CAB8080054EF15 /* MailLogsViewController.h */,
+				A8E1C83A27CAB8080054EF15 /* MailLogsViewController.m */,
+				A8E1C83B27CAB8080054EF15 /* MailLogsViewController.xib */,
+				A8E1C83E27CAB8140054EF15 /* MailConnectionsViewController.h */,
+				A8E1C83F27CAB8140054EF15 /* MailConnectionsViewController.m */,
+				A8E1C84027CAB8140054EF15 /* MailConnectionsViewController.xib */,
+				A8E1C84327CAB81F0054EF15 /* MailMaintenanceViewController.h */,
+				A8E1C84427CAB81F0054EF15 /* MailMaintenanceViewController.m */,
+				A8E1C84527CAB81F0054EF15 /* MailMaintenanceViewController.xib */,
+				A8E1C84827CAB82A0054EF15 /* MailSettingsViewController.h */,
+				A8E1C84927CAB82A0054EF15 /* MailSettingsViewController.m */,
+				A8E1C84A27CAB82A0054EF15 /* MailSettingsViewController.xib */,
 			);
 			path = Mail;
 			sourceTree = "<group>";
@@ -1213,6 +1253,7 @@
 				A8E1C7F227C8A44E0054EF15 /* FirewallActiveRulesViewController.xib in Resources */,
 				A8F9894127BCBEF100EF772F /* VpnViewController.xib in Resources */,
 				A8E1C7D927C714E30054EF15 /* DnsZonesViewController.xib in Resources */,
+				A8E1C83D27CAB8080054EF15 /* MailLogsViewController.xib in Resources */,
 				A8F9891927BCBE9A00EF772F /* OpenDirectoryViewController.xib in Resources */,
 				A8E1C80B27CAA7A50054EF15 /* FtpConnectionsViewController.xib in Resources */,
 				A8F9897B27C3610B00EF772F /* AfpLogsViewController.xib in Resources */,
@@ -1243,12 +1284,14 @@
 				A8F9891427BCBE9100EF772F /* NetBootViewController.xib in Resources */,
 				A8E1C7C527C4A1210054EF15 /* DhcpStaticMapsViewController.xib in Resources */,
 				A8E1C81F27CAAF980054EF15 /* iCalLogsViewController.xib in Resources */,
+				A8E1C84227CAB8140054EF15 /* MailConnectionsViewController.xib in Resources */,
 				A8F988F127BCBE4300EF772F /* FtpViewController.xib in Resources */,
 				A8E1C81027CAA7B00054EF15 /* FtpSharePointsViewController.xib in Resources */,
 				A8E1C7CF27C714C40054EF15 /* DnsOverviewViewController.xib in Resources */,
 				A8F988FB27BCBE5900EF772F /* iChatViewController.xib in Resources */,
 				A8F988E727BCBE2F00EF772F /* DnsViewController.xib in Resources */,
 				A8F9892D27BCBEC700EF772F /* QuickTimeStreamingViewController.xib in Resources */,
+				A8E1C83827CAB7FF0054EF15 /* MailOverviewViewController.xib in Resources */,
 				A8F988E227BCBE2200EF772F /* DhcpViewController.xib in Resources */,
 				A8F988D827BCBE0400EF772F /* AfpViewController.xib in Resources */,
 				A8E1C7E327C7150A0054EF15 /* DnsSettingsViewController.xib in Resources */,
@@ -1257,6 +1300,7 @@
 				A8F9898A27C3613B00EF772F /* AfpSharePointsViewController.xib in Resources */,
 				A8E1C7ED27C8A43C0054EF15 /* FirewallLogViewController.xib in Resources */,
 				A8F9893727BCBEDB00EF772F /* SmbViewController.xib in Resources */,
+				A8E1C84727CAB81F0054EF15 /* MailMaintenanceViewController.xib in Resources */,
 				A8E1C81527CAA7BA0054EF15 /* FtpSettingsViewController.xib in Resources */,
 				A8E1C7F727C8A45D0054EF15 /* FirewallSettingsViewController.xib in Resources */,
 				A8F9895027BCC57600EF772F /* NfsViewController.xib in Resources */,
@@ -1265,6 +1309,7 @@
 				A8F9896C27C2AB6100EF772F /* AddressBookLogsViewController.xib in Resources */,
 				A8E1C7FC27CAA7810054EF15 /* FtpOverviewViewController.xib in Resources */,
 				A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */,
+				A8E1C84C27CAB82A0054EF15 /* MailSettingsViewController.xib in Resources */,
 				A8F9890A27BCBE7800EF772F /* MySqlViewController.xib in Resources */,
 				A8F9893C27BCBEE500EF772F /* SoftwareUpdateViewController.xib in Resources */,
 				A8F988CE27BCBDEC00EF772F /* InformationViewController.xib in Resources */,
@@ -1309,6 +1354,7 @@
 				A8F9893127BCBED100EF772F /* RadiusViewController.m in Sources */,
 				A8F9890427BCBE6C00EF772F /* MobileAccessViewController.m in Sources */,
 				A8E1C80527CAA7970054EF15 /* FtpGraphsViewController.m in Sources */,
+				A8E1C84127CAB8140054EF15 /* MailConnectionsViewController.m in Sources */,
 				A8F9890E27BCBE8300EF772F /* NatViewController.m in Sources */,
 				A8E1C7BA27C4A1060054EF15 /* DhcpClientsViewController.m in Sources */,
 				A8F988FF27BCBE6200EF772F /* MailViewController.m in Sources */,
@@ -1319,10 +1365,12 @@
 				A8E1C7EC27C8A43C0054EF15 /* FirewallLogViewController.m in Sources */,
 				A8F988F527BCBE5000EF772F /* iCalViewController.m in Sources */,
 				A8E1C7D327C714D00054EF15 /* DnsLogViewController.m in Sources */,
+				A8E1C83727CAB7FF0054EF15 /* MailOverviewViewController.m in Sources */,
 				A8F988AB27BCBD2300EF772F /* DnsModel.m in Sources */,
 				A8F988A227BCBCF800EF772F /* OpenDirectoryModel.m in Sources */,
 				A8E1C7E727C8A42F0054EF15 /* FirewallOverviewViewController.m in Sources */,
 				A8F9897527C360F700EF772F /* AfpOverviewViewController.m in Sources */,
+				A8E1C83C27CAB8080054EF15 /* MailLogsViewController.m in Sources */,
 				A8E1C80027CAA78C0054EF15 /* FtpLogViewController.m in Sources */,
 				A8F9888727BCBC8C00EF772F /* FtpModel.m in Sources */,
 				A8E1C7B027C4A0EE0054EF15 /* DhcpOverviewViewController.m in Sources */,
@@ -1360,6 +1408,7 @@
 				A8F9892227BCBEB000EF772F /* PrintViewController.m in Sources */,
 				A8F988C327BCBD8000EF772F /* VpnModel.m in Sources */,
 				A8E1C81427CAA7BA0054EF15 /* FtpSettingsViewController.m in Sources */,
+				A8E1C84B27CAB82A0054EF15 /* MailSettingsViewController.m in Sources */,
 				A8E1C7DD27C714F60054EF15 /* DnsBonjourViewController.m in Sources */,
 				A8F988E627BCBE2F00EF772F /* DnsViewController.m in Sources */,
 				A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */,
@@ -1370,6 +1419,7 @@
 				A8F9889F27BCBCED00EF772F /* NfsModel.m in Sources */,
 				A8F988BD27BCBD6E00EF772F /* SmbModel.m in Sources */,
 				A8F9898E27C3614A00EF772F /* AfpSettingsViewController.m in Sources */,
+				A8E1C84627CAB81F0054EF15 /* MailMaintenanceViewController.m in Sources */,
 				A8F9889C27BCBCE300EF772F /* NetBootModel.m in Sources */,
 				A8F9892727BCBEBA00EF772F /* PushNotificationViewController.m in Sources */,
 				A8F9887827BCBC4600EF772F /* AddressBookModel.m in Sources */,
