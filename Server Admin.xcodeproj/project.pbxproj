@@ -49,6 +49,12 @@
 		A8E1C81027CAA7B00054EF15 /* FtpSharePointsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C80E27CAA7B00054EF15 /* FtpSharePointsViewController.xib */; };
 		A8E1C81427CAA7BA0054EF15 /* FtpSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C81227CAA7BA0054EF15 /* FtpSettingsViewController.m */; };
 		A8E1C81527CAA7BA0054EF15 /* FtpSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C81327CAA7BA0054EF15 /* FtpSettingsViewController.xib */; };
+		A8E1C81927CAAF8D0054EF15 /* iCalOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C81727CAAF8D0054EF15 /* iCalOverviewViewController.m */; };
+		A8E1C81A27CAAF8D0054EF15 /* iCalOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C81827CAAF8D0054EF15 /* iCalOverviewViewController.xib */; };
+		A8E1C81E27CAAF980054EF15 /* iCalLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C81C27CAAF980054EF15 /* iCalLogsViewController.m */; };
+		A8E1C81F27CAAF980054EF15 /* iCalLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C81D27CAAF980054EF15 /* iCalLogsViewController.xib */; };
+		A8E1C82327CAAFA30054EF15 /* iCalSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C82127CAAFA30054EF15 /* iCalSettingsViewController.m */; };
+		A8E1C82427CAAFA30054EF15 /* iCalSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C82227CAAFA30054EF15 /* iCalSettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -220,6 +226,15 @@
 		A8E1C81127CAA7BA0054EF15 /* FtpSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FtpSettingsViewController.h; sourceTree = "<group>"; };
 		A8E1C81227CAA7BA0054EF15 /* FtpSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FtpSettingsViewController.m; sourceTree = "<group>"; };
 		A8E1C81327CAA7BA0054EF15 /* FtpSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FtpSettingsViewController.xib; sourceTree = "<group>"; };
+		A8E1C81627CAAF8D0054EF15 /* iCalOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCalOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C81727CAAF8D0054EF15 /* iCalOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCalOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C81827CAAF8D0054EF15 /* iCalOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iCalOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C81B27CAAF980054EF15 /* iCalLogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCalLogsViewController.h; sourceTree = "<group>"; };
+		A8E1C81C27CAAF980054EF15 /* iCalLogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCalLogsViewController.m; sourceTree = "<group>"; };
+		A8E1C81D27CAAF980054EF15 /* iCalLogsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iCalLogsViewController.xib; sourceTree = "<group>"; };
+		A8E1C82027CAAFA30054EF15 /* iCalSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCalSettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C82127CAAFA30054EF15 /* iCalSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCalSettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C82227CAAFA30054EF15 /* iCalSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iCalSettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -657,6 +672,15 @@
 				A8F988F227BCBE5000EF772F /* iCalViewController.h */,
 				A8F988F327BCBE5000EF772F /* iCalViewController.m */,
 				A8F988F427BCBE5000EF772F /* iCalViewController.xib */,
+				A8E1C81627CAAF8D0054EF15 /* iCalOverviewViewController.h */,
+				A8E1C81727CAAF8D0054EF15 /* iCalOverviewViewController.m */,
+				A8E1C81827CAAF8D0054EF15 /* iCalOverviewViewController.xib */,
+				A8E1C81B27CAAF980054EF15 /* iCalLogsViewController.h */,
+				A8E1C81C27CAAF980054EF15 /* iCalLogsViewController.m */,
+				A8E1C81D27CAAF980054EF15 /* iCalLogsViewController.xib */,
+				A8E1C82027CAAFA30054EF15 /* iCalSettingsViewController.h */,
+				A8E1C82127CAAFA30054EF15 /* iCalSettingsViewController.m */,
+				A8E1C82227CAAFA30054EF15 /* iCalSettingsViewController.xib */,
 			);
 			path = iCal;
 			sourceTree = "<group>";
@@ -1173,6 +1197,7 @@
 				A8E1C7CA27C4A12C0054EF15 /* DhcpSettingsViewController.xib in Resources */,
 				A8F9892827BCBEBA00EF772F /* PushNotificationViewController.xib in Resources */,
 				A8F9894627BCBEF900EF772F /* WebViewController.xib in Resources */,
+				A8E1C81A27CAAF8D0054EF15 /* iCalOverviewViewController.xib in Resources */,
 				A8F9892327BCBEB000EF772F /* PrintViewController.xib in Resources */,
 				A8F988EC27BCBE3900EF772F /* FirewallViewController.xib in Resources */,
 				A8E1C7B627C4A0FB0054EF15 /* DhcpLogViewController.xib in Resources */,
@@ -1182,6 +1207,7 @@
 				A8E1C7C027C4A1140054EF15 /* DhcpSubnetsViewController.xib in Resources */,
 				A8F9898F27C3614A00EF772F /* AfpSettingsViewController.xib in Resources */,
 				A8F9893227BCBED100EF772F /* RadiusViewController.xib in Resources */,
+				A8E1C82427CAAFA30054EF15 /* iCalSettingsViewController.xib in Resources */,
 				A8F988DD27BCBE1700EF772F /* AddressBookViewController.xib in Resources */,
 				A8E1C7E827C8A42F0054EF15 /* FirewallOverviewViewController.xib in Resources */,
 				A8E1C7D427C714D00054EF15 /* DnsLogViewController.xib in Resources */,
@@ -1190,6 +1216,7 @@
 				A8F9891E27BCBEA500EF772F /* PodcastProducerViewController.xib in Resources */,
 				A8F9891427BCBE9100EF772F /* NetBootViewController.xib in Resources */,
 				A8E1C7C527C4A1210054EF15 /* DhcpStaticMapsViewController.xib in Resources */,
+				A8E1C81F27CAAF980054EF15 /* iCalLogsViewController.xib in Resources */,
 				A8F988F127BCBE4300EF772F /* FtpViewController.xib in Resources */,
 				A8E1C81027CAA7B00054EF15 /* FtpSharePointsViewController.xib in Resources */,
 				A8E1C7CF27C714C40054EF15 /* DnsOverviewViewController.xib in Resources */,
@@ -1228,6 +1255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E1C82327CAAFA30054EF15 /* iCalSettingsViewController.m in Sources */,
 				A8F9890927BCBE7800EF772F /* MySqlViewController.m in Sources */,
 				A8F9895627BDDA9200EF772F /* NavigationSourceListDelegate.m in Sources */,
 				A8F9897A27C3610B00EF772F /* AfpLogsViewController.m in Sources */,
@@ -1258,6 +1286,7 @@
 				A8F988FF27BCBE6200EF772F /* MailViewController.m in Sources */,
 				A8F988DC27BCBE1700EF772F /* AddressBookViewController.m in Sources */,
 				A8E1C7E227C7150A0054EF15 /* DnsSettingsViewController.m in Sources */,
+				A8E1C81E27CAAF980054EF15 /* iCalLogsViewController.m in Sources */,
 				A8F988C927BCBD9100EF772F /* XgridModel.m in Sources */,
 				A8E1C7EC27C8A43C0054EF15 /* FirewallLogViewController.m in Sources */,
 				A8F988F527BCBE5000EF772F /* iCalViewController.m in Sources */,
@@ -1280,6 +1309,7 @@
 				A8F9891827BCBE9A00EF772F /* OpenDirectoryViewController.m in Sources */,
 				A8F988BA27BCBD6700EF772F /* RadiusModel.m in Sources */,
 				A8F988AE27BCBD3200EF772F /* DhcpModel.m in Sources */,
+				A8E1C81927CAAF8D0054EF15 /* iCalOverviewViewController.m in Sources */,
 				A8F9887527BCBC3200EF772F /* InformationModel.m in Sources */,
 				A8F988B127BCBD3F00EF772F /* AfpModel.m in Sources */,
 				A8F988F027BCBE4300EF772F /* FtpViewController.m in Sources */,
