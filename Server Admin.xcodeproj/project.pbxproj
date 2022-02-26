@@ -71,6 +71,14 @@
 		A8E1C84727CAB81F0054EF15 /* MailMaintenanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C84527CAB81F0054EF15 /* MailMaintenanceViewController.xib */; };
 		A8E1C84B27CAB82A0054EF15 /* MailSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C84927CAB82A0054EF15 /* MailSettingsViewController.m */; };
 		A8E1C84C27CAB82A0054EF15 /* MailSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C84A27CAB82A0054EF15 /* MailSettingsViewController.xib */; };
+		A8E1C85027CACB0D0054EF15 /* MobileAccessOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C84E27CACB0D0054EF15 /* MobileAccessOverviewViewController.m */; };
+		A8E1C85127CACB0D0054EF15 /* MobileAccessOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C84F27CACB0D0054EF15 /* MobileAccessOverviewViewController.xib */; };
+		A8E1C85527CACB190054EF15 /* MobileAccessLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C85327CACB190054EF15 /* MobileAccessLogsViewController.m */; };
+		A8E1C85627CACB190054EF15 /* MobileAccessLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C85427CACB190054EF15 /* MobileAccessLogsViewController.xib */; };
+		A8E1C85A27CACB230054EF15 /* MobileAccessAccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C85827CACB230054EF15 /* MobileAccessAccessViewController.m */; };
+		A8E1C85B27CACB230054EF15 /* MobileAccessAccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C85927CACB230054EF15 /* MobileAccessAccessViewController.xib */; };
+		A8E1C85F27CACB340054EF15 /* MobileAccessSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C85D27CACB340054EF15 /* MobileAccessSettingsViewController.m */; };
+		A8E1C86027CACB340054EF15 /* MobileAccessSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C85E27CACB340054EF15 /* MobileAccessSettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -275,6 +283,18 @@
 		A8E1C84827CAB82A0054EF15 /* MailSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MailSettingsViewController.h; sourceTree = "<group>"; };
 		A8E1C84927CAB82A0054EF15 /* MailSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MailSettingsViewController.m; sourceTree = "<group>"; };
 		A8E1C84A27CAB82A0054EF15 /* MailSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MailSettingsViewController.xib; sourceTree = "<group>"; };
+		A8E1C84D27CACB0D0054EF15 /* MobileAccessOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileAccessOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C84E27CACB0D0054EF15 /* MobileAccessOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileAccessOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C84F27CACB0D0054EF15 /* MobileAccessOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MobileAccessOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C85227CACB190054EF15 /* MobileAccessLogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileAccessLogsViewController.h; sourceTree = "<group>"; };
+		A8E1C85327CACB190054EF15 /* MobileAccessLogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileAccessLogsViewController.m; sourceTree = "<group>"; };
+		A8E1C85427CACB190054EF15 /* MobileAccessLogsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MobileAccessLogsViewController.xib; sourceTree = "<group>"; };
+		A8E1C85727CACB230054EF15 /* MobileAccessAccessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileAccessAccessViewController.h; sourceTree = "<group>"; };
+		A8E1C85827CACB230054EF15 /* MobileAccessAccessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileAccessAccessViewController.m; sourceTree = "<group>"; };
+		A8E1C85927CACB230054EF15 /* MobileAccessAccessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MobileAccessAccessViewController.xib; sourceTree = "<group>"; };
+		A8E1C85C27CACB340054EF15 /* MobileAccessSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileAccessSettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C85D27CACB340054EF15 /* MobileAccessSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileAccessSettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C85E27CACB340054EF15 /* MobileAccessSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MobileAccessSettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -778,6 +798,18 @@
 				A8F9890127BCBE6C00EF772F /* MobileAccessViewController.h */,
 				A8F9890227BCBE6C00EF772F /* MobileAccessViewController.m */,
 				A8F9890327BCBE6C00EF772F /* MobileAccessViewController.xib */,
+				A8E1C84D27CACB0D0054EF15 /* MobileAccessOverviewViewController.h */,
+				A8E1C84E27CACB0D0054EF15 /* MobileAccessOverviewViewController.m */,
+				A8E1C84F27CACB0D0054EF15 /* MobileAccessOverviewViewController.xib */,
+				A8E1C85227CACB190054EF15 /* MobileAccessLogsViewController.h */,
+				A8E1C85327CACB190054EF15 /* MobileAccessLogsViewController.m */,
+				A8E1C85427CACB190054EF15 /* MobileAccessLogsViewController.xib */,
+				A8E1C85727CACB230054EF15 /* MobileAccessAccessViewController.h */,
+				A8E1C85827CACB230054EF15 /* MobileAccessAccessViewController.m */,
+				A8E1C85927CACB230054EF15 /* MobileAccessAccessViewController.xib */,
+				A8E1C85C27CACB340054EF15 /* MobileAccessSettingsViewController.h */,
+				A8E1C85D27CACB340054EF15 /* MobileAccessSettingsViewController.m */,
+				A8E1C85E27CACB340054EF15 /* MobileAccessSettingsViewController.xib */,
 			);
 			path = MobileAccess;
 			sourceTree = "<group>";
@@ -1260,6 +1292,7 @@
 				A8E1C82E27CAB3A20054EF15 /* iChatLogsViewController.xib in Resources */,
 				A8E1C7B127C4A0EE0054EF15 /* DhcpOverviewViewController.xib in Resources */,
 				A8F9898527C3612A00EF772F /* AfpConnectionsViewController.xib in Resources */,
+				A8E1C85B27CACB230054EF15 /* MobileAccessAccessViewController.xib in Resources */,
 				A8E1C7CA27C4A12C0054EF15 /* DhcpSettingsViewController.xib in Resources */,
 				A8F9892827BCBEBA00EF772F /* PushNotificationViewController.xib in Resources */,
 				A8F9894627BCBEF900EF772F /* WebViewController.xib in Resources */,
@@ -1279,11 +1312,13 @@
 				A8E1C83327CAB3AC0054EF15 /* iChatSettingsViewController.xib in Resources */,
 				A8E1C7D427C714D00054EF15 /* DnsLogViewController.xib in Resources */,
 				A8F9896727C2AB5200EF772F /* AddressBookOverviewViewController.xib in Resources */,
+				A8E1C86027CACB340054EF15 /* MobileAccessSettingsViewController.xib in Resources */,
 				A8E1C80627CAA7970054EF15 /* FtpGraphsViewController.xib in Resources */,
 				A8F9891E27BCBEA500EF772F /* PodcastProducerViewController.xib in Resources */,
 				A8F9891427BCBE9100EF772F /* NetBootViewController.xib in Resources */,
 				A8E1C7C527C4A1210054EF15 /* DhcpStaticMapsViewController.xib in Resources */,
 				A8E1C81F27CAAF980054EF15 /* iCalLogsViewController.xib in Resources */,
+				A8E1C85127CACB0D0054EF15 /* MobileAccessOverviewViewController.xib in Resources */,
 				A8E1C84227CAB8140054EF15 /* MailConnectionsViewController.xib in Resources */,
 				A8F988F127BCBE4300EF772F /* FtpViewController.xib in Resources */,
 				A8E1C81027CAA7B00054EF15 /* FtpSharePointsViewController.xib in Resources */,
@@ -1307,6 +1342,7 @@
 				A8F9897127C2AB6E00EF772F /* AddressBookSettingsViewController.xib in Resources */,
 				A8F9894B27BCBF0300EF772F /* XgridViewController.xib in Resources */,
 				A8F9896C27C2AB6100EF772F /* AddressBookLogsViewController.xib in Resources */,
+				A8E1C85627CACB190054EF15 /* MobileAccessLogsViewController.xib in Resources */,
 				A8E1C7FC27CAA7810054EF15 /* FtpOverviewViewController.xib in Resources */,
 				A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */,
 				A8E1C84C27CAB82A0054EF15 /* MailSettingsViewController.xib in Resources */,
@@ -1349,6 +1385,7 @@
 				A8F9896227C0B01E00EF772F /* ModuleGraphicalTabs.m in Sources */,
 				A8E1C7C927C4A12C0054EF15 /* DhcpSettingsViewController.m in Sources */,
 				A8E1C7C427C4A1210054EF15 /* DhcpStaticMapsViewController.m in Sources */,
+				A8E1C85527CACB190054EF15 /* MobileAccessLogsViewController.m in Sources */,
 				A8F9893627BCBEDB00EF772F /* SmbViewController.m in Sources */,
 				A8E1C7BF27C4A1140054EF15 /* DhcpSubnetsViewController.m in Sources */,
 				A8F9893127BCBED100EF772F /* RadiusViewController.m in Sources */,
@@ -1386,6 +1423,7 @@
 				A8F9891827BCBE9A00EF772F /* OpenDirectoryViewController.m in Sources */,
 				A8F988BA27BCBD6700EF772F /* RadiusModel.m in Sources */,
 				A8F988AE27BCBD3200EF772F /* DhcpModel.m in Sources */,
+				A8E1C85027CACB0D0054EF15 /* MobileAccessOverviewViewController.m in Sources */,
 				A8E1C81927CAAF8D0054EF15 /* iCalOverviewViewController.m in Sources */,
 				A8F9887527BCBC3200EF772F /* InformationModel.m in Sources */,
 				A8F988B127BCBD3F00EF772F /* AfpModel.m in Sources */,
@@ -1409,11 +1447,13 @@
 				A8F988C327BCBD8000EF772F /* VpnModel.m in Sources */,
 				A8E1C81427CAA7BA0054EF15 /* FtpSettingsViewController.m in Sources */,
 				A8E1C84B27CAB82A0054EF15 /* MailSettingsViewController.m in Sources */,
+				A8E1C85A27CACB230054EF15 /* MobileAccessAccessViewController.m in Sources */,
 				A8E1C7DD27C714F60054EF15 /* DnsBonjourViewController.m in Sources */,
 				A8F988E627BCBE2F00EF772F /* DnsViewController.m in Sources */,
 				A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */,
 				A8F9893B27BCBEE500EF772F /* SoftwareUpdateViewController.m in Sources */,
 				A8F9888D27BCBC9F00EF772F /* iChatModel.m in Sources */,
+				A8E1C85F27CACB340054EF15 /* MobileAccessSettingsViewController.m in Sources */,
 				A8F9894027BCBEF100EF772F /* VpnViewController.m in Sources */,
 				A8F9883E27BCBA5F00EF772F /* ServerModel.m in Sources */,
 				A8F9889F27BCBCED00EF772F /* NfsModel.m in Sources */,
