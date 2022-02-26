@@ -29,6 +29,14 @@
 		A8E1C7DE27C714F60054EF15 /* DnsBonjourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7DC27C714F60054EF15 /* DnsBonjourViewController.xib */; };
 		A8E1C7E227C7150A0054EF15 /* DnsSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7E027C7150A0054EF15 /* DnsSettingsViewController.m */; };
 		A8E1C7E327C7150A0054EF15 /* DnsSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7E127C7150A0054EF15 /* DnsSettingsViewController.xib */; };
+		A8E1C7E727C8A42F0054EF15 /* FirewallOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7E527C8A42F0054EF15 /* FirewallOverviewViewController.m */; };
+		A8E1C7E827C8A42F0054EF15 /* FirewallOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7E627C8A42F0054EF15 /* FirewallOverviewViewController.xib */; };
+		A8E1C7EC27C8A43C0054EF15 /* FirewallLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7EA27C8A43C0054EF15 /* FirewallLogViewController.m */; };
+		A8E1C7ED27C8A43C0054EF15 /* FirewallLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7EB27C8A43C0054EF15 /* FirewallLogViewController.xib */; };
+		A8E1C7F127C8A44E0054EF15 /* FirewallActiveRulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7EF27C8A44E0054EF15 /* FirewallActiveRulesViewController.m */; };
+		A8E1C7F227C8A44E0054EF15 /* FirewallActiveRulesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7F027C8A44E0054EF15 /* FirewallActiveRulesViewController.xib */; };
+		A8E1C7F627C8A45D0054EF15 /* FirewallSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7F427C8A45D0054EF15 /* FirewallSettingsViewController.m */; };
+		A8E1C7F727C8A45D0054EF15 /* FirewallSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7F527C8A45D0054EF15 /* FirewallSettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -170,6 +178,18 @@
 		A8E1C7DF27C7150A0054EF15 /* DnsSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DnsSettingsViewController.h; sourceTree = "<group>"; };
 		A8E1C7E027C7150A0054EF15 /* DnsSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DnsSettingsViewController.m; sourceTree = "<group>"; };
 		A8E1C7E127C7150A0054EF15 /* DnsSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DnsSettingsViewController.xib; sourceTree = "<group>"; };
+		A8E1C7E427C8A42F0054EF15 /* FirewallOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirewallOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C7E527C8A42F0054EF15 /* FirewallOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirewallOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C7E627C8A42F0054EF15 /* FirewallOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirewallOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C7E927C8A43C0054EF15 /* FirewallLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirewallLogViewController.h; sourceTree = "<group>"; };
+		A8E1C7EA27C8A43C0054EF15 /* FirewallLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirewallLogViewController.m; sourceTree = "<group>"; };
+		A8E1C7EB27C8A43C0054EF15 /* FirewallLogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirewallLogViewController.xib; sourceTree = "<group>"; };
+		A8E1C7EE27C8A44E0054EF15 /* FirewallActiveRulesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirewallActiveRulesViewController.h; sourceTree = "<group>"; };
+		A8E1C7EF27C8A44E0054EF15 /* FirewallActiveRulesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirewallActiveRulesViewController.m; sourceTree = "<group>"; };
+		A8E1C7F027C8A44E0054EF15 /* FirewallActiveRulesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirewallActiveRulesViewController.xib; sourceTree = "<group>"; };
+		A8E1C7F327C8A45D0054EF15 /* FirewallSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirewallSettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C7F427C8A45D0054EF15 /* FirewallSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirewallSettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C7F527C8A45D0054EF15 /* FirewallSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirewallSettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -555,6 +575,18 @@
 				A8F988E827BCBE3900EF772F /* FirewallViewController.h */,
 				A8F988E927BCBE3900EF772F /* FirewallViewController.m */,
 				A8F988EA27BCBE3900EF772F /* FirewallViewController.xib */,
+				A8E1C7E427C8A42F0054EF15 /* FirewallOverviewViewController.h */,
+				A8E1C7E527C8A42F0054EF15 /* FirewallOverviewViewController.m */,
+				A8E1C7E627C8A42F0054EF15 /* FirewallOverviewViewController.xib */,
+				A8E1C7E927C8A43C0054EF15 /* FirewallLogViewController.h */,
+				A8E1C7EA27C8A43C0054EF15 /* FirewallLogViewController.m */,
+				A8E1C7EB27C8A43C0054EF15 /* FirewallLogViewController.xib */,
+				A8E1C7EE27C8A44E0054EF15 /* FirewallActiveRulesViewController.h */,
+				A8E1C7EF27C8A44E0054EF15 /* FirewallActiveRulesViewController.m */,
+				A8E1C7F027C8A44E0054EF15 /* FirewallActiveRulesViewController.xib */,
+				A8E1C7F327C8A45D0054EF15 /* FirewallSettingsViewController.h */,
+				A8E1C7F427C8A45D0054EF15 /* FirewallSettingsViewController.m */,
+				A8E1C7F527C8A45D0054EF15 /* FirewallSettingsViewController.xib */,
 			);
 			path = Firewall;
 			sourceTree = "<group>";
@@ -1081,6 +1113,7 @@
 			files = (
 				A8E1C7DE27C714F60054EF15 /* DnsBonjourViewController.xib in Resources */,
 				A8F9895E27C0AAC000EF772F /* ModuleGraphicalTabs.xib in Resources */,
+				A8E1C7F227C8A44E0054EF15 /* FirewallActiveRulesViewController.xib in Resources */,
 				A8F9894127BCBEF100EF772F /* VpnViewController.xib in Resources */,
 				A8E1C7D927C714E30054EF15 /* DnsZonesViewController.xib in Resources */,
 				A8F9891927BCBE9A00EF772F /* OpenDirectoryViewController.xib in Resources */,
@@ -1100,6 +1133,7 @@
 				A8F9898F27C3614A00EF772F /* AfpSettingsViewController.xib in Resources */,
 				A8F9893227BCBED100EF772F /* RadiusViewController.xib in Resources */,
 				A8F988DD27BCBE1700EF772F /* AddressBookViewController.xib in Resources */,
+				A8E1C7E827C8A42F0054EF15 /* FirewallOverviewViewController.xib in Resources */,
 				A8E1C7D427C714D00054EF15 /* DnsLogViewController.xib in Resources */,
 				A8F9896727C2AB5200EF772F /* AddressBookOverviewViewController.xib in Resources */,
 				A8F9891E27BCBEA500EF772F /* PodcastProducerViewController.xib in Resources */,
@@ -1116,7 +1150,9 @@
 				A8F9898027C3611700EF772F /* AfpGraphsViewController.xib in Resources */,
 				A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */,
 				A8F9898A27C3613B00EF772F /* AfpSharePointsViewController.xib in Resources */,
+				A8E1C7ED27C8A43C0054EF15 /* FirewallLogViewController.xib in Resources */,
 				A8F9893727BCBEDB00EF772F /* SmbViewController.xib in Resources */,
+				A8E1C7F727C8A45D0054EF15 /* FirewallSettingsViewController.xib in Resources */,
 				A8F9895027BCC57600EF772F /* NfsViewController.xib in Resources */,
 				A8F9897127C2AB6E00EF772F /* AddressBookSettingsViewController.xib in Resources */,
 				A8F9894B27BCBF0300EF772F /* XgridViewController.xib in Resources */,
@@ -1167,10 +1203,12 @@
 				A8F988DC27BCBE1700EF772F /* AddressBookViewController.m in Sources */,
 				A8E1C7E227C7150A0054EF15 /* DnsSettingsViewController.m in Sources */,
 				A8F988C927BCBD9100EF772F /* XgridModel.m in Sources */,
+				A8E1C7EC27C8A43C0054EF15 /* FirewallLogViewController.m in Sources */,
 				A8F988F527BCBE5000EF772F /* iCalViewController.m in Sources */,
 				A8E1C7D327C714D00054EF15 /* DnsLogViewController.m in Sources */,
 				A8F988AB27BCBD2300EF772F /* DnsModel.m in Sources */,
 				A8F988A227BCBCF800EF772F /* OpenDirectoryModel.m in Sources */,
+				A8E1C7E727C8A42F0054EF15 /* FirewallOverviewViewController.m in Sources */,
 				A8F9897527C360F700EF772F /* AfpOverviewViewController.m in Sources */,
 				A8F9888727BCBC8C00EF772F /* FtpModel.m in Sources */,
 				A8E1C7B027C4A0EE0054EF15 /* DhcpOverviewViewController.m in Sources */,
@@ -1179,6 +1217,7 @@
 				A8F9896B27C2AB6100EF772F /* AddressBookLogsViewController.m in Sources */,
 				A8F988FA27BCBE5900EF772F /* iChatViewController.m in Sources */,
 				A8F9898427C3612A00EF772F /* AfpConnectionsViewController.m in Sources */,
+				A8E1C7F127C8A44E0054EF15 /* FirewallActiveRulesViewController.m in Sources */,
 				A8F9894527BCBEF900EF772F /* WebViewController.m in Sources */,
 				A8F9891827BCBE9A00EF772F /* OpenDirectoryViewController.m in Sources */,
 				A8F988BA27BCBD6700EF772F /* RadiusModel.m in Sources */,
@@ -1195,6 +1234,7 @@
 				A8F9889027BCBCAA00EF772F /* MailModel.m in Sources */,
 				A8F9889627BCBCCF00EF772F /* MySQLModel.m in Sources */,
 				A8F9883427BCB6FC00EF772F /* main.m in Sources */,
+				A8E1C7F627C8A45D0054EF15 /* FirewallSettingsViewController.m in Sources */,
 				A8F9897F27C3611700EF772F /* AfpGraphsViewController.m in Sources */,
 				A8F9894F27BCC57600EF772F /* NfsViewController.m in Sources */,
 				A8F9888427BCBC7B00EF772F /* FirewallModel.m in Sources */,
