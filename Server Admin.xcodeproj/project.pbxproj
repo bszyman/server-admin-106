@@ -107,6 +107,14 @@
 		A8E1C8A127CB44770054EF15 /* NfsSharePointsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C89F27CB44770054EF15 /* NfsSharePointsViewController.xib */; };
 		A8E1C8A527CB44840054EF15 /* NfsSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8A327CB44840054EF15 /* NfsSettingsViewController.m */; };
 		A8E1C8A627CB44840054EF15 /* NfsSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8A427CB44840054EF15 /* NfsSettingsViewController.xib */; };
+		A8E1C8AA27CB47BA0054EF15 /* OpenDirectoryOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8A827CB47BA0054EF15 /* OpenDirectoryOverviewViewController.m */; };
+		A8E1C8AB27CB47BA0054EF15 /* OpenDirectoryOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8A927CB47BA0054EF15 /* OpenDirectoryOverviewViewController.xib */; };
+		A8E1C8AF27CB47C50054EF15 /* OpenDirectoryLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8AD27CB47C50054EF15 /* OpenDirectoryLogsViewController.m */; };
+		A8E1C8B027CB47C50054EF15 /* OpenDirectoryLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8AE27CB47C50054EF15 /* OpenDirectoryLogsViewController.xib */; };
+		A8E1C8B427CB47D10054EF15 /* OpenDirectoryArchiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8B227CB47D10054EF15 /* OpenDirectoryArchiveViewController.m */; };
+		A8E1C8B527CB47D10054EF15 /* OpenDirectoryArchiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8B327CB47D10054EF15 /* OpenDirectoryArchiveViewController.xib */; };
+		A8E1C8B927CB47DC0054EF15 /* OpenDirectorySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8B727CB47DC0054EF15 /* OpenDirectorySettingsViewController.m */; };
+		A8E1C8BA27CB47DC0054EF15 /* OpenDirectorySettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8B827CB47DC0054EF15 /* OpenDirectorySettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -365,6 +373,18 @@
 		A8E1C8A227CB44840054EF15 /* NfsSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NfsSettingsViewController.h; sourceTree = "<group>"; };
 		A8E1C8A327CB44840054EF15 /* NfsSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NfsSettingsViewController.m; sourceTree = "<group>"; };
 		A8E1C8A427CB44840054EF15 /* NfsSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NfsSettingsViewController.xib; sourceTree = "<group>"; };
+		A8E1C8A727CB47BA0054EF15 /* OpenDirectoryOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenDirectoryOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C8A827CB47BA0054EF15 /* OpenDirectoryOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenDirectoryOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C8A927CB47BA0054EF15 /* OpenDirectoryOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpenDirectoryOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C8AC27CB47C50054EF15 /* OpenDirectoryLogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenDirectoryLogsViewController.h; sourceTree = "<group>"; };
+		A8E1C8AD27CB47C50054EF15 /* OpenDirectoryLogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenDirectoryLogsViewController.m; sourceTree = "<group>"; };
+		A8E1C8AE27CB47C50054EF15 /* OpenDirectoryLogsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpenDirectoryLogsViewController.xib; sourceTree = "<group>"; };
+		A8E1C8B127CB47D10054EF15 /* OpenDirectoryArchiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenDirectoryArchiveViewController.h; sourceTree = "<group>"; };
+		A8E1C8B227CB47D10054EF15 /* OpenDirectoryArchiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenDirectoryArchiveViewController.m; sourceTree = "<group>"; };
+		A8E1C8B327CB47D10054EF15 /* OpenDirectoryArchiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpenDirectoryArchiveViewController.xib; sourceTree = "<group>"; };
+		A8E1C8B627CB47DC0054EF15 /* OpenDirectorySettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenDirectorySettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C8B727CB47DC0054EF15 /* OpenDirectorySettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenDirectorySettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C8B827CB47DC0054EF15 /* OpenDirectorySettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpenDirectorySettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -977,6 +997,18 @@
 				A8F9891527BCBE9A00EF772F /* OpenDirectoryViewController.h */,
 				A8F9891627BCBE9A00EF772F /* OpenDirectoryViewController.m */,
 				A8F9891727BCBE9A00EF772F /* OpenDirectoryViewController.xib */,
+				A8E1C8A727CB47BA0054EF15 /* OpenDirectoryOverviewViewController.h */,
+				A8E1C8A827CB47BA0054EF15 /* OpenDirectoryOverviewViewController.m */,
+				A8E1C8A927CB47BA0054EF15 /* OpenDirectoryOverviewViewController.xib */,
+				A8E1C8AC27CB47C50054EF15 /* OpenDirectoryLogsViewController.h */,
+				A8E1C8AD27CB47C50054EF15 /* OpenDirectoryLogsViewController.m */,
+				A8E1C8AE27CB47C50054EF15 /* OpenDirectoryLogsViewController.xib */,
+				A8E1C8B127CB47D10054EF15 /* OpenDirectoryArchiveViewController.h */,
+				A8E1C8B227CB47D10054EF15 /* OpenDirectoryArchiveViewController.m */,
+				A8E1C8B327CB47D10054EF15 /* OpenDirectoryArchiveViewController.xib */,
+				A8E1C8B627CB47DC0054EF15 /* OpenDirectorySettingsViewController.h */,
+				A8E1C8B727CB47DC0054EF15 /* OpenDirectorySettingsViewController.m */,
+				A8E1C8B827CB47DC0054EF15 /* OpenDirectorySettingsViewController.xib */,
 			);
 			path = OpenDirectory;
 			sourceTree = "<group>";
@@ -1393,6 +1425,8 @@
 			files = (
 				A8E1C7DE27C714F60054EF15 /* DnsBonjourViewController.xib in Resources */,
 				A8E1C80127CAA78C0054EF15 /* FtpLogViewController.xib in Resources */,
+				A8E1C8AB27CB47BA0054EF15 /* OpenDirectoryOverviewViewController.xib in Resources */,
+				A8E1C8BA27CB47DC0054EF15 /* OpenDirectorySettingsViewController.xib in Resources */,
 				A8F9895E27C0AAC000EF772F /* ModuleGraphicalTabs.xib in Resources */,
 				A8E1C89227CB13A40054EF15 /* NetBootSettingsViewController.xib in Resources */,
 				A8E1C7F227C8A44E0054EF15 /* FirewallActiveRulesViewController.xib in Resources */,
@@ -1401,6 +1435,7 @@
 				A8E1C7D927C714E30054EF15 /* DnsZonesViewController.xib in Resources */,
 				A8E1C83D27CAB8080054EF15 /* MailLogsViewController.xib in Resources */,
 				A8F9891927BCBE9A00EF772F /* OpenDirectoryViewController.xib in Resources */,
+				A8E1C8B027CB47C50054EF15 /* OpenDirectoryLogsViewController.xib in Resources */,
 				A8E1C80B27CAA7A50054EF15 /* FtpConnectionsViewController.xib in Resources */,
 				A8F9897B27C3610B00EF772F /* AfpLogsViewController.xib in Resources */,
 				A8E1C82E27CAB3A20054EF15 /* iChatLogsViewController.xib in Resources */,
@@ -1441,6 +1476,7 @@
 				A8E1C7C527C4A1210054EF15 /* DhcpStaticMapsViewController.xib in Resources */,
 				A8E1C88327CB13840054EF15 /* NetBootLogViewController.xib in Resources */,
 				A8E1C81F27CAAF980054EF15 /* iCalLogsViewController.xib in Resources */,
+				A8E1C8B527CB47D10054EF15 /* OpenDirectoryArchiveViewController.xib in Resources */,
 				A8E1C85127CACB0D0054EF15 /* MobileAccessOverviewViewController.xib in Resources */,
 				A8E1C84227CAB8140054EF15 /* MailConnectionsViewController.xib in Resources */,
 				A8F988F127BCBE4300EF772F /* FtpViewController.xib in Resources */,
@@ -1519,6 +1555,7 @@
 				A8E1C86927CACFCE0054EF15 /* MySqlLogsViewController.m in Sources */,
 				A8F9893627BCBEDB00EF772F /* SmbViewController.m in Sources */,
 				A8E1C7BF27C4A1140054EF15 /* DhcpSubnetsViewController.m in Sources */,
+				A8E1C8B927CB47DC0054EF15 /* OpenDirectorySettingsViewController.m in Sources */,
 				A8F9893127BCBED100EF772F /* RadiusViewController.m in Sources */,
 				A8F9890427BCBE6C00EF772F /* MobileAccessViewController.m in Sources */,
 				A8E1C80527CAA7970054EF15 /* FtpGraphsViewController.m in Sources */,
@@ -1552,6 +1589,7 @@
 				A8F988C627BCBD8600EF772F /* WebModel.m in Sources */,
 				A8F9889327BCBCB500EF772F /* MobileAccessModel.m in Sources */,
 				A8E1C89B27CB446C0054EF15 /* NfsConnectionsViewController.m in Sources */,
+				A8E1C8AF27CB47C50054EF15 /* OpenDirectoryLogsViewController.m in Sources */,
 				A8F9896B27C2AB6100EF772F /* AddressBookLogsViewController.m in Sources */,
 				A8F988FA27BCBE5900EF772F /* iChatViewController.m in Sources */,
 				A8F9898427C3612A00EF772F /* AfpConnectionsViewController.m in Sources */,
@@ -1564,6 +1602,7 @@
 				A8E1C85027CACB0D0054EF15 /* MobileAccessOverviewViewController.m in Sources */,
 				A8E1C81927CAAF8D0054EF15 /* iCalOverviewViewController.m in Sources */,
 				A8F9887527BCBC3200EF772F /* InformationModel.m in Sources */,
+				A8E1C8AA27CB47BA0054EF15 /* OpenDirectoryOverviewViewController.m in Sources */,
 				A8F988B127BCBD3F00EF772F /* AfpModel.m in Sources */,
 				A8F988F027BCBE4300EF772F /* FtpViewController.m in Sources */,
 				A8F9896627C2AB5200EF772F /* AddressBookOverviewViewController.m in Sources */,
@@ -1598,6 +1637,7 @@
 				A8F9883E27BCBA5F00EF772F /* ServerModel.m in Sources */,
 				A8F9889F27BCBCED00EF772F /* NfsModel.m in Sources */,
 				A8F988BD27BCBD6E00EF772F /* SmbModel.m in Sources */,
+				A8E1C8B427CB47D10054EF15 /* OpenDirectoryArchiveViewController.m in Sources */,
 				A8F9898E27C3614A00EF772F /* AfpSettingsViewController.m in Sources */,
 				A8E1C84627CAB81F0054EF15 /* MailMaintenanceViewController.m in Sources */,
 				A8F9889C27BCBCE300EF772F /* NetBootModel.m in Sources */,
