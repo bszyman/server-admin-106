@@ -99,6 +99,14 @@
 		A8E1C88D27CB139A0054EF15 /* NetBootClientsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C88B27CB139A0054EF15 /* NetBootClientsViewController.xib */; };
 		A8E1C89127CB13A40054EF15 /* NetBootSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C88F27CB13A40054EF15 /* NetBootSettingsViewController.m */; };
 		A8E1C89227CB13A40054EF15 /* NetBootSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C89027CB13A40054EF15 /* NetBootSettingsViewController.xib */; };
+		A8E1C89627CB445E0054EF15 /* NfsOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C89427CB445E0054EF15 /* NfsOverviewViewController.m */; };
+		A8E1C89727CB445E0054EF15 /* NfsOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C89527CB445E0054EF15 /* NfsOverviewViewController.xib */; };
+		A8E1C89B27CB446C0054EF15 /* NfsConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C89927CB446C0054EF15 /* NfsConnectionsViewController.m */; };
+		A8E1C89C27CB446C0054EF15 /* NfsConnectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C89A27CB446C0054EF15 /* NfsConnectionsViewController.xib */; };
+		A8E1C8A027CB44770054EF15 /* NfsSharePointsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C89E27CB44770054EF15 /* NfsSharePointsViewController.m */; };
+		A8E1C8A127CB44770054EF15 /* NfsSharePointsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C89F27CB44770054EF15 /* NfsSharePointsViewController.xib */; };
+		A8E1C8A527CB44840054EF15 /* NfsSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8A327CB44840054EF15 /* NfsSettingsViewController.m */; };
+		A8E1C8A627CB44840054EF15 /* NfsSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8A427CB44840054EF15 /* NfsSettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -345,6 +353,18 @@
 		A8E1C88E27CB13A40054EF15 /* NetBootSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetBootSettingsViewController.h; sourceTree = "<group>"; };
 		A8E1C88F27CB13A40054EF15 /* NetBootSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetBootSettingsViewController.m; sourceTree = "<group>"; };
 		A8E1C89027CB13A40054EF15 /* NetBootSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetBootSettingsViewController.xib; sourceTree = "<group>"; };
+		A8E1C89327CB445E0054EF15 /* NfsOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NfsOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C89427CB445E0054EF15 /* NfsOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NfsOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C89527CB445E0054EF15 /* NfsOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NfsOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C89827CB446C0054EF15 /* NfsConnectionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NfsConnectionsViewController.h; sourceTree = "<group>"; };
+		A8E1C89927CB446C0054EF15 /* NfsConnectionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NfsConnectionsViewController.m; sourceTree = "<group>"; };
+		A8E1C89A27CB446C0054EF15 /* NfsConnectionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NfsConnectionsViewController.xib; sourceTree = "<group>"; };
+		A8E1C89D27CB44770054EF15 /* NfsSharePointsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NfsSharePointsViewController.h; sourceTree = "<group>"; };
+		A8E1C89E27CB44770054EF15 /* NfsSharePointsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NfsSharePointsViewController.m; sourceTree = "<group>"; };
+		A8E1C89F27CB44770054EF15 /* NfsSharePointsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NfsSharePointsViewController.xib; sourceTree = "<group>"; };
+		A8E1C8A227CB44840054EF15 /* NfsSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NfsSettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C8A327CB44840054EF15 /* NfsSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NfsSettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C8A427CB44840054EF15 /* NfsSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NfsSettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -934,6 +954,18 @@
 				A8F9894C27BCC57600EF772F /* NfsViewController.h */,
 				A8F9894D27BCC57600EF772F /* NfsViewController.m */,
 				A8F9894E27BCC57600EF772F /* NfsViewController.xib */,
+				A8E1C89327CB445E0054EF15 /* NfsOverviewViewController.h */,
+				A8E1C89427CB445E0054EF15 /* NfsOverviewViewController.m */,
+				A8E1C89527CB445E0054EF15 /* NfsOverviewViewController.xib */,
+				A8E1C89827CB446C0054EF15 /* NfsConnectionsViewController.h */,
+				A8E1C89927CB446C0054EF15 /* NfsConnectionsViewController.m */,
+				A8E1C89A27CB446C0054EF15 /* NfsConnectionsViewController.xib */,
+				A8E1C89D27CB44770054EF15 /* NfsSharePointsViewController.h */,
+				A8E1C89E27CB44770054EF15 /* NfsSharePointsViewController.m */,
+				A8E1C89F27CB44770054EF15 /* NfsSharePointsViewController.xib */,
+				A8E1C8A227CB44840054EF15 /* NfsSettingsViewController.h */,
+				A8E1C8A327CB44840054EF15 /* NfsSettingsViewController.m */,
+				A8E1C8A427CB44840054EF15 /* NfsSettingsViewController.xib */,
 			);
 			path = NFS;
 			sourceTree = "<group>";
@@ -1364,6 +1396,7 @@
 				A8F9895E27C0AAC000EF772F /* ModuleGraphicalTabs.xib in Resources */,
 				A8E1C89227CB13A40054EF15 /* NetBootSettingsViewController.xib in Resources */,
 				A8E1C7F227C8A44E0054EF15 /* FirewallActiveRulesViewController.xib in Resources */,
+				A8E1C8A627CB44840054EF15 /* NfsSettingsViewController.xib in Resources */,
 				A8F9894127BCBEF100EF772F /* VpnViewController.xib in Resources */,
 				A8E1C7D927C714E30054EF15 /* DnsZonesViewController.xib in Resources */,
 				A8E1C83D27CAB8080054EF15 /* MailLogsViewController.xib in Resources */,
@@ -1401,6 +1434,7 @@
 				A8E1C86027CACB340054EF15 /* MobileAccessSettingsViewController.xib in Resources */,
 				A8E1C80627CAA7970054EF15 /* FtpGraphsViewController.xib in Resources */,
 				A8E1C87427CB11BA0054EF15 /* NatOverviewViewController.xib in Resources */,
+				A8E1C89727CB445E0054EF15 /* NfsOverviewViewController.xib in Resources */,
 				A8F9891E27BCBEA500EF772F /* PodcastProducerViewController.xib in Resources */,
 				A8F9891427BCBE9100EF772F /* NetBootViewController.xib in Resources */,
 				A8E1C87E27CB137A0054EF15 /* NetBootOverviewViewController.xib in Resources */,
@@ -1429,7 +1463,9 @@
 				A8E1C7F727C8A45D0054EF15 /* FirewallSettingsViewController.xib in Resources */,
 				A8F9895027BCC57600EF772F /* NfsViewController.xib in Resources */,
 				A8F9897127C2AB6E00EF772F /* AddressBookSettingsViewController.xib in Resources */,
+				A8E1C8A127CB44770054EF15 /* NfsSharePointsViewController.xib in Resources */,
 				A8F9894B27BCBF0300EF772F /* XgridViewController.xib in Resources */,
+				A8E1C89C27CB446C0054EF15 /* NfsConnectionsViewController.xib in Resources */,
 				A8F9896C27C2AB6100EF772F /* AddressBookLogsViewController.xib in Resources */,
 				A8E1C86F27CACFDC0054EF15 /* MySqlSettingsViewController.xib in Resources */,
 				A8E1C85627CACB190054EF15 /* MobileAccessLogsViewController.xib in Resources */,
@@ -1460,6 +1496,7 @@
 				A8F988B427BCBD4D00EF772F /* PushNotificationModel.m in Sources */,
 				A8E1C88227CB13840054EF15 /* NetBootLogViewController.m in Sources */,
 				A8E1C83227CAB3AC0054EF15 /* iChatSettingsViewController.m in Sources */,
+				A8E1C89627CB445E0054EF15 /* NfsOverviewViewController.m in Sources */,
 				A8E1C80F27CAA7B00054EF15 /* FtpSharePointsViewController.m in Sources */,
 				A8F988A527BCBD0300EF772F /* PodcastProducerModel.m in Sources */,
 				A8E1C86E27CACFDC0054EF15 /* MySqlSettingsViewController.m in Sources */,
@@ -1496,6 +1533,7 @@
 				A8E1C7E227C7150A0054EF15 /* DnsSettingsViewController.m in Sources */,
 				A8E1C81E27CAAF980054EF15 /* iCalLogsViewController.m in Sources */,
 				A8F988C927BCBD9100EF772F /* XgridModel.m in Sources */,
+				A8E1C8A527CB44840054EF15 /* NfsSettingsViewController.m in Sources */,
 				A8E1C7EC27C8A43C0054EF15 /* FirewallLogViewController.m in Sources */,
 				A8F988F527BCBE5000EF772F /* iCalViewController.m in Sources */,
 				A8E1C7D327C714D00054EF15 /* DnsLogViewController.m in Sources */,
@@ -1507,11 +1545,13 @@
 				A8F9897527C360F700EF772F /* AfpOverviewViewController.m in Sources */,
 				A8E1C83C27CAB8080054EF15 /* MailLogsViewController.m in Sources */,
 				A8E1C80027CAA78C0054EF15 /* FtpLogViewController.m in Sources */,
+				A8E1C8A027CB44770054EF15 /* NfsSharePointsViewController.m in Sources */,
 				A8F9888727BCBC8C00EF772F /* FtpModel.m in Sources */,
 				A8E1C7B027C4A0EE0054EF15 /* DhcpOverviewViewController.m in Sources */,
 				A8E1C82827CAB3940054EF15 /* iChatOverviewViewController.m in Sources */,
 				A8F988C627BCBD8600EF772F /* WebModel.m in Sources */,
 				A8F9889327BCBCB500EF772F /* MobileAccessModel.m in Sources */,
+				A8E1C89B27CB446C0054EF15 /* NfsConnectionsViewController.m in Sources */,
 				A8F9896B27C2AB6100EF772F /* AddressBookLogsViewController.m in Sources */,
 				A8F988FA27BCBE5900EF772F /* iChatViewController.m in Sources */,
 				A8F9898427C3612A00EF772F /* AfpConnectionsViewController.m in Sources */,
