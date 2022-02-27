@@ -89,6 +89,16 @@
 		A8E1C87427CB11BA0054EF15 /* NatOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C87227CB11BA0054EF15 /* NatOverviewViewController.xib */; };
 		A8E1C87827CB11C40054EF15 /* NatSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C87627CB11C40054EF15 /* NatSettingsViewController.m */; };
 		A8E1C87927CB11C40054EF15 /* NatSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C87727CB11C40054EF15 /* NatSettingsViewController.xib */; };
+		A8E1C87D27CB137A0054EF15 /* NetBootOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C87B27CB137A0054EF15 /* NetBootOverviewViewController.m */; };
+		A8E1C87E27CB137A0054EF15 /* NetBootOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C87C27CB137A0054EF15 /* NetBootOverviewViewController.xib */; };
+		A8E1C88227CB13840054EF15 /* NetBootLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C88027CB13840054EF15 /* NetBootLogViewController.m */; };
+		A8E1C88327CB13840054EF15 /* NetBootLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C88127CB13840054EF15 /* NetBootLogViewController.xib */; };
+		A8E1C88727CB13910054EF15 /* NetBootConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C88527CB13910054EF15 /* NetBootConnectionsViewController.m */; };
+		A8E1C88827CB13910054EF15 /* NetBootConnectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C88627CB13910054EF15 /* NetBootConnectionsViewController.xib */; };
+		A8E1C88C27CB139A0054EF15 /* NetBootClientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C88A27CB139A0054EF15 /* NetBootClientsViewController.m */; };
+		A8E1C88D27CB139A0054EF15 /* NetBootClientsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C88B27CB139A0054EF15 /* NetBootClientsViewController.xib */; };
+		A8E1C89127CB13A40054EF15 /* NetBootSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C88F27CB13A40054EF15 /* NetBootSettingsViewController.m */; };
+		A8E1C89227CB13A40054EF15 /* NetBootSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C89027CB13A40054EF15 /* NetBootSettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -320,6 +330,21 @@
 		A8E1C87527CB11C40054EF15 /* NatSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NatSettingsViewController.h; sourceTree = "<group>"; };
 		A8E1C87627CB11C40054EF15 /* NatSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NatSettingsViewController.m; sourceTree = "<group>"; };
 		A8E1C87727CB11C40054EF15 /* NatSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NatSettingsViewController.xib; sourceTree = "<group>"; };
+		A8E1C87A27CB137A0054EF15 /* NetBootOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetBootOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C87B27CB137A0054EF15 /* NetBootOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetBootOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C87C27CB137A0054EF15 /* NetBootOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetBootOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C87F27CB13840054EF15 /* NetBootLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetBootLogViewController.h; sourceTree = "<group>"; };
+		A8E1C88027CB13840054EF15 /* NetBootLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetBootLogViewController.m; sourceTree = "<group>"; };
+		A8E1C88127CB13840054EF15 /* NetBootLogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetBootLogViewController.xib; sourceTree = "<group>"; };
+		A8E1C88427CB13910054EF15 /* NetBootConnectionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetBootConnectionsViewController.h; sourceTree = "<group>"; };
+		A8E1C88527CB13910054EF15 /* NetBootConnectionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetBootConnectionsViewController.m; sourceTree = "<group>"; };
+		A8E1C88627CB13910054EF15 /* NetBootConnectionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetBootConnectionsViewController.xib; sourceTree = "<group>"; };
+		A8E1C88927CB139A0054EF15 /* NetBootClientsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetBootClientsViewController.h; sourceTree = "<group>"; };
+		A8E1C88A27CB139A0054EF15 /* NetBootClientsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetBootClientsViewController.m; sourceTree = "<group>"; };
+		A8E1C88B27CB139A0054EF15 /* NetBootClientsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetBootClientsViewController.xib; sourceTree = "<group>"; };
+		A8E1C88E27CB13A40054EF15 /* NetBootSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetBootSettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C88F27CB13A40054EF15 /* NetBootSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetBootSettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C89027CB13A40054EF15 /* NetBootSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetBootSettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -883,6 +908,21 @@
 				A8F9891027BCBE9100EF772F /* NetBootViewController.h */,
 				A8F9891127BCBE9100EF772F /* NetBootViewController.m */,
 				A8F9891227BCBE9100EF772F /* NetBootViewController.xib */,
+				A8E1C87A27CB137A0054EF15 /* NetBootOverviewViewController.h */,
+				A8E1C87B27CB137A0054EF15 /* NetBootOverviewViewController.m */,
+				A8E1C87C27CB137A0054EF15 /* NetBootOverviewViewController.xib */,
+				A8E1C87F27CB13840054EF15 /* NetBootLogViewController.h */,
+				A8E1C88027CB13840054EF15 /* NetBootLogViewController.m */,
+				A8E1C88127CB13840054EF15 /* NetBootLogViewController.xib */,
+				A8E1C88427CB13910054EF15 /* NetBootConnectionsViewController.h */,
+				A8E1C88527CB13910054EF15 /* NetBootConnectionsViewController.m */,
+				A8E1C88627CB13910054EF15 /* NetBootConnectionsViewController.xib */,
+				A8E1C88927CB139A0054EF15 /* NetBootClientsViewController.h */,
+				A8E1C88A27CB139A0054EF15 /* NetBootClientsViewController.m */,
+				A8E1C88B27CB139A0054EF15 /* NetBootClientsViewController.xib */,
+				A8E1C88E27CB13A40054EF15 /* NetBootSettingsViewController.h */,
+				A8E1C88F27CB13A40054EF15 /* NetBootSettingsViewController.m */,
+				A8E1C89027CB13A40054EF15 /* NetBootSettingsViewController.xib */,
 			);
 			path = NetBoot;
 			sourceTree = "<group>";
@@ -1322,6 +1362,7 @@
 				A8E1C7DE27C714F60054EF15 /* DnsBonjourViewController.xib in Resources */,
 				A8E1C80127CAA78C0054EF15 /* FtpLogViewController.xib in Resources */,
 				A8F9895E27C0AAC000EF772F /* ModuleGraphicalTabs.xib in Resources */,
+				A8E1C89227CB13A40054EF15 /* NetBootSettingsViewController.xib in Resources */,
 				A8E1C7F227C8A44E0054EF15 /* FirewallActiveRulesViewController.xib in Resources */,
 				A8F9894127BCBEF100EF772F /* VpnViewController.xib in Resources */,
 				A8E1C7D927C714E30054EF15 /* DnsZonesViewController.xib in Resources */,
@@ -1340,11 +1381,13 @@
 				A8F9894627BCBEF900EF772F /* WebViewController.xib in Resources */,
 				A8E1C81A27CAAF8D0054EF15 /* iCalOverviewViewController.xib in Resources */,
 				A8F9892327BCBEB000EF772F /* PrintViewController.xib in Resources */,
+				A8E1C88D27CB139A0054EF15 /* NetBootClientsViewController.xib in Resources */,
 				A8F988EC27BCBE3900EF772F /* FirewallViewController.xib in Resources */,
 				A8E1C7B627C4A0FB0054EF15 /* DhcpLogViewController.xib in Resources */,
 				A8F9890027BCBE6200EF772F /* MailViewController.xib in Resources */,
 				A8F988F627BCBE5000EF772F /* iCalViewController.xib in Resources */,
 				A8E1C7BB27C4A1060054EF15 /* DhcpClientsViewController.xib in Resources */,
+				A8E1C88827CB13910054EF15 /* NetBootConnectionsViewController.xib in Resources */,
 				A8E1C7C027C4A1140054EF15 /* DhcpSubnetsViewController.xib in Resources */,
 				A8F9898F27C3614A00EF772F /* AfpSettingsViewController.xib in Resources */,
 				A8F9893227BCBED100EF772F /* RadiusViewController.xib in Resources */,
@@ -1360,7 +1403,9 @@
 				A8E1C87427CB11BA0054EF15 /* NatOverviewViewController.xib in Resources */,
 				A8F9891E27BCBEA500EF772F /* PodcastProducerViewController.xib in Resources */,
 				A8F9891427BCBE9100EF772F /* NetBootViewController.xib in Resources */,
+				A8E1C87E27CB137A0054EF15 /* NetBootOverviewViewController.xib in Resources */,
 				A8E1C7C527C4A1210054EF15 /* DhcpStaticMapsViewController.xib in Resources */,
+				A8E1C88327CB13840054EF15 /* NetBootLogViewController.xib in Resources */,
 				A8E1C81F27CAAF980054EF15 /* iCalLogsViewController.xib in Resources */,
 				A8E1C85127CACB0D0054EF15 /* MobileAccessOverviewViewController.xib in Resources */,
 				A8E1C84227CAB8140054EF15 /* MailConnectionsViewController.xib in Resources */,
@@ -1413,6 +1458,7 @@
 				A8F9895627BDDA9200EF772F /* NavigationSourceListDelegate.m in Sources */,
 				A8F9897A27C3610B00EF772F /* AfpLogsViewController.m in Sources */,
 				A8F988B427BCBD4D00EF772F /* PushNotificationModel.m in Sources */,
+				A8E1C88227CB13840054EF15 /* NetBootLogViewController.m in Sources */,
 				A8E1C83227CAB3AC0054EF15 /* iChatSettingsViewController.m in Sources */,
 				A8E1C80F27CAA7B00054EF15 /* FtpSharePointsViewController.m in Sources */,
 				A8F988A527BCBD0300EF772F /* PodcastProducerModel.m in Sources */,
@@ -1431,6 +1477,7 @@
 				A8F9896227C0B01E00EF772F /* ModuleGraphicalTabs.m in Sources */,
 				A8E1C7C927C4A12C0054EF15 /* DhcpSettingsViewController.m in Sources */,
 				A8E1C7C427C4A1210054EF15 /* DhcpStaticMapsViewController.m in Sources */,
+				A8E1C88727CB13910054EF15 /* NetBootConnectionsViewController.m in Sources */,
 				A8E1C85527CACB190054EF15 /* MobileAccessLogsViewController.m in Sources */,
 				A8E1C86927CACFCE0054EF15 /* MySqlLogsViewController.m in Sources */,
 				A8F9893627BCBEDB00EF772F /* SmbViewController.m in Sources */,
@@ -1441,7 +1488,9 @@
 				A8E1C86427CACFC50054EF15 /* MySqlOverviewViewController.m in Sources */,
 				A8E1C84127CAB8140054EF15 /* MailConnectionsViewController.m in Sources */,
 				A8F9890E27BCBE8300EF772F /* NatViewController.m in Sources */,
+				A8E1C87D27CB137A0054EF15 /* NetBootOverviewViewController.m in Sources */,
 				A8E1C7BA27C4A1060054EF15 /* DhcpClientsViewController.m in Sources */,
+				A8E1C88C27CB139A0054EF15 /* NetBootClientsViewController.m in Sources */,
 				A8F988FF27BCBE6200EF772F /* MailViewController.m in Sources */,
 				A8F988DC27BCBE1700EF772F /* AddressBookViewController.m in Sources */,
 				A8E1C7E227C7150A0054EF15 /* DnsSettingsViewController.m in Sources */,
@@ -1452,6 +1501,7 @@
 				A8E1C7D327C714D00054EF15 /* DnsLogViewController.m in Sources */,
 				A8E1C83727CAB7FF0054EF15 /* MailOverviewViewController.m in Sources */,
 				A8F988AB27BCBD2300EF772F /* DnsModel.m in Sources */,
+				A8E1C89127CB13A40054EF15 /* NetBootSettingsViewController.m in Sources */,
 				A8F988A227BCBCF800EF772F /* OpenDirectoryModel.m in Sources */,
 				A8E1C7E727C8A42F0054EF15 /* FirewallOverviewViewController.m in Sources */,
 				A8F9897527C360F700EF772F /* AfpOverviewViewController.m in Sources */,
