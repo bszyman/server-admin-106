@@ -115,6 +115,16 @@
 		A8E1C8B527CB47D10054EF15 /* OpenDirectoryArchiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8B327CB47D10054EF15 /* OpenDirectoryArchiveViewController.xib */; };
 		A8E1C8B927CB47DC0054EF15 /* OpenDirectorySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8B727CB47DC0054EF15 /* OpenDirectorySettingsViewController.m */; };
 		A8E1C8BA27CB47DC0054EF15 /* OpenDirectorySettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8B827CB47DC0054EF15 /* OpenDirectorySettingsViewController.xib */; };
+		A8E1C8BE27CB50D00054EF15 /* PodcastProducerOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8BC27CB50D00054EF15 /* PodcastProducerOverviewViewController.m */; };
+		A8E1C8BF27CB50D00054EF15 /* PodcastProducerOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8BD27CB50D00054EF15 /* PodcastProducerOverviewViewController.xib */; };
+		A8E1C8C327CB50DB0054EF15 /* PodcastProducerLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8C127CB50DB0054EF15 /* PodcastProducerLogsViewController.m */; };
+		A8E1C8C427CB50DB0054EF15 /* PodcastProducerLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8C227CB50DB0054EF15 /* PodcastProducerLogsViewController.xib */; };
+		A8E1C8C827CB50E60054EF15 /* PodcastProducerCamerasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8C627CB50E60054EF15 /* PodcastProducerCamerasViewController.m */; };
+		A8E1C8C927CB50E60054EF15 /* PodcastProducerCamerasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8C727CB50E60054EF15 /* PodcastProducerCamerasViewController.xib */; };
+		A8E1C8CD27CB50F10054EF15 /* PodcastProducerWorkflowsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8CB27CB50F10054EF15 /* PodcastProducerWorkflowsViewController.m */; };
+		A8E1C8CE27CB50F10054EF15 /* PodcastProducerWorkflowsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8CC27CB50F10054EF15 /* PodcastProducerWorkflowsViewController.xib */; };
+		A8E1C8D227CB50FC0054EF15 /* PodcastProducerSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8D027CB50FC0054EF15 /* PodcastProducerSettingsViewController.m */; };
+		A8E1C8D327CB50FC0054EF15 /* PodcastProducerSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8D127CB50FC0054EF15 /* PodcastProducerSettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -385,6 +395,21 @@
 		A8E1C8B627CB47DC0054EF15 /* OpenDirectorySettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenDirectorySettingsViewController.h; sourceTree = "<group>"; };
 		A8E1C8B727CB47DC0054EF15 /* OpenDirectorySettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenDirectorySettingsViewController.m; sourceTree = "<group>"; };
 		A8E1C8B827CB47DC0054EF15 /* OpenDirectorySettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpenDirectorySettingsViewController.xib; sourceTree = "<group>"; };
+		A8E1C8BB27CB50D00054EF15 /* PodcastProducerOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodcastProducerOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C8BC27CB50D00054EF15 /* PodcastProducerOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodcastProducerOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C8BD27CB50D00054EF15 /* PodcastProducerOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PodcastProducerOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C8C027CB50DB0054EF15 /* PodcastProducerLogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodcastProducerLogsViewController.h; sourceTree = "<group>"; };
+		A8E1C8C127CB50DB0054EF15 /* PodcastProducerLogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodcastProducerLogsViewController.m; sourceTree = "<group>"; };
+		A8E1C8C227CB50DB0054EF15 /* PodcastProducerLogsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PodcastProducerLogsViewController.xib; sourceTree = "<group>"; };
+		A8E1C8C527CB50E60054EF15 /* PodcastProducerCamerasViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodcastProducerCamerasViewController.h; sourceTree = "<group>"; };
+		A8E1C8C627CB50E60054EF15 /* PodcastProducerCamerasViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodcastProducerCamerasViewController.m; sourceTree = "<group>"; };
+		A8E1C8C727CB50E60054EF15 /* PodcastProducerCamerasViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PodcastProducerCamerasViewController.xib; sourceTree = "<group>"; };
+		A8E1C8CA27CB50F10054EF15 /* PodcastProducerWorkflowsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodcastProducerWorkflowsViewController.h; sourceTree = "<group>"; };
+		A8E1C8CB27CB50F10054EF15 /* PodcastProducerWorkflowsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodcastProducerWorkflowsViewController.m; sourceTree = "<group>"; };
+		A8E1C8CC27CB50F10054EF15 /* PodcastProducerWorkflowsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PodcastProducerWorkflowsViewController.xib; sourceTree = "<group>"; };
+		A8E1C8CF27CB50FC0054EF15 /* PodcastProducerSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodcastProducerSettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C8D027CB50FC0054EF15 /* PodcastProducerSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodcastProducerSettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C8D127CB50FC0054EF15 /* PodcastProducerSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PodcastProducerSettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1020,6 +1045,21 @@
 				A8F9891A27BCBEA500EF772F /* PodcastProducerViewController.h */,
 				A8F9891B27BCBEA500EF772F /* PodcastProducerViewController.m */,
 				A8F9891C27BCBEA500EF772F /* PodcastProducerViewController.xib */,
+				A8E1C8BB27CB50D00054EF15 /* PodcastProducerOverviewViewController.h */,
+				A8E1C8BC27CB50D00054EF15 /* PodcastProducerOverviewViewController.m */,
+				A8E1C8BD27CB50D00054EF15 /* PodcastProducerOverviewViewController.xib */,
+				A8E1C8C027CB50DB0054EF15 /* PodcastProducerLogsViewController.h */,
+				A8E1C8C127CB50DB0054EF15 /* PodcastProducerLogsViewController.m */,
+				A8E1C8C227CB50DB0054EF15 /* PodcastProducerLogsViewController.xib */,
+				A8E1C8C527CB50E60054EF15 /* PodcastProducerCamerasViewController.h */,
+				A8E1C8C627CB50E60054EF15 /* PodcastProducerCamerasViewController.m */,
+				A8E1C8C727CB50E60054EF15 /* PodcastProducerCamerasViewController.xib */,
+				A8E1C8CA27CB50F10054EF15 /* PodcastProducerWorkflowsViewController.h */,
+				A8E1C8CB27CB50F10054EF15 /* PodcastProducerWorkflowsViewController.m */,
+				A8E1C8CC27CB50F10054EF15 /* PodcastProducerWorkflowsViewController.xib */,
+				A8E1C8CF27CB50FC0054EF15 /* PodcastProducerSettingsViewController.h */,
+				A8E1C8D027CB50FC0054EF15 /* PodcastProducerSettingsViewController.m */,
+				A8E1C8D127CB50FC0054EF15 /* PodcastProducerSettingsViewController.xib */,
 			);
 			path = PodcastProducer;
 			sourceTree = "<group>";
@@ -1449,6 +1489,7 @@
 				A8F9894627BCBEF900EF772F /* WebViewController.xib in Resources */,
 				A8E1C81A27CAAF8D0054EF15 /* iCalOverviewViewController.xib in Resources */,
 				A8F9892327BCBEB000EF772F /* PrintViewController.xib in Resources */,
+				A8E1C8CE27CB50F10054EF15 /* PodcastProducerWorkflowsViewController.xib in Resources */,
 				A8E1C88D27CB139A0054EF15 /* NetBootClientsViewController.xib in Resources */,
 				A8F988EC27BCBE3900EF772F /* FirewallViewController.xib in Resources */,
 				A8E1C7B627C4A0FB0054EF15 /* DhcpLogViewController.xib in Resources */,
@@ -1461,6 +1502,7 @@
 				A8F9893227BCBED100EF772F /* RadiusViewController.xib in Resources */,
 				A8E1C82427CAAFA30054EF15 /* iCalSettingsViewController.xib in Resources */,
 				A8F988DD27BCBE1700EF772F /* AddressBookViewController.xib in Resources */,
+				A8E1C8C427CB50DB0054EF15 /* PodcastProducerLogsViewController.xib in Resources */,
 				A8E1C7E827C8A42F0054EF15 /* FirewallOverviewViewController.xib in Resources */,
 				A8E1C83327CAB3AC0054EF15 /* iChatSettingsViewController.xib in Resources */,
 				A8E1C7D427C714D00054EF15 /* DnsLogViewController.xib in Resources */,
@@ -1472,6 +1514,7 @@
 				A8E1C89727CB445E0054EF15 /* NfsOverviewViewController.xib in Resources */,
 				A8F9891E27BCBEA500EF772F /* PodcastProducerViewController.xib in Resources */,
 				A8F9891427BCBE9100EF772F /* NetBootViewController.xib in Resources */,
+				A8E1C8C927CB50E60054EF15 /* PodcastProducerCamerasViewController.xib in Resources */,
 				A8E1C87E27CB137A0054EF15 /* NetBootOverviewViewController.xib in Resources */,
 				A8E1C7C527C4A1210054EF15 /* DhcpStaticMapsViewController.xib in Resources */,
 				A8E1C88327CB13840054EF15 /* NetBootLogViewController.xib in Resources */,
@@ -1479,9 +1522,11 @@
 				A8E1C8B527CB47D10054EF15 /* OpenDirectoryArchiveViewController.xib in Resources */,
 				A8E1C85127CACB0D0054EF15 /* MobileAccessOverviewViewController.xib in Resources */,
 				A8E1C84227CAB8140054EF15 /* MailConnectionsViewController.xib in Resources */,
+				A8E1C8BF27CB50D00054EF15 /* PodcastProducerOverviewViewController.xib in Resources */,
 				A8F988F127BCBE4300EF772F /* FtpViewController.xib in Resources */,
 				A8E1C81027CAA7B00054EF15 /* FtpSharePointsViewController.xib in Resources */,
 				A8E1C7CF27C714C40054EF15 /* DnsOverviewViewController.xib in Resources */,
+				A8E1C8D327CB50FC0054EF15 /* PodcastProducerSettingsViewController.xib in Resources */,
 				A8F988FB27BCBE5900EF772F /* iChatViewController.xib in Resources */,
 				A8F988E727BCBE2F00EF772F /* DnsViewController.xib in Resources */,
 				A8F9892D27BCBEC700EF772F /* QuickTimeStreamingViewController.xib in Resources */,
@@ -1555,9 +1600,11 @@
 				A8E1C86927CACFCE0054EF15 /* MySqlLogsViewController.m in Sources */,
 				A8F9893627BCBEDB00EF772F /* SmbViewController.m in Sources */,
 				A8E1C7BF27C4A1140054EF15 /* DhcpSubnetsViewController.m in Sources */,
+				A8E1C8C327CB50DB0054EF15 /* PodcastProducerLogsViewController.m in Sources */,
 				A8E1C8B927CB47DC0054EF15 /* OpenDirectorySettingsViewController.m in Sources */,
 				A8F9893127BCBED100EF772F /* RadiusViewController.m in Sources */,
 				A8F9890427BCBE6C00EF772F /* MobileAccessViewController.m in Sources */,
+				A8E1C8C827CB50E60054EF15 /* PodcastProducerCamerasViewController.m in Sources */,
 				A8E1C80527CAA7970054EF15 /* FtpGraphsViewController.m in Sources */,
 				A8E1C86427CACFC50054EF15 /* MySqlOverviewViewController.m in Sources */,
 				A8E1C84127CAB8140054EF15 /* MailConnectionsViewController.m in Sources */,
@@ -1567,6 +1614,7 @@
 				A8E1C88C27CB139A0054EF15 /* NetBootClientsViewController.m in Sources */,
 				A8F988FF27BCBE6200EF772F /* MailViewController.m in Sources */,
 				A8F988DC27BCBE1700EF772F /* AddressBookViewController.m in Sources */,
+				A8E1C8BE27CB50D00054EF15 /* PodcastProducerOverviewViewController.m in Sources */,
 				A8E1C7E227C7150A0054EF15 /* DnsSettingsViewController.m in Sources */,
 				A8E1C81E27CAAF980054EF15 /* iCalLogsViewController.m in Sources */,
 				A8F988C927BCBD9100EF772F /* XgridModel.m in Sources */,
@@ -1618,6 +1666,7 @@
 				A8F9883427BCB6FC00EF772F /* main.m in Sources */,
 				A8E1C80A27CAA7A50054EF15 /* FtpConnectionsViewController.m in Sources */,
 				A8E1C7F627C8A45D0054EF15 /* FirewallSettingsViewController.m in Sources */,
+				A8E1C8D227CB50FC0054EF15 /* PodcastProducerSettingsViewController.m in Sources */,
 				A8F9897F27C3611700EF772F /* AfpGraphsViewController.m in Sources */,
 				A8F9894F27BCC57600EF772F /* NfsViewController.m in Sources */,
 				A8F9888427BCBC7B00EF772F /* FirewallModel.m in Sources */,
@@ -1629,6 +1678,7 @@
 				A8E1C85A27CACB230054EF15 /* MobileAccessAccessViewController.m in Sources */,
 				A8E1C7DD27C714F60054EF15 /* DnsBonjourViewController.m in Sources */,
 				A8F988E627BCBE2F00EF772F /* DnsViewController.m in Sources */,
+				A8E1C8CD27CB50F10054EF15 /* PodcastProducerWorkflowsViewController.m in Sources */,
 				A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */,
 				A8F9893B27BCBEE500EF772F /* SoftwareUpdateViewController.m in Sources */,
 				A8F9888D27BCBC9F00EF772F /* iChatModel.m in Sources */,
