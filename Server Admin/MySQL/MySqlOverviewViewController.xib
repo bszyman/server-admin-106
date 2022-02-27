@@ -17,7 +17,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VIS-ba-1PL">
-                    <rect key="frame" x="87" y="580" width="254" height="16"/>
+                    <rect key="frame" x="87" y="570" width="254" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="MySQL Service is:" id="kbN-1K-vE4">
                         <font key="font" usesAppearanceFont="YES"/>
@@ -26,7 +26,7 @@
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tn3-Hj-qCD">
-                    <rect key="frame" x="345" y="580" width="254" height="16"/>
+                    <rect key="frame" x="345" y="570" width="254" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="Stopped" id="x5Y-bP-aql">
                         <font key="font" usesAppearanceFont="YES"/>
@@ -35,7 +35,7 @@
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tZc-4S-99B">
-                    <rect key="frame" x="87" y="556" width="254" height="16"/>
+                    <rect key="frame" x="87" y="546" width="254" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="Start Time:" id="tGo-ci-jjH">
                         <font key="font" usesAppearanceFont="YES"/>
@@ -44,7 +44,7 @@
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dyb-4w-3Dn">
-                    <rect key="frame" x="345" y="556" width="254" height="16"/>
+                    <rect key="frame" x="345" y="546" width="254" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" enabled="NO" title="Not Available" id="uz9-HM-eFu">
                         <font key="font" usesAppearanceFont="YES"/>
@@ -53,7 +53,7 @@
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lXs-GO-wzp">
-                    <rect key="frame" x="87" y="512" width="254" height="16"/>
+                    <rect key="frame" x="87" y="502" width="254" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="Allow Network Connections:" id="9K7-UH-ujd">
                         <font key="font" usesAppearanceFont="YES"/>
@@ -62,7 +62,7 @@
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ckz-3t-VrQ">
-                    <rect key="frame" x="345" y="512" width="254" height="16"/>
+                    <rect key="frame" x="345" y="502" width="254" height="16"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" lineBreakMode="clipping" title="No" id="ALG-QS-9eN">
                         <font key="font" usesAppearanceFont="YES"/>

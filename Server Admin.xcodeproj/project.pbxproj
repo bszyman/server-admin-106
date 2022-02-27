@@ -85,6 +85,10 @@
 		A8E1C86A27CACFCE0054EF15 /* MySqlLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C86827CACFCE0054EF15 /* MySqlLogsViewController.xib */; };
 		A8E1C86E27CACFDC0054EF15 /* MySqlSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C86C27CACFDC0054EF15 /* MySqlSettingsViewController.m */; };
 		A8E1C86F27CACFDC0054EF15 /* MySqlSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C86D27CACFDC0054EF15 /* MySqlSettingsViewController.xib */; };
+		A8E1C87327CB11BA0054EF15 /* NatOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C87127CB11BA0054EF15 /* NatOverviewViewController.m */; };
+		A8E1C87427CB11BA0054EF15 /* NatOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C87227CB11BA0054EF15 /* NatOverviewViewController.xib */; };
+		A8E1C87827CB11C40054EF15 /* NatSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C87627CB11C40054EF15 /* NatSettingsViewController.m */; };
+		A8E1C87927CB11C40054EF15 /* NatSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C87727CB11C40054EF15 /* NatSettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -310,6 +314,12 @@
 		A8E1C86B27CACFDC0054EF15 /* MySqlSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySqlSettingsViewController.h; sourceTree = "<group>"; };
 		A8E1C86C27CACFDC0054EF15 /* MySqlSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySqlSettingsViewController.m; sourceTree = "<group>"; };
 		A8E1C86D27CACFDC0054EF15 /* MySqlSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySqlSettingsViewController.xib; sourceTree = "<group>"; };
+		A8E1C87027CB11BA0054EF15 /* NatOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NatOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C87127CB11BA0054EF15 /* NatOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NatOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C87227CB11BA0054EF15 /* NatOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NatOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C87527CB11C40054EF15 /* NatSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NatSettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C87627CB11C40054EF15 /* NatSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NatSettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C87727CB11C40054EF15 /* NatSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NatSettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -856,6 +866,12 @@
 				A8F9890B27BCBE8300EF772F /* NatViewController.h */,
 				A8F9890C27BCBE8300EF772F /* NatViewController.m */,
 				A8F9890D27BCBE8300EF772F /* NatViewController.xib */,
+				A8E1C87027CB11BA0054EF15 /* NatOverviewViewController.h */,
+				A8E1C87127CB11BA0054EF15 /* NatOverviewViewController.m */,
+				A8E1C87227CB11BA0054EF15 /* NatOverviewViewController.xib */,
+				A8E1C87527CB11C40054EF15 /* NatSettingsViewController.h */,
+				A8E1C87627CB11C40054EF15 /* NatSettingsViewController.m */,
+				A8E1C87727CB11C40054EF15 /* NatSettingsViewController.xib */,
 			);
 			path = NAT;
 			sourceTree = "<group>";
@@ -1337,9 +1353,11 @@
 				A8E1C7E827C8A42F0054EF15 /* FirewallOverviewViewController.xib in Resources */,
 				A8E1C83327CAB3AC0054EF15 /* iChatSettingsViewController.xib in Resources */,
 				A8E1C7D427C714D00054EF15 /* DnsLogViewController.xib in Resources */,
+				A8E1C87927CB11C40054EF15 /* NatSettingsViewController.xib in Resources */,
 				A8F9896727C2AB5200EF772F /* AddressBookOverviewViewController.xib in Resources */,
 				A8E1C86027CACB340054EF15 /* MobileAccessSettingsViewController.xib in Resources */,
 				A8E1C80627CAA7970054EF15 /* FtpGraphsViewController.xib in Resources */,
+				A8E1C87427CB11BA0054EF15 /* NatOverviewViewController.xib in Resources */,
 				A8F9891E27BCBEA500EF772F /* PodcastProducerViewController.xib in Resources */,
 				A8F9891427BCBE9100EF772F /* NetBootViewController.xib in Resources */,
 				A8E1C7C527C4A1210054EF15 /* DhcpStaticMapsViewController.xib in Resources */,
@@ -1459,9 +1477,11 @@
 				A8F988B127BCBD3F00EF772F /* AfpModel.m in Sources */,
 				A8F988F027BCBE4300EF772F /* FtpViewController.m in Sources */,
 				A8F9896627C2AB5200EF772F /* AddressBookOverviewViewController.m in Sources */,
+				A8E1C87827CB11C40054EF15 /* NatSettingsViewController.m in Sources */,
 				A8F988CD27BCBDEC00EF772F /* InformationViewController.m in Sources */,
 				A8F9891D27BCBEA500EF772F /* PodcastProducerViewController.m in Sources */,
 				A8E1C7D827C714E30054EF15 /* DnsZonesViewController.m in Sources */,
+				A8E1C87327CB11BA0054EF15 /* NatOverviewViewController.m in Sources */,
 				A8F988C027BCBD7700EF772F /* SoftwareUpdateModel.m in Sources */,
 				A8F9894A27BCBF0300EF772F /* XgridViewController.m in Sources */,
 				A8F9889027BCBCAA00EF772F /* MailModel.m in Sources */,
