@@ -79,6 +79,12 @@
 		A8E1C85B27CACB230054EF15 /* MobileAccessAccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C85927CACB230054EF15 /* MobileAccessAccessViewController.xib */; };
 		A8E1C85F27CACB340054EF15 /* MobileAccessSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C85D27CACB340054EF15 /* MobileAccessSettingsViewController.m */; };
 		A8E1C86027CACB340054EF15 /* MobileAccessSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C85E27CACB340054EF15 /* MobileAccessSettingsViewController.xib */; };
+		A8E1C86427CACFC50054EF15 /* MySqlOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C86227CACFC50054EF15 /* MySqlOverviewViewController.m */; };
+		A8E1C86527CACFC50054EF15 /* MySqlOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C86327CACFC50054EF15 /* MySqlOverviewViewController.xib */; };
+		A8E1C86927CACFCE0054EF15 /* MySqlLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C86727CACFCE0054EF15 /* MySqlLogsViewController.m */; };
+		A8E1C86A27CACFCE0054EF15 /* MySqlLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C86827CACFCE0054EF15 /* MySqlLogsViewController.xib */; };
+		A8E1C86E27CACFDC0054EF15 /* MySqlSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C86C27CACFDC0054EF15 /* MySqlSettingsViewController.m */; };
+		A8E1C86F27CACFDC0054EF15 /* MySqlSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C86D27CACFDC0054EF15 /* MySqlSettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -295,6 +301,15 @@
 		A8E1C85C27CACB340054EF15 /* MobileAccessSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobileAccessSettingsViewController.h; sourceTree = "<group>"; };
 		A8E1C85D27CACB340054EF15 /* MobileAccessSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileAccessSettingsViewController.m; sourceTree = "<group>"; };
 		A8E1C85E27CACB340054EF15 /* MobileAccessSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MobileAccessSettingsViewController.xib; sourceTree = "<group>"; };
+		A8E1C86127CACFC50054EF15 /* MySqlOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySqlOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C86227CACFC50054EF15 /* MySqlOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySqlOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C86327CACFC50054EF15 /* MySqlOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySqlOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C86627CACFCE0054EF15 /* MySqlLogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySqlLogsViewController.h; sourceTree = "<group>"; };
+		A8E1C86727CACFCE0054EF15 /* MySqlLogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySqlLogsViewController.m; sourceTree = "<group>"; };
+		A8E1C86827CACFCE0054EF15 /* MySqlLogsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySqlLogsViewController.xib; sourceTree = "<group>"; };
+		A8E1C86B27CACFDC0054EF15 /* MySqlSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySqlSettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C86C27CACFDC0054EF15 /* MySqlSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySqlSettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C86D27CACFDC0054EF15 /* MySqlSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySqlSettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -821,6 +836,15 @@
 				A8F9890627BCBE7800EF772F /* MySqlViewController.h */,
 				A8F9890727BCBE7800EF772F /* MySqlViewController.m */,
 				A8F9890827BCBE7800EF772F /* MySqlViewController.xib */,
+				A8E1C86127CACFC50054EF15 /* MySqlOverviewViewController.h */,
+				A8E1C86227CACFC50054EF15 /* MySqlOverviewViewController.m */,
+				A8E1C86327CACFC50054EF15 /* MySqlOverviewViewController.xib */,
+				A8E1C86627CACFCE0054EF15 /* MySqlLogsViewController.h */,
+				A8E1C86727CACFCE0054EF15 /* MySqlLogsViewController.m */,
+				A8E1C86827CACFCE0054EF15 /* MySqlLogsViewController.xib */,
+				A8E1C86B27CACFDC0054EF15 /* MySqlSettingsViewController.h */,
+				A8E1C86C27CACFDC0054EF15 /* MySqlSettingsViewController.m */,
+				A8E1C86D27CACFDC0054EF15 /* MySqlSettingsViewController.xib */,
 			);
 			path = MySQL;
 			sourceTree = "<group>";
@@ -1293,6 +1317,8 @@
 				A8E1C7B127C4A0EE0054EF15 /* DhcpOverviewViewController.xib in Resources */,
 				A8F9898527C3612A00EF772F /* AfpConnectionsViewController.xib in Resources */,
 				A8E1C85B27CACB230054EF15 /* MobileAccessAccessViewController.xib in Resources */,
+				A8E1C86A27CACFCE0054EF15 /* MySqlLogsViewController.xib in Resources */,
+				A8E1C86527CACFC50054EF15 /* MySqlOverviewViewController.xib in Resources */,
 				A8E1C7CA27C4A12C0054EF15 /* DhcpSettingsViewController.xib in Resources */,
 				A8F9892827BCBEBA00EF772F /* PushNotificationViewController.xib in Resources */,
 				A8F9894627BCBEF900EF772F /* WebViewController.xib in Resources */,
@@ -1342,6 +1368,7 @@
 				A8F9897127C2AB6E00EF772F /* AddressBookSettingsViewController.xib in Resources */,
 				A8F9894B27BCBF0300EF772F /* XgridViewController.xib in Resources */,
 				A8F9896C27C2AB6100EF772F /* AddressBookLogsViewController.xib in Resources */,
+				A8E1C86F27CACFDC0054EF15 /* MySqlSettingsViewController.xib in Resources */,
 				A8E1C85627CACB190054EF15 /* MobileAccessLogsViewController.xib in Resources */,
 				A8E1C7FC27CAA7810054EF15 /* FtpOverviewViewController.xib in Resources */,
 				A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */,
@@ -1371,6 +1398,7 @@
 				A8E1C83227CAB3AC0054EF15 /* iChatSettingsViewController.m in Sources */,
 				A8E1C80F27CAA7B00054EF15 /* FtpSharePointsViewController.m in Sources */,
 				A8F988A527BCBD0300EF772F /* PodcastProducerModel.m in Sources */,
+				A8E1C86E27CACFDC0054EF15 /* MySqlSettingsViewController.m in Sources */,
 				A8E1C7CE27C714C40054EF15 /* DnsOverviewViewController.m in Sources */,
 				A8F9888A27BCBC9700EF772F /* iCalModel.m in Sources */,
 				A8F988B727BCBD5E00EF772F /* QuickTimeStreamingModel.m in Sources */,
@@ -1386,11 +1414,13 @@
 				A8E1C7C927C4A12C0054EF15 /* DhcpSettingsViewController.m in Sources */,
 				A8E1C7C427C4A1210054EF15 /* DhcpStaticMapsViewController.m in Sources */,
 				A8E1C85527CACB190054EF15 /* MobileAccessLogsViewController.m in Sources */,
+				A8E1C86927CACFCE0054EF15 /* MySqlLogsViewController.m in Sources */,
 				A8F9893627BCBEDB00EF772F /* SmbViewController.m in Sources */,
 				A8E1C7BF27C4A1140054EF15 /* DhcpSubnetsViewController.m in Sources */,
 				A8F9893127BCBED100EF772F /* RadiusViewController.m in Sources */,
 				A8F9890427BCBE6C00EF772F /* MobileAccessViewController.m in Sources */,
 				A8E1C80527CAA7970054EF15 /* FtpGraphsViewController.m in Sources */,
+				A8E1C86427CACFC50054EF15 /* MySqlOverviewViewController.m in Sources */,
 				A8E1C84127CAB8140054EF15 /* MailConnectionsViewController.m in Sources */,
 				A8F9890E27BCBE8300EF772F /* NatViewController.m in Sources */,
 				A8E1C7BA27C4A1060054EF15 /* DhcpClientsViewController.m in Sources */,
