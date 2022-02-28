@@ -125,6 +125,16 @@
 		A8E1C8CE27CB50F10054EF15 /* PodcastProducerWorkflowsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8CC27CB50F10054EF15 /* PodcastProducerWorkflowsViewController.xib */; };
 		A8E1C8D227CB50FC0054EF15 /* PodcastProducerSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8D027CB50FC0054EF15 /* PodcastProducerSettingsViewController.m */; };
 		A8E1C8D327CB50FC0054EF15 /* PodcastProducerSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8D127CB50FC0054EF15 /* PodcastProducerSettingsViewController.xib */; };
+		A8E1C8D727CC52140054EF15 /* PrintOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8D527CC52140054EF15 /* PrintOverviewViewController.m */; };
+		A8E1C8D827CC52140054EF15 /* PrintOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8D627CC52140054EF15 /* PrintOverviewViewController.xib */; };
+		A8E1C8DC27CC521E0054EF15 /* PrintLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8DA27CC521E0054EF15 /* PrintLogsViewController.m */; };
+		A8E1C8DD27CC521E0054EF15 /* PrintLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8DB27CC521E0054EF15 /* PrintLogsViewController.xib */; };
+		A8E1C8E127CC52290054EF15 /* PrintJobStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8DF27CC52290054EF15 /* PrintJobStatusViewController.m */; };
+		A8E1C8E227CC52290054EF15 /* PrintJobStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8E027CC52290054EF15 /* PrintJobStatusViewController.xib */; };
+		A8E1C8E627CC523D0054EF15 /* PrintQueuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8E427CC523C0054EF15 /* PrintQueuesViewController.m */; };
+		A8E1C8E727CC523D0054EF15 /* PrintQueuesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8E527CC523C0054EF15 /* PrintQueuesViewController.xib */; };
+		A8E1C8EB27CC52480054EF15 /* PrintSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8E927CC52480054EF15 /* PrintSettingsViewController.m */; };
+		A8E1C8EC27CC52480054EF15 /* PrintSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8EA27CC52480054EF15 /* PrintSettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -410,6 +420,21 @@
 		A8E1C8CF27CB50FC0054EF15 /* PodcastProducerSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodcastProducerSettingsViewController.h; sourceTree = "<group>"; };
 		A8E1C8D027CB50FC0054EF15 /* PodcastProducerSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodcastProducerSettingsViewController.m; sourceTree = "<group>"; };
 		A8E1C8D127CB50FC0054EF15 /* PodcastProducerSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PodcastProducerSettingsViewController.xib; sourceTree = "<group>"; };
+		A8E1C8D427CC52140054EF15 /* PrintOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C8D527CC52140054EF15 /* PrintOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C8D627CC52140054EF15 /* PrintOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrintOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C8D927CC521E0054EF15 /* PrintLogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintLogsViewController.h; sourceTree = "<group>"; };
+		A8E1C8DA27CC521E0054EF15 /* PrintLogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintLogsViewController.m; sourceTree = "<group>"; };
+		A8E1C8DB27CC521E0054EF15 /* PrintLogsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrintLogsViewController.xib; sourceTree = "<group>"; };
+		A8E1C8DE27CC52290054EF15 /* PrintJobStatusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintJobStatusViewController.h; sourceTree = "<group>"; };
+		A8E1C8DF27CC52290054EF15 /* PrintJobStatusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintJobStatusViewController.m; sourceTree = "<group>"; };
+		A8E1C8E027CC52290054EF15 /* PrintJobStatusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrintJobStatusViewController.xib; sourceTree = "<group>"; };
+		A8E1C8E327CC523C0054EF15 /* PrintQueuesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintQueuesViewController.h; sourceTree = "<group>"; };
+		A8E1C8E427CC523C0054EF15 /* PrintQueuesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintQueuesViewController.m; sourceTree = "<group>"; };
+		A8E1C8E527CC523C0054EF15 /* PrintQueuesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrintQueuesViewController.xib; sourceTree = "<group>"; };
+		A8E1C8E827CC52480054EF15 /* PrintSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintSettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C8E927CC52480054EF15 /* PrintSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintSettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C8EA27CC52480054EF15 /* PrintSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrintSettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1071,6 +1096,21 @@
 				A8F9891F27BCBEB000EF772F /* PrintViewController.h */,
 				A8F9892027BCBEB000EF772F /* PrintViewController.m */,
 				A8F9892127BCBEB000EF772F /* PrintViewController.xib */,
+				A8E1C8D427CC52140054EF15 /* PrintOverviewViewController.h */,
+				A8E1C8D527CC52140054EF15 /* PrintOverviewViewController.m */,
+				A8E1C8D627CC52140054EF15 /* PrintOverviewViewController.xib */,
+				A8E1C8D927CC521E0054EF15 /* PrintLogsViewController.h */,
+				A8E1C8DA27CC521E0054EF15 /* PrintLogsViewController.m */,
+				A8E1C8DB27CC521E0054EF15 /* PrintLogsViewController.xib */,
+				A8E1C8DE27CC52290054EF15 /* PrintJobStatusViewController.h */,
+				A8E1C8DF27CC52290054EF15 /* PrintJobStatusViewController.m */,
+				A8E1C8E027CC52290054EF15 /* PrintJobStatusViewController.xib */,
+				A8E1C8E327CC523C0054EF15 /* PrintQueuesViewController.h */,
+				A8E1C8E427CC523C0054EF15 /* PrintQueuesViewController.m */,
+				A8E1C8E527CC523C0054EF15 /* PrintQueuesViewController.xib */,
+				A8E1C8E827CC52480054EF15 /* PrintSettingsViewController.h */,
+				A8E1C8E927CC52480054EF15 /* PrintSettingsViewController.m */,
+				A8E1C8EA27CC52480054EF15 /* PrintSettingsViewController.xib */,
 			);
 			path = Print;
 			sourceTree = "<group>";
@@ -1475,7 +1515,9 @@
 				A8E1C7D927C714E30054EF15 /* DnsZonesViewController.xib in Resources */,
 				A8E1C83D27CAB8080054EF15 /* MailLogsViewController.xib in Resources */,
 				A8F9891927BCBE9A00EF772F /* OpenDirectoryViewController.xib in Resources */,
+				A8E1C8E227CC52290054EF15 /* PrintJobStatusViewController.xib in Resources */,
 				A8E1C8B027CB47C50054EF15 /* OpenDirectoryLogsViewController.xib in Resources */,
+				A8E1C8E727CC523D0054EF15 /* PrintQueuesViewController.xib in Resources */,
 				A8E1C80B27CAA7A50054EF15 /* FtpConnectionsViewController.xib in Resources */,
 				A8F9897B27C3610B00EF772F /* AfpLogsViewController.xib in Resources */,
 				A8E1C82E27CAB3A20054EF15 /* iChatLogsViewController.xib in Resources */,
@@ -1485,9 +1527,11 @@
 				A8E1C86A27CACFCE0054EF15 /* MySqlLogsViewController.xib in Resources */,
 				A8E1C86527CACFC50054EF15 /* MySqlOverviewViewController.xib in Resources */,
 				A8E1C7CA27C4A12C0054EF15 /* DhcpSettingsViewController.xib in Resources */,
+				A8E1C8DD27CC521E0054EF15 /* PrintLogsViewController.xib in Resources */,
 				A8F9892827BCBEBA00EF772F /* PushNotificationViewController.xib in Resources */,
 				A8F9894627BCBEF900EF772F /* WebViewController.xib in Resources */,
 				A8E1C81A27CAAF8D0054EF15 /* iCalOverviewViewController.xib in Resources */,
+				A8E1C8D827CC52140054EF15 /* PrintOverviewViewController.xib in Resources */,
 				A8F9892327BCBEB000EF772F /* PrintViewController.xib in Resources */,
 				A8E1C8CE27CB50F10054EF15 /* PodcastProducerWorkflowsViewController.xib in Resources */,
 				A8E1C88D27CB139A0054EF15 /* NetBootClientsViewController.xib in Resources */,
@@ -1560,6 +1604,7 @@
 				A8F9897627C360F700EF772F /* AfpOverviewViewController.xib in Resources */,
 				A8E1C82927CAB3940054EF15 /* iChatOverviewViewController.xib in Resources */,
 				A8F9890527BCBE6C00EF772F /* MobileAccessViewController.xib in Resources */,
+				A8E1C8EC27CC52480054EF15 /* PrintSettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1582,6 +1627,8 @@
 				A8F988A527BCBD0300EF772F /* PodcastProducerModel.m in Sources */,
 				A8E1C86E27CACFDC0054EF15 /* MySqlSettingsViewController.m in Sources */,
 				A8E1C7CE27C714C40054EF15 /* DnsOverviewViewController.m in Sources */,
+				A8E1C8EB27CC52480054EF15 /* PrintSettingsViewController.m in Sources */,
+				A8E1C8E127CC52290054EF15 /* PrintJobStatusViewController.m in Sources */,
 				A8F9888A27BCBC9700EF772F /* iCalModel.m in Sources */,
 				A8F988B727BCBD5E00EF772F /* QuickTimeStreamingModel.m in Sources */,
 				A8F988D727BCBE0400EF772F /* AfpViewController.m in Sources */,
@@ -1591,6 +1638,7 @@
 				A8F9895C27C0191A00EF772F /* ServiceNavigationItem.m in Sources */,
 				A8F9897027C2AB6E00EF772F /* AddressBookSettingsViewController.m in Sources */,
 				A8F988EB27BCBE3900EF772F /* FirewallViewController.m in Sources */,
+				A8E1C8DC27CC521E0054EF15 /* PrintLogsViewController.m in Sources */,
 				A8F9892C27BCBEC700EF772F /* QuickTimeStreamingViewController.m in Sources */,
 				A8F9896227C0B01E00EF772F /* ModuleGraphicalTabs.m in Sources */,
 				A8E1C7C927C4A12C0054EF15 /* DhcpSettingsViewController.m in Sources */,
@@ -1624,6 +1672,7 @@
 				A8E1C7D327C714D00054EF15 /* DnsLogViewController.m in Sources */,
 				A8E1C83727CAB7FF0054EF15 /* MailOverviewViewController.m in Sources */,
 				A8F988AB27BCBD2300EF772F /* DnsModel.m in Sources */,
+				A8E1C8D727CC52140054EF15 /* PrintOverviewViewController.m in Sources */,
 				A8E1C89127CB13A40054EF15 /* NetBootSettingsViewController.m in Sources */,
 				A8F988A227BCBCF800EF772F /* OpenDirectoryModel.m in Sources */,
 				A8E1C7E727C8A42F0054EF15 /* FirewallOverviewViewController.m in Sources */,
@@ -1669,6 +1718,7 @@
 				A8E1C8D227CB50FC0054EF15 /* PodcastProducerSettingsViewController.m in Sources */,
 				A8F9897F27C3611700EF772F /* AfpGraphsViewController.m in Sources */,
 				A8F9894F27BCC57600EF772F /* NfsViewController.m in Sources */,
+				A8E1C8E627CC523D0054EF15 /* PrintQueuesViewController.m in Sources */,
 				A8F9888427BCBC7B00EF772F /* FirewallModel.m in Sources */,
 				A8F9889927BCBCD900EF772F /* NatModel.m in Sources */,
 				A8F9892227BCBEB000EF772F /* PrintViewController.m in Sources */,
