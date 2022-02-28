@@ -157,6 +157,12 @@
 		A8E1C91F27CC972F0054EF15 /* RadiusBaseStationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C91D27CC972F0054EF15 /* RadiusBaseStationsViewController.xib */; };
 		A8E1C92327CC973A0054EF15 /* RadiusSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C92127CC973A0054EF15 /* RadiusSettingsViewController.m */; };
 		A8E1C92427CC973A0054EF15 /* RadiusSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C92227CC973A0054EF15 /* RadiusSettingsViewController.xib */; };
+		A8E1C92827CC9A3B0054EF15 /* XgridOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C92627CC9A3B0054EF15 /* XgridOverviewViewController.m */; };
+		A8E1C92927CC9A3B0054EF15 /* XgridOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C92727CC9A3B0054EF15 /* XgridOverviewViewController.xib */; };
+		A8E1C92D27CC9A450054EF15 /* XgridLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C92B27CC9A450054EF15 /* XgridLogsViewController.m */; };
+		A8E1C92E27CC9A450054EF15 /* XgridLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C92C27CC9A450054EF15 /* XgridLogsViewController.xib */; };
+		A8E1C93227CC9A500054EF15 /* XgridSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C93027CC9A500054EF15 /* XgridSettingsViewController.m */; };
+		A8E1C93327CC9A500054EF15 /* XgridSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C93127CC9A500054EF15 /* XgridSettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -490,6 +496,15 @@
 		A8E1C92027CC973A0054EF15 /* RadiusSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadiusSettingsViewController.h; sourceTree = "<group>"; };
 		A8E1C92127CC973A0054EF15 /* RadiusSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadiusSettingsViewController.m; sourceTree = "<group>"; };
 		A8E1C92227CC973A0054EF15 /* RadiusSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadiusSettingsViewController.xib; sourceTree = "<group>"; };
+		A8E1C92527CC9A3B0054EF15 /* XgridOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XgridOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C92627CC9A3B0054EF15 /* XgridOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XgridOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C92727CC9A3B0054EF15 /* XgridOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XgridOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C92A27CC9A450054EF15 /* XgridLogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XgridLogsViewController.h; sourceTree = "<group>"; };
+		A8E1C92B27CC9A450054EF15 /* XgridLogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XgridLogsViewController.m; sourceTree = "<group>"; };
+		A8E1C92C27CC9A450054EF15 /* XgridLogsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XgridLogsViewController.xib; sourceTree = "<group>"; };
+		A8E1C92F27CC9A500054EF15 /* XgridSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XgridSettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C93027CC9A500054EF15 /* XgridSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XgridSettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C93127CC9A500054EF15 /* XgridSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XgridSettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1287,6 +1302,15 @@
 				A8F9894727BCBF0300EF772F /* XgridViewController.h */,
 				A8F9894827BCBF0300EF772F /* XgridViewController.m */,
 				A8F9894927BCBF0300EF772F /* XgridViewController.xib */,
+				A8E1C92527CC9A3B0054EF15 /* XgridOverviewViewController.h */,
+				A8E1C92627CC9A3B0054EF15 /* XgridOverviewViewController.m */,
+				A8E1C92727CC9A3B0054EF15 /* XgridOverviewViewController.xib */,
+				A8E1C92A27CC9A450054EF15 /* XgridLogsViewController.h */,
+				A8E1C92B27CC9A450054EF15 /* XgridLogsViewController.m */,
+				A8E1C92C27CC9A450054EF15 /* XgridLogsViewController.xib */,
+				A8E1C92F27CC9A500054EF15 /* XgridSettingsViewController.h */,
+				A8E1C93027CC9A500054EF15 /* XgridSettingsViewController.m */,
+				A8E1C93127CC9A500054EF15 /* XgridSettingsViewController.xib */,
 			);
 			path = Xgrid;
 			sourceTree = "<group>";
@@ -1621,11 +1645,13 @@
 				A8E1C8DD27CC521E0054EF15 /* PrintLogsViewController.xib in Resources */,
 				A8F9892827BCBEBA00EF772F /* PushNotificationViewController.xib in Resources */,
 				A8F9894627BCBEF900EF772F /* WebViewController.xib in Resources */,
+				A8E1C92927CC9A3B0054EF15 /* XgridOverviewViewController.xib in Resources */,
 				A8E1C81A27CAAF8D0054EF15 /* iCalOverviewViewController.xib in Resources */,
 				A8E1C8D827CC52140054EF15 /* PrintOverviewViewController.xib in Resources */,
 				A8F9892327BCBEB000EF772F /* PrintViewController.xib in Resources */,
 				A8E1C8CE27CB50F10054EF15 /* PodcastProducerWorkflowsViewController.xib in Resources */,
 				A8E1C90027CC8AF30054EF15 /* QuickTimeStreamingLogsViewController.xib in Resources */,
+				A8E1C92E27CC9A450054EF15 /* XgridLogsViewController.xib in Resources */,
 				A8E1C88D27CB139A0054EF15 /* NetBootClientsViewController.xib in Resources */,
 				A8F988EC27BCBE3900EF772F /* FirewallViewController.xib in Resources */,
 				A8E1C90B27CC8B130054EF15 /* QuickTimeStreamingConnectionsViewController.xib in Resources */,
@@ -1675,6 +1701,7 @@
 				A8F988E227BCBE2200EF772F /* DhcpViewController.xib in Resources */,
 				A8F988D827BCBE0400EF772F /* AfpViewController.xib in Resources */,
 				A8E1C7E327C7150A0054EF15 /* DnsSettingsViewController.xib in Resources */,
+				A8E1C93327CC9A500054EF15 /* XgridSettingsViewController.xib in Resources */,
 				A8F9898027C3611700EF772F /* AfpGraphsViewController.xib in Resources */,
 				A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */,
 				A8F9898A27C3613B00EF772F /* AfpSharePointsViewController.xib in Resources */,
@@ -1735,6 +1762,7 @@
 				A8E1C8FF27CC8AF30054EF15 /* QuickTimeStreamingLogsViewController.m in Sources */,
 				A8F988A827BCBD0F00EF772F /* PrintModel.m in Sources */,
 				A8F9891327BCBE9100EF772F /* NetBootViewController.m in Sources */,
+				A8E1C93227CC9A500054EF15 /* XgridSettingsViewController.m in Sources */,
 				A8F988E127BCBE2200EF772F /* DhcpViewController.m in Sources */,
 				A8F9895C27C0191A00EF772F /* ServiceNavigationItem.m in Sources */,
 				A8F9897027C2AB6E00EF772F /* AddressBookSettingsViewController.m in Sources */,
@@ -1768,6 +1796,7 @@
 				A8E1C7E227C7150A0054EF15 /* DnsSettingsViewController.m in Sources */,
 				A8E1C81E27CAAF980054EF15 /* iCalLogsViewController.m in Sources */,
 				A8F988C927BCBD9100EF772F /* XgridModel.m in Sources */,
+				A8E1C92827CC9A3B0054EF15 /* XgridOverviewViewController.m in Sources */,
 				A8E1C91427CC971A0054EF15 /* RadiusOverviewViewController.m in Sources */,
 				A8E1C8A527CB44840054EF15 /* NfsSettingsViewController.m in Sources */,
 				A8E1C7EC27C8A43C0054EF15 /* FirewallLogViewController.m in Sources */,
@@ -1815,6 +1844,7 @@
 				A8E1C90F27CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.m in Sources */,
 				A8E1C7D827C714E30054EF15 /* DnsZonesViewController.m in Sources */,
 				A8E1C87327CB11BA0054EF15 /* NatOverviewViewController.m in Sources */,
+				A8E1C92D27CC9A450054EF15 /* XgridLogsViewController.m in Sources */,
 				A8F988C027BCBD7700EF772F /* SoftwareUpdateModel.m in Sources */,
 				A8F9894A27BCBF0300EF772F /* XgridViewController.m in Sources */,
 				A8F9889027BCBCAA00EF772F /* MailModel.m in Sources */,
