@@ -149,6 +149,14 @@
 		A8E1C90B27CC8B130054EF15 /* QuickTimeStreamingConnectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C90927CC8B130054EF15 /* QuickTimeStreamingConnectionsViewController.xib */; };
 		A8E1C90F27CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C90D27CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.m */; };
 		A8E1C91027CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C90E27CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.xib */; };
+		A8E1C91427CC971A0054EF15 /* RadiusOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C91227CC971A0054EF15 /* RadiusOverviewViewController.m */; };
+		A8E1C91527CC971A0054EF15 /* RadiusOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C91327CC971A0054EF15 /* RadiusOverviewViewController.xib */; };
+		A8E1C91927CC97240054EF15 /* RadiusLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C91727CC97240054EF15 /* RadiusLogsViewController.m */; };
+		A8E1C91A27CC97240054EF15 /* RadiusLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C91827CC97240054EF15 /* RadiusLogsViewController.xib */; };
+		A8E1C91E27CC972F0054EF15 /* RadiusBaseStationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C91C27CC972F0054EF15 /* RadiusBaseStationsViewController.m */; };
+		A8E1C91F27CC972F0054EF15 /* RadiusBaseStationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C91D27CC972F0054EF15 /* RadiusBaseStationsViewController.xib */; };
+		A8E1C92327CC973A0054EF15 /* RadiusSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C92127CC973A0054EF15 /* RadiusSettingsViewController.m */; };
+		A8E1C92427CC973A0054EF15 /* RadiusSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C92227CC973A0054EF15 /* RadiusSettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -470,6 +478,18 @@
 		A8E1C90C27CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickTimeStreamingSettingsViewController.h; sourceTree = "<group>"; };
 		A8E1C90D27CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickTimeStreamingSettingsViewController.m; sourceTree = "<group>"; };
 		A8E1C90E27CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuickTimeStreamingSettingsViewController.xib; sourceTree = "<group>"; };
+		A8E1C91127CC971A0054EF15 /* RadiusOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadiusOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C91227CC971A0054EF15 /* RadiusOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadiusOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C91327CC971A0054EF15 /* RadiusOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadiusOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C91627CC97240054EF15 /* RadiusLogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadiusLogsViewController.h; sourceTree = "<group>"; };
+		A8E1C91727CC97240054EF15 /* RadiusLogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadiusLogsViewController.m; sourceTree = "<group>"; };
+		A8E1C91827CC97240054EF15 /* RadiusLogsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadiusLogsViewController.xib; sourceTree = "<group>"; };
+		A8E1C91B27CC972F0054EF15 /* RadiusBaseStationsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadiusBaseStationsViewController.h; sourceTree = "<group>"; };
+		A8E1C91C27CC972F0054EF15 /* RadiusBaseStationsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadiusBaseStationsViewController.m; sourceTree = "<group>"; };
+		A8E1C91D27CC972F0054EF15 /* RadiusBaseStationsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadiusBaseStationsViewController.xib; sourceTree = "<group>"; };
+		A8E1C92027CC973A0054EF15 /* RadiusSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadiusSettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C92127CC973A0054EF15 /* RadiusSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadiusSettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C92227CC973A0054EF15 /* RadiusSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadiusSettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1200,6 +1220,18 @@
 				A8F9892E27BCBED100EF772F /* RadiusViewController.h */,
 				A8F9892F27BCBED100EF772F /* RadiusViewController.m */,
 				A8F9893027BCBED100EF772F /* RadiusViewController.xib */,
+				A8E1C91127CC971A0054EF15 /* RadiusOverviewViewController.h */,
+				A8E1C91227CC971A0054EF15 /* RadiusOverviewViewController.m */,
+				A8E1C91327CC971A0054EF15 /* RadiusOverviewViewController.xib */,
+				A8E1C91627CC97240054EF15 /* RadiusLogsViewController.h */,
+				A8E1C91727CC97240054EF15 /* RadiusLogsViewController.m */,
+				A8E1C91827CC97240054EF15 /* RadiusLogsViewController.xib */,
+				A8E1C91B27CC972F0054EF15 /* RadiusBaseStationsViewController.h */,
+				A8E1C91C27CC972F0054EF15 /* RadiusBaseStationsViewController.m */,
+				A8E1C91D27CC972F0054EF15 /* RadiusBaseStationsViewController.xib */,
+				A8E1C92027CC973A0054EF15 /* RadiusSettingsViewController.h */,
+				A8E1C92127CC973A0054EF15 /* RadiusSettingsViewController.m */,
+				A8E1C92227CC973A0054EF15 /* RadiusSettingsViewController.xib */,
 			);
 			path = RADIUS;
 			sourceTree = "<group>";
@@ -1579,6 +1611,7 @@
 				A8F9897B27C3610B00EF772F /* AfpLogsViewController.xib in Resources */,
 				A8E1C8F127CC58D90054EF15 /* PushNotificationOverviewViewController.xib in Resources */,
 				A8E1C82E27CAB3A20054EF15 /* iChatLogsViewController.xib in Resources */,
+				A8E1C91A27CC97240054EF15 /* RadiusLogsViewController.xib in Resources */,
 				A8E1C7B127C4A0EE0054EF15 /* DhcpOverviewViewController.xib in Resources */,
 				A8F9898527C3612A00EF772F /* AfpConnectionsViewController.xib in Resources */,
 				A8E1C85B27CACB230054EF15 /* MobileAccessAccessViewController.xib in Resources */,
@@ -1605,6 +1638,7 @@
 				A8E1C7C027C4A1140054EF15 /* DhcpSubnetsViewController.xib in Resources */,
 				A8F9898F27C3614A00EF772F /* AfpSettingsViewController.xib in Resources */,
 				A8F9893227BCBED100EF772F /* RadiusViewController.xib in Resources */,
+				A8E1C91527CC971A0054EF15 /* RadiusOverviewViewController.xib in Resources */,
 				A8E1C82427CAAFA30054EF15 /* iCalSettingsViewController.xib in Resources */,
 				A8F988DD27BCBE1700EF772F /* AddressBookViewController.xib in Resources */,
 				A8E1C8C427CB50DB0054EF15 /* PodcastProducerLogsViewController.xib in Resources */,
@@ -1649,11 +1683,13 @@
 				A8E1C84727CAB81F0054EF15 /* MailMaintenanceViewController.xib in Resources */,
 				A8E1C81527CAA7BA0054EF15 /* FtpSettingsViewController.xib in Resources */,
 				A8E1C7F727C8A45D0054EF15 /* FirewallSettingsViewController.xib in Resources */,
+				A8E1C91F27CC972F0054EF15 /* RadiusBaseStationsViewController.xib in Resources */,
 				A8F9895027BCC57600EF772F /* NfsViewController.xib in Resources */,
 				A8F9897127C2AB6E00EF772F /* AddressBookSettingsViewController.xib in Resources */,
 				A8E1C8A127CB44770054EF15 /* NfsSharePointsViewController.xib in Resources */,
 				A8F9894B27BCBF0300EF772F /* XgridViewController.xib in Resources */,
 				A8E1C89C27CB446C0054EF15 /* NfsConnectionsViewController.xib in Resources */,
+				A8E1C92427CC973A0054EF15 /* RadiusSettingsViewController.xib in Resources */,
 				A8F9896C27C2AB6100EF772F /* AddressBookLogsViewController.xib in Resources */,
 				A8E1C86F27CACFDC0054EF15 /* MySqlSettingsViewController.xib in Resources */,
 				A8E1C85627CACB190054EF15 /* MobileAccessLogsViewController.xib in Resources */,
@@ -1689,6 +1725,7 @@
 				A8E1C80F27CAA7B00054EF15 /* FtpSharePointsViewController.m in Sources */,
 				A8F988A527BCBD0300EF772F /* PodcastProducerModel.m in Sources */,
 				A8E1C86E27CACFDC0054EF15 /* MySqlSettingsViewController.m in Sources */,
+				A8E1C92327CC973A0054EF15 /* RadiusSettingsViewController.m in Sources */,
 				A8E1C7CE27C714C40054EF15 /* DnsOverviewViewController.m in Sources */,
 				A8E1C8EB27CC52480054EF15 /* PrintSettingsViewController.m in Sources */,
 				A8E1C8E127CC52290054EF15 /* PrintJobStatusViewController.m in Sources */,
@@ -1715,6 +1752,7 @@
 				A8E1C8C327CB50DB0054EF15 /* PodcastProducerLogsViewController.m in Sources */,
 				A8E1C8B927CB47DC0054EF15 /* OpenDirectorySettingsViewController.m in Sources */,
 				A8F9893127BCBED100EF772F /* RadiusViewController.m in Sources */,
+				A8E1C91927CC97240054EF15 /* RadiusLogsViewController.m in Sources */,
 				A8F9890427BCBE6C00EF772F /* MobileAccessViewController.m in Sources */,
 				A8E1C8C827CB50E60054EF15 /* PodcastProducerCamerasViewController.m in Sources */,
 				A8E1C80527CAA7970054EF15 /* FtpGraphsViewController.m in Sources */,
@@ -1730,6 +1768,7 @@
 				A8E1C7E227C7150A0054EF15 /* DnsSettingsViewController.m in Sources */,
 				A8E1C81E27CAAF980054EF15 /* iCalLogsViewController.m in Sources */,
 				A8F988C927BCBD9100EF772F /* XgridModel.m in Sources */,
+				A8E1C91427CC971A0054EF15 /* RadiusOverviewViewController.m in Sources */,
 				A8E1C8A527CB44840054EF15 /* NfsSettingsViewController.m in Sources */,
 				A8E1C7EC27C8A43C0054EF15 /* FirewallLogViewController.m in Sources */,
 				A8F988F527BCBE5000EF772F /* iCalViewController.m in Sources */,
@@ -1806,6 +1845,7 @@
 				A8F9894027BCBEF100EF772F /* VpnViewController.m in Sources */,
 				A8F9883E27BCBA5F00EF772F /* ServerModel.m in Sources */,
 				A8F9889F27BCBCED00EF772F /* NfsModel.m in Sources */,
+				A8E1C91E27CC972F0054EF15 /* RadiusBaseStationsViewController.m in Sources */,
 				A8F988BD27BCBD6E00EF772F /* SmbModel.m in Sources */,
 				A8E1C8B427CB47D10054EF15 /* OpenDirectoryArchiveViewController.m in Sources */,
 				A8F9898E27C3614A00EF772F /* AfpSettingsViewController.m in Sources */,
