@@ -135,6 +135,10 @@
 		A8E1C8E727CC523D0054EF15 /* PrintQueuesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8E527CC523C0054EF15 /* PrintQueuesViewController.xib */; };
 		A8E1C8EB27CC52480054EF15 /* PrintSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8E927CC52480054EF15 /* PrintSettingsViewController.m */; };
 		A8E1C8EC27CC52480054EF15 /* PrintSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8EA27CC52480054EF15 /* PrintSettingsViewController.xib */; };
+		A8E1C8F027CC58D90054EF15 /* PushNotificationOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8EE27CC58D90054EF15 /* PushNotificationOverviewViewController.m */; };
+		A8E1C8F127CC58D90054EF15 /* PushNotificationOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8EF27CC58D90054EF15 /* PushNotificationOverviewViewController.xib */; };
+		A8E1C8F527CC58E50054EF15 /* PushNotificationLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8F327CC58E50054EF15 /* PushNotificationLogsViewController.m */; };
+		A8E1C8F627CC58E50054EF15 /* PushNotificationLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8F427CC58E50054EF15 /* PushNotificationLogsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -435,6 +439,12 @@
 		A8E1C8E827CC52480054EF15 /* PrintSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintSettingsViewController.h; sourceTree = "<group>"; };
 		A8E1C8E927CC52480054EF15 /* PrintSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintSettingsViewController.m; sourceTree = "<group>"; };
 		A8E1C8EA27CC52480054EF15 /* PrintSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrintSettingsViewController.xib; sourceTree = "<group>"; };
+		A8E1C8ED27CC58D90054EF15 /* PushNotificationOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNotificationOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C8EE27CC58D90054EF15 /* PushNotificationOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushNotificationOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C8EF27CC58D90054EF15 /* PushNotificationOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PushNotificationOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C8F227CC58E50054EF15 /* PushNotificationLogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNotificationLogsViewController.h; sourceTree = "<group>"; };
+		A8E1C8F327CC58E50054EF15 /* PushNotificationLogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushNotificationLogsViewController.m; sourceTree = "<group>"; };
+		A8E1C8F427CC58E50054EF15 /* PushNotificationLogsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PushNotificationLogsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1122,6 +1132,12 @@
 				A8F9892427BCBEBA00EF772F /* PushNotificationViewController.h */,
 				A8F9892527BCBEBA00EF772F /* PushNotificationViewController.m */,
 				A8F9892627BCBEBA00EF772F /* PushNotificationViewController.xib */,
+				A8E1C8ED27CC58D90054EF15 /* PushNotificationOverviewViewController.h */,
+				A8E1C8EE27CC58D90054EF15 /* PushNotificationOverviewViewController.m */,
+				A8E1C8EF27CC58D90054EF15 /* PushNotificationOverviewViewController.xib */,
+				A8E1C8F227CC58E50054EF15 /* PushNotificationLogsViewController.h */,
+				A8E1C8F327CC58E50054EF15 /* PushNotificationLogsViewController.m */,
+				A8E1C8F427CC58E50054EF15 /* PushNotificationLogsViewController.xib */,
 			);
 			path = PushNotification;
 			sourceTree = "<group>";
@@ -1505,6 +1521,7 @@
 			files = (
 				A8E1C7DE27C714F60054EF15 /* DnsBonjourViewController.xib in Resources */,
 				A8E1C80127CAA78C0054EF15 /* FtpLogViewController.xib in Resources */,
+				A8E1C8F627CC58E50054EF15 /* PushNotificationLogsViewController.xib in Resources */,
 				A8E1C8AB27CB47BA0054EF15 /* OpenDirectoryOverviewViewController.xib in Resources */,
 				A8E1C8BA27CB47DC0054EF15 /* OpenDirectorySettingsViewController.xib in Resources */,
 				A8F9895E27C0AAC000EF772F /* ModuleGraphicalTabs.xib in Resources */,
@@ -1520,6 +1537,7 @@
 				A8E1C8E727CC523D0054EF15 /* PrintQueuesViewController.xib in Resources */,
 				A8E1C80B27CAA7A50054EF15 /* FtpConnectionsViewController.xib in Resources */,
 				A8F9897B27C3610B00EF772F /* AfpLogsViewController.xib in Resources */,
+				A8E1C8F127CC58D90054EF15 /* PushNotificationOverviewViewController.xib in Resources */,
 				A8E1C82E27CAB3A20054EF15 /* iChatLogsViewController.xib in Resources */,
 				A8E1C7B127C4A0EE0054EF15 /* DhcpOverviewViewController.xib in Resources */,
 				A8F9898527C3612A00EF772F /* AfpConnectionsViewController.xib in Resources */,
@@ -1687,6 +1705,7 @@
 				A8F9889327BCBCB500EF772F /* MobileAccessModel.m in Sources */,
 				A8E1C89B27CB446C0054EF15 /* NfsConnectionsViewController.m in Sources */,
 				A8E1C8AF27CB47C50054EF15 /* OpenDirectoryLogsViewController.m in Sources */,
+				A8E1C8F527CC58E50054EF15 /* PushNotificationLogsViewController.m in Sources */,
 				A8F9896B27C2AB6100EF772F /* AddressBookLogsViewController.m in Sources */,
 				A8F988FA27BCBE5900EF772F /* iChatViewController.m in Sources */,
 				A8F9898427C3612A00EF772F /* AfpConnectionsViewController.m in Sources */,
@@ -1719,6 +1738,7 @@
 				A8F9897F27C3611700EF772F /* AfpGraphsViewController.m in Sources */,
 				A8F9894F27BCC57600EF772F /* NfsViewController.m in Sources */,
 				A8E1C8E627CC523D0054EF15 /* PrintQueuesViewController.m in Sources */,
+				A8E1C8F027CC58D90054EF15 /* PushNotificationOverviewViewController.m in Sources */,
 				A8F9888427BCBC7B00EF772F /* FirewallModel.m in Sources */,
 				A8F9889927BCBCD900EF772F /* NatModel.m in Sources */,
 				A8F9892227BCBEB000EF772F /* PrintViewController.m in Sources */,
