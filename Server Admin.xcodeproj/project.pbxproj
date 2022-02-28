@@ -139,6 +139,16 @@
 		A8E1C8F127CC58D90054EF15 /* PushNotificationOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8EF27CC58D90054EF15 /* PushNotificationOverviewViewController.xib */; };
 		A8E1C8F527CC58E50054EF15 /* PushNotificationLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8F327CC58E50054EF15 /* PushNotificationLogsViewController.m */; };
 		A8E1C8F627CC58E50054EF15 /* PushNotificationLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8F427CC58E50054EF15 /* PushNotificationLogsViewController.xib */; };
+		A8E1C8FA27CC8A060054EF15 /* QuickTimeStreamingOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8F827CC8A060054EF15 /* QuickTimeStreamingOverviewViewController.m */; };
+		A8E1C8FB27CC8A060054EF15 /* QuickTimeStreamingOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8F927CC8A060054EF15 /* QuickTimeStreamingOverviewViewController.xib */; };
+		A8E1C8FF27CC8AF30054EF15 /* QuickTimeStreamingLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C8FD27CC8AF30054EF15 /* QuickTimeStreamingLogsViewController.m */; };
+		A8E1C90027CC8AF30054EF15 /* QuickTimeStreamingLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C8FE27CC8AF30054EF15 /* QuickTimeStreamingLogsViewController.xib */; };
+		A8E1C90527CC8B030054EF15 /* QuickTimeStreamingGraphsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C90327CC8B030054EF15 /* QuickTimeStreamingGraphsViewController.m */; };
+		A8E1C90627CC8B030054EF15 /* QuickTimeStreamingGraphsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C90427CC8B030054EF15 /* QuickTimeStreamingGraphsViewController.xib */; };
+		A8E1C90A27CC8B130054EF15 /* QuickTimeStreamingConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C90827CC8B130054EF15 /* QuickTimeStreamingConnectionsViewController.m */; };
+		A8E1C90B27CC8B130054EF15 /* QuickTimeStreamingConnectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C90927CC8B130054EF15 /* QuickTimeStreamingConnectionsViewController.xib */; };
+		A8E1C90F27CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C90D27CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.m */; };
+		A8E1C91027CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C90E27CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -445,6 +455,21 @@
 		A8E1C8F227CC58E50054EF15 /* PushNotificationLogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushNotificationLogsViewController.h; sourceTree = "<group>"; };
 		A8E1C8F327CC58E50054EF15 /* PushNotificationLogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushNotificationLogsViewController.m; sourceTree = "<group>"; };
 		A8E1C8F427CC58E50054EF15 /* PushNotificationLogsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PushNotificationLogsViewController.xib; sourceTree = "<group>"; };
+		A8E1C8F727CC8A060054EF15 /* QuickTimeStreamingOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickTimeStreamingOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C8F827CC8A060054EF15 /* QuickTimeStreamingOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickTimeStreamingOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C8F927CC8A060054EF15 /* QuickTimeStreamingOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuickTimeStreamingOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C8FC27CC8AF30054EF15 /* QuickTimeStreamingLogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickTimeStreamingLogsViewController.h; sourceTree = "<group>"; };
+		A8E1C8FD27CC8AF30054EF15 /* QuickTimeStreamingLogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickTimeStreamingLogsViewController.m; sourceTree = "<group>"; };
+		A8E1C8FE27CC8AF30054EF15 /* QuickTimeStreamingLogsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuickTimeStreamingLogsViewController.xib; sourceTree = "<group>"; };
+		A8E1C90227CC8B030054EF15 /* QuickTimeStreamingGraphsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickTimeStreamingGraphsViewController.h; sourceTree = "<group>"; };
+		A8E1C90327CC8B030054EF15 /* QuickTimeStreamingGraphsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickTimeStreamingGraphsViewController.m; sourceTree = "<group>"; };
+		A8E1C90427CC8B030054EF15 /* QuickTimeStreamingGraphsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuickTimeStreamingGraphsViewController.xib; sourceTree = "<group>"; };
+		A8E1C90727CC8B130054EF15 /* QuickTimeStreamingConnectionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickTimeStreamingConnectionsViewController.h; sourceTree = "<group>"; };
+		A8E1C90827CC8B130054EF15 /* QuickTimeStreamingConnectionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickTimeStreamingConnectionsViewController.m; sourceTree = "<group>"; };
+		A8E1C90927CC8B130054EF15 /* QuickTimeStreamingConnectionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuickTimeStreamingConnectionsViewController.xib; sourceTree = "<group>"; };
+		A8E1C90C27CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickTimeStreamingSettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C90D27CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickTimeStreamingSettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C90E27CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuickTimeStreamingSettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1149,6 +1174,21 @@
 				A8F9892927BCBEC700EF772F /* QuickTimeStreamingViewController.h */,
 				A8F9892A27BCBEC700EF772F /* QuickTimeStreamingViewController.m */,
 				A8F9892B27BCBEC700EF772F /* QuickTimeStreamingViewController.xib */,
+				A8E1C8F727CC8A060054EF15 /* QuickTimeStreamingOverviewViewController.h */,
+				A8E1C8F827CC8A060054EF15 /* QuickTimeStreamingOverviewViewController.m */,
+				A8E1C8F927CC8A060054EF15 /* QuickTimeStreamingOverviewViewController.xib */,
+				A8E1C8FC27CC8AF30054EF15 /* QuickTimeStreamingLogsViewController.h */,
+				A8E1C8FD27CC8AF30054EF15 /* QuickTimeStreamingLogsViewController.m */,
+				A8E1C8FE27CC8AF30054EF15 /* QuickTimeStreamingLogsViewController.xib */,
+				A8E1C90227CC8B030054EF15 /* QuickTimeStreamingGraphsViewController.h */,
+				A8E1C90327CC8B030054EF15 /* QuickTimeStreamingGraphsViewController.m */,
+				A8E1C90427CC8B030054EF15 /* QuickTimeStreamingGraphsViewController.xib */,
+				A8E1C90727CC8B130054EF15 /* QuickTimeStreamingConnectionsViewController.h */,
+				A8E1C90827CC8B130054EF15 /* QuickTimeStreamingConnectionsViewController.m */,
+				A8E1C90927CC8B130054EF15 /* QuickTimeStreamingConnectionsViewController.xib */,
+				A8E1C90C27CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.h */,
+				A8E1C90D27CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.m */,
+				A8E1C90E27CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.xib */,
 			);
 			path = QuickTimeStreaming;
 			sourceTree = "<group>";
@@ -1552,12 +1592,15 @@
 				A8E1C8D827CC52140054EF15 /* PrintOverviewViewController.xib in Resources */,
 				A8F9892327BCBEB000EF772F /* PrintViewController.xib in Resources */,
 				A8E1C8CE27CB50F10054EF15 /* PodcastProducerWorkflowsViewController.xib in Resources */,
+				A8E1C90027CC8AF30054EF15 /* QuickTimeStreamingLogsViewController.xib in Resources */,
 				A8E1C88D27CB139A0054EF15 /* NetBootClientsViewController.xib in Resources */,
 				A8F988EC27BCBE3900EF772F /* FirewallViewController.xib in Resources */,
+				A8E1C90B27CC8B130054EF15 /* QuickTimeStreamingConnectionsViewController.xib in Resources */,
 				A8E1C7B627C4A0FB0054EF15 /* DhcpLogViewController.xib in Resources */,
 				A8F9890027BCBE6200EF772F /* MailViewController.xib in Resources */,
 				A8F988F627BCBE5000EF772F /* iCalViewController.xib in Resources */,
 				A8E1C7BB27C4A1060054EF15 /* DhcpClientsViewController.xib in Resources */,
+				A8E1C8FB27CC8A060054EF15 /* QuickTimeStreamingOverviewViewController.xib in Resources */,
 				A8E1C88827CB13910054EF15 /* NetBootConnectionsViewController.xib in Resources */,
 				A8E1C7C027C4A1140054EF15 /* DhcpSubnetsViewController.xib in Resources */,
 				A8F9898F27C3614A00EF772F /* AfpSettingsViewController.xib in Resources */,
@@ -1565,6 +1608,7 @@
 				A8E1C82427CAAFA30054EF15 /* iCalSettingsViewController.xib in Resources */,
 				A8F988DD27BCBE1700EF772F /* AddressBookViewController.xib in Resources */,
 				A8E1C8C427CB50DB0054EF15 /* PodcastProducerLogsViewController.xib in Resources */,
+				A8E1C91027CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.xib in Resources */,
 				A8E1C7E827C8A42F0054EF15 /* FirewallOverviewViewController.xib in Resources */,
 				A8E1C83327CAB3AC0054EF15 /* iChatSettingsViewController.xib in Resources */,
 				A8E1C7D427C714D00054EF15 /* DnsLogViewController.xib in Resources */,
@@ -1576,6 +1620,7 @@
 				A8E1C89727CB445E0054EF15 /* NfsOverviewViewController.xib in Resources */,
 				A8F9891E27BCBEA500EF772F /* PodcastProducerViewController.xib in Resources */,
 				A8F9891427BCBE9100EF772F /* NetBootViewController.xib in Resources */,
+				A8E1C90627CC8B030054EF15 /* QuickTimeStreamingGraphsViewController.xib in Resources */,
 				A8E1C8C927CB50E60054EF15 /* PodcastProducerCamerasViewController.xib in Resources */,
 				A8E1C87E27CB137A0054EF15 /* NetBootOverviewViewController.xib in Resources */,
 				A8E1C7C527C4A1210054EF15 /* DhcpStaticMapsViewController.xib in Resources */,
@@ -1650,6 +1695,7 @@
 				A8F9888A27BCBC9700EF772F /* iCalModel.m in Sources */,
 				A8F988B727BCBD5E00EF772F /* QuickTimeStreamingModel.m in Sources */,
 				A8F988D727BCBE0400EF772F /* AfpViewController.m in Sources */,
+				A8E1C8FF27CC8AF30054EF15 /* QuickTimeStreamingLogsViewController.m in Sources */,
 				A8F988A827BCBD0F00EF772F /* PrintModel.m in Sources */,
 				A8F9891327BCBE9100EF772F /* NetBootViewController.m in Sources */,
 				A8F988E127BCBE2200EF772F /* DhcpViewController.m in Sources */,
@@ -1700,6 +1746,7 @@
 				A8E1C8A027CB44770054EF15 /* NfsSharePointsViewController.m in Sources */,
 				A8F9888727BCBC8C00EF772F /* FtpModel.m in Sources */,
 				A8E1C7B027C4A0EE0054EF15 /* DhcpOverviewViewController.m in Sources */,
+				A8E1C90A27CC8B130054EF15 /* QuickTimeStreamingConnectionsViewController.m in Sources */,
 				A8E1C82827CAB3940054EF15 /* iChatOverviewViewController.m in Sources */,
 				A8F988C627BCBD8600EF772F /* WebModel.m in Sources */,
 				A8F9889327BCBCB500EF772F /* MobileAccessModel.m in Sources */,
@@ -1709,6 +1756,7 @@
 				A8F9896B27C2AB6100EF772F /* AddressBookLogsViewController.m in Sources */,
 				A8F988FA27BCBE5900EF772F /* iChatViewController.m in Sources */,
 				A8F9898427C3612A00EF772F /* AfpConnectionsViewController.m in Sources */,
+				A8E1C90527CC8B030054EF15 /* QuickTimeStreamingGraphsViewController.m in Sources */,
 				A8E1C7F127C8A44E0054EF15 /* FirewallActiveRulesViewController.m in Sources */,
 				A8E1C7FB27CAA7810054EF15 /* FtpOverviewViewController.m in Sources */,
 				A8F9894527BCBEF900EF772F /* WebViewController.m in Sources */,
@@ -1725,6 +1773,7 @@
 				A8E1C87827CB11C40054EF15 /* NatSettingsViewController.m in Sources */,
 				A8F988CD27BCBDEC00EF772F /* InformationViewController.m in Sources */,
 				A8F9891D27BCBEA500EF772F /* PodcastProducerViewController.m in Sources */,
+				A8E1C90F27CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.m in Sources */,
 				A8E1C7D827C714E30054EF15 /* DnsZonesViewController.m in Sources */,
 				A8E1C87327CB11BA0054EF15 /* NatOverviewViewController.m in Sources */,
 				A8F988C027BCBD7700EF772F /* SoftwareUpdateModel.m in Sources */,
@@ -1752,6 +1801,7 @@
 				A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */,
 				A8F9893B27BCBEE500EF772F /* SoftwareUpdateViewController.m in Sources */,
 				A8F9888D27BCBC9F00EF772F /* iChatModel.m in Sources */,
+				A8E1C8FA27CC8A060054EF15 /* QuickTimeStreamingOverviewViewController.m in Sources */,
 				A8E1C85F27CACB340054EF15 /* MobileAccessSettingsViewController.m in Sources */,
 				A8F9894027BCBEF100EF772F /* VpnViewController.m in Sources */,
 				A8F9883E27BCBA5F00EF772F /* ServerModel.m in Sources */,
