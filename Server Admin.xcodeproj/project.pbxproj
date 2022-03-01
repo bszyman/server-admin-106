@@ -163,6 +163,18 @@
 		A8E1C92E27CC9A450054EF15 /* XgridLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C92C27CC9A450054EF15 /* XgridLogsViewController.xib */; };
 		A8E1C93227CC9A500054EF15 /* XgridSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C93027CC9A500054EF15 /* XgridSettingsViewController.m */; };
 		A8E1C93327CC9A500054EF15 /* XgridSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C93127CC9A500054EF15 /* XgridSettingsViewController.xib */; };
+		A8E1C93727CDDAB00054EF15 /* SmbOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C93527CDDAB00054EF15 /* SmbOverviewViewController.m */; };
+		A8E1C93827CDDAB00054EF15 /* SmbOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C93627CDDAB00054EF15 /* SmbOverviewViewController.xib */; };
+		A8E1C93C27CDDAC00054EF15 /* SmbLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C93A27CDDAC00054EF15 /* SmbLogsViewController.m */; };
+		A8E1C93D27CDDAC00054EF15 /* SmbLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C93B27CDDAC00054EF15 /* SmbLogsViewController.xib */; };
+		A8E1C94127CDDACC0054EF15 /* SmbGraphsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C93F27CDDACC0054EF15 /* SmbGraphsViewController.m */; };
+		A8E1C94227CDDACC0054EF15 /* SmbGraphsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C94027CDDACC0054EF15 /* SmbGraphsViewController.xib */; };
+		A8E1C94627CDDADE0054EF15 /* SmbConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C94427CDDADE0054EF15 /* SmbConnectionsViewController.m */; };
+		A8E1C94727CDDADE0054EF15 /* SmbConnectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C94527CDDADE0054EF15 /* SmbConnectionsViewController.xib */; };
+		A8E1C94C27CDDAF30054EF15 /* SmbSharePointsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C94A27CDDAF30054EF15 /* SmbSharePointsViewController.m */; };
+		A8E1C94D27CDDAF30054EF15 /* SmbSharePointsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C94B27CDDAF30054EF15 /* SmbSharePointsViewController.xib */; };
+		A8E1C95127CDDAFF0054EF15 /* SmbSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C94F27CDDAFF0054EF15 /* SmbSettingsViewController.m */; };
+		A8E1C95227CDDAFF0054EF15 /* SmbSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C95027CDDAFF0054EF15 /* SmbSettingsViewController.xib */; };
 		A8F9882D27BCB6FB00EF772F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F9882C27BCB6FB00EF772F /* AppDelegate.m */; };
 		A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F9882E27BCB6FC00EF772F /* Assets.xcassets */; };
 		A8F9883227BCB6FC00EF772F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F9883027BCB6FC00EF772F /* MainMenu.xib */; };
@@ -505,6 +517,24 @@
 		A8E1C92F27CC9A500054EF15 /* XgridSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XgridSettingsViewController.h; sourceTree = "<group>"; };
 		A8E1C93027CC9A500054EF15 /* XgridSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XgridSettingsViewController.m; sourceTree = "<group>"; };
 		A8E1C93127CC9A500054EF15 /* XgridSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XgridSettingsViewController.xib; sourceTree = "<group>"; };
+		A8E1C93427CDDAB00054EF15 /* SmbOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmbOverviewViewController.h; sourceTree = "<group>"; };
+		A8E1C93527CDDAB00054EF15 /* SmbOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmbOverviewViewController.m; sourceTree = "<group>"; };
+		A8E1C93627CDDAB00054EF15 /* SmbOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmbOverviewViewController.xib; sourceTree = "<group>"; };
+		A8E1C93927CDDAC00054EF15 /* SmbLogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmbLogsViewController.h; sourceTree = "<group>"; };
+		A8E1C93A27CDDAC00054EF15 /* SmbLogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmbLogsViewController.m; sourceTree = "<group>"; };
+		A8E1C93B27CDDAC00054EF15 /* SmbLogsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmbLogsViewController.xib; sourceTree = "<group>"; };
+		A8E1C93E27CDDACC0054EF15 /* SmbGraphsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmbGraphsViewController.h; sourceTree = "<group>"; };
+		A8E1C93F27CDDACC0054EF15 /* SmbGraphsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmbGraphsViewController.m; sourceTree = "<group>"; };
+		A8E1C94027CDDACC0054EF15 /* SmbGraphsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmbGraphsViewController.xib; sourceTree = "<group>"; };
+		A8E1C94327CDDADE0054EF15 /* SmbConnectionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmbConnectionsViewController.h; sourceTree = "<group>"; };
+		A8E1C94427CDDADE0054EF15 /* SmbConnectionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmbConnectionsViewController.m; sourceTree = "<group>"; };
+		A8E1C94527CDDADE0054EF15 /* SmbConnectionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmbConnectionsViewController.xib; sourceTree = "<group>"; };
+		A8E1C94927CDDAF30054EF15 /* SmbSharePointsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmbSharePointsViewController.h; sourceTree = "<group>"; };
+		A8E1C94A27CDDAF30054EF15 /* SmbSharePointsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmbSharePointsViewController.m; sourceTree = "<group>"; };
+		A8E1C94B27CDDAF30054EF15 /* SmbSharePointsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmbSharePointsViewController.xib; sourceTree = "<group>"; };
+		A8E1C94E27CDDAFF0054EF15 /* SmbSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmbSettingsViewController.h; sourceTree = "<group>"; };
+		A8E1C94F27CDDAFF0054EF15 /* SmbSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmbSettingsViewController.m; sourceTree = "<group>"; };
+		A8E1C95027CDDAFF0054EF15 /* SmbSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmbSettingsViewController.xib; sourceTree = "<group>"; };
 		A8F9882827BCB6FB00EF772F /* Server Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Server Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9882B27BCB6FB00EF772F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8F9882C27BCB6FB00EF772F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1258,6 +1288,24 @@
 				A8F9893327BCBEDB00EF772F /* SmbViewController.h */,
 				A8F9893427BCBEDB00EF772F /* SmbViewController.m */,
 				A8F9893527BCBEDB00EF772F /* SmbViewController.xib */,
+				A8E1C93427CDDAB00054EF15 /* SmbOverviewViewController.h */,
+				A8E1C93527CDDAB00054EF15 /* SmbOverviewViewController.m */,
+				A8E1C93627CDDAB00054EF15 /* SmbOverviewViewController.xib */,
+				A8E1C93927CDDAC00054EF15 /* SmbLogsViewController.h */,
+				A8E1C93A27CDDAC00054EF15 /* SmbLogsViewController.m */,
+				A8E1C93B27CDDAC00054EF15 /* SmbLogsViewController.xib */,
+				A8E1C93E27CDDACC0054EF15 /* SmbGraphsViewController.h */,
+				A8E1C93F27CDDACC0054EF15 /* SmbGraphsViewController.m */,
+				A8E1C94027CDDACC0054EF15 /* SmbGraphsViewController.xib */,
+				A8E1C94327CDDADE0054EF15 /* SmbConnectionsViewController.h */,
+				A8E1C94427CDDADE0054EF15 /* SmbConnectionsViewController.m */,
+				A8E1C94527CDDADE0054EF15 /* SmbConnectionsViewController.xib */,
+				A8E1C94927CDDAF30054EF15 /* SmbSharePointsViewController.h */,
+				A8E1C94A27CDDAF30054EF15 /* SmbSharePointsViewController.m */,
+				A8E1C94B27CDDAF30054EF15 /* SmbSharePointsViewController.xib */,
+				A8E1C94E27CDDAFF0054EF15 /* SmbSettingsViewController.h */,
+				A8E1C94F27CDDAFF0054EF15 /* SmbSettingsViewController.m */,
+				A8E1C95027CDDAFF0054EF15 /* SmbSettingsViewController.xib */,
 			);
 			path = SMB;
 			sourceTree = "<group>";
@@ -1619,6 +1667,7 @@
 				A8E1C80127CAA78C0054EF15 /* FtpLogViewController.xib in Resources */,
 				A8E1C8F627CC58E50054EF15 /* PushNotificationLogsViewController.xib in Resources */,
 				A8E1C8AB27CB47BA0054EF15 /* OpenDirectoryOverviewViewController.xib in Resources */,
+				A8E1C93D27CDDAC00054EF15 /* SmbLogsViewController.xib in Resources */,
 				A8E1C8BA27CB47DC0054EF15 /* OpenDirectorySettingsViewController.xib in Resources */,
 				A8F9895E27C0AAC000EF772F /* ModuleGraphicalTabs.xib in Resources */,
 				A8E1C89227CB13A40054EF15 /* NetBootSettingsViewController.xib in Resources */,
@@ -1646,6 +1695,7 @@
 				A8F9892827BCBEBA00EF772F /* PushNotificationViewController.xib in Resources */,
 				A8F9894627BCBEF900EF772F /* WebViewController.xib in Resources */,
 				A8E1C92927CC9A3B0054EF15 /* XgridOverviewViewController.xib in Resources */,
+				A8E1C94D27CDDAF30054EF15 /* SmbSharePointsViewController.xib in Resources */,
 				A8E1C81A27CAAF8D0054EF15 /* iCalOverviewViewController.xib in Resources */,
 				A8E1C8D827CC52140054EF15 /* PrintOverviewViewController.xib in Resources */,
 				A8F9892327BCBEB000EF772F /* PrintViewController.xib in Resources */,
@@ -1667,6 +1717,7 @@
 				A8E1C91527CC971A0054EF15 /* RadiusOverviewViewController.xib in Resources */,
 				A8E1C82427CAAFA30054EF15 /* iCalSettingsViewController.xib in Resources */,
 				A8F988DD27BCBE1700EF772F /* AddressBookViewController.xib in Resources */,
+				A8E1C95227CDDAFF0054EF15 /* SmbSettingsViewController.xib in Resources */,
 				A8E1C8C427CB50DB0054EF15 /* PodcastProducerLogsViewController.xib in Resources */,
 				A8E1C91027CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.xib in Resources */,
 				A8E1C7E827C8A42F0054EF15 /* FirewallOverviewViewController.xib in Resources */,
@@ -1697,6 +1748,7 @@
 				A8F988FB27BCBE5900EF772F /* iChatViewController.xib in Resources */,
 				A8F988E727BCBE2F00EF772F /* DnsViewController.xib in Resources */,
 				A8F9892D27BCBEC700EF772F /* QuickTimeStreamingViewController.xib in Resources */,
+				A8E1C94227CDDACC0054EF15 /* SmbGraphsViewController.xib in Resources */,
 				A8E1C83827CAB7FF0054EF15 /* MailOverviewViewController.xib in Resources */,
 				A8F988E227BCBE2200EF772F /* DhcpViewController.xib in Resources */,
 				A8F988D827BCBE0400EF772F /* AfpViewController.xib in Resources */,
@@ -1715,6 +1767,7 @@
 				A8F9897127C2AB6E00EF772F /* AddressBookSettingsViewController.xib in Resources */,
 				A8E1C8A127CB44770054EF15 /* NfsSharePointsViewController.xib in Resources */,
 				A8F9894B27BCBF0300EF772F /* XgridViewController.xib in Resources */,
+				A8E1C93827CDDAB00054EF15 /* SmbOverviewViewController.xib in Resources */,
 				A8E1C89C27CB446C0054EF15 /* NfsConnectionsViewController.xib in Resources */,
 				A8E1C92427CC973A0054EF15 /* RadiusSettingsViewController.xib in Resources */,
 				A8F9896C27C2AB6100EF772F /* AddressBookLogsViewController.xib in Resources */,
@@ -1726,6 +1779,7 @@
 				A8F9890A27BCBE7800EF772F /* MySqlViewController.xib in Resources */,
 				A8F9893C27BCBEE500EF772F /* SoftwareUpdateViewController.xib in Resources */,
 				A8F988CE27BCBDEC00EF772F /* InformationViewController.xib in Resources */,
+				A8E1C94727CDDADE0054EF15 /* SmbConnectionsViewController.xib in Resources */,
 				A8F9890F27BCBE8300EF772F /* NatViewController.xib in Resources */,
 				A8F9897627C360F700EF772F /* AfpOverviewViewController.xib in Resources */,
 				A8E1C82927CAB3940054EF15 /* iChatOverviewViewController.xib in Resources */,
@@ -1767,9 +1821,11 @@
 				A8F9895C27C0191A00EF772F /* ServiceNavigationItem.m in Sources */,
 				A8F9897027C2AB6E00EF772F /* AddressBookSettingsViewController.m in Sources */,
 				A8F988EB27BCBE3900EF772F /* FirewallViewController.m in Sources */,
+				A8E1C93727CDDAB00054EF15 /* SmbOverviewViewController.m in Sources */,
 				A8E1C8DC27CC521E0054EF15 /* PrintLogsViewController.m in Sources */,
 				A8F9892C27BCBEC700EF772F /* QuickTimeStreamingViewController.m in Sources */,
 				A8F9896227C0B01E00EF772F /* ModuleGraphicalTabs.m in Sources */,
+				A8E1C94127CDDACC0054EF15 /* SmbGraphsViewController.m in Sources */,
 				A8E1C7C927C4A12C0054EF15 /* DhcpSettingsViewController.m in Sources */,
 				A8E1C7C427C4A1210054EF15 /* DhcpStaticMapsViewController.m in Sources */,
 				A8E1C88727CB13910054EF15 /* NetBootConnectionsViewController.m in Sources */,
@@ -1777,6 +1833,7 @@
 				A8E1C86927CACFCE0054EF15 /* MySqlLogsViewController.m in Sources */,
 				A8F9893627BCBEDB00EF772F /* SmbViewController.m in Sources */,
 				A8E1C7BF27C4A1140054EF15 /* DhcpSubnetsViewController.m in Sources */,
+				A8E1C94627CDDADE0054EF15 /* SmbConnectionsViewController.m in Sources */,
 				A8E1C8C327CB50DB0054EF15 /* PodcastProducerLogsViewController.m in Sources */,
 				A8E1C8B927CB47DC0054EF15 /* OpenDirectorySettingsViewController.m in Sources */,
 				A8F9893127BCBED100EF772F /* RadiusViewController.m in Sources */,
@@ -1786,6 +1843,7 @@
 				A8E1C80527CAA7970054EF15 /* FtpGraphsViewController.m in Sources */,
 				A8E1C86427CACFC50054EF15 /* MySqlOverviewViewController.m in Sources */,
 				A8E1C84127CAB8140054EF15 /* MailConnectionsViewController.m in Sources */,
+				A8E1C93C27CDDAC00054EF15 /* SmbLogsViewController.m in Sources */,
 				A8F9890E27BCBE8300EF772F /* NatViewController.m in Sources */,
 				A8E1C87D27CB137A0054EF15 /* NetBootOverviewViewController.m in Sources */,
 				A8E1C7BA27C4A1060054EF15 /* DhcpClientsViewController.m in Sources */,
@@ -1827,6 +1885,7 @@
 				A8E1C90527CC8B030054EF15 /* QuickTimeStreamingGraphsViewController.m in Sources */,
 				A8E1C7F127C8A44E0054EF15 /* FirewallActiveRulesViewController.m in Sources */,
 				A8E1C7FB27CAA7810054EF15 /* FtpOverviewViewController.m in Sources */,
+				A8E1C95127CDDAFF0054EF15 /* SmbSettingsViewController.m in Sources */,
 				A8F9894527BCBEF900EF772F /* WebViewController.m in Sources */,
 				A8F9891827BCBE9A00EF772F /* OpenDirectoryViewController.m in Sources */,
 				A8F988BA27BCBD6700EF772F /* RadiusModel.m in Sources */,
@@ -1885,6 +1944,7 @@
 				A8F9887827BCBC4600EF772F /* AddressBookModel.m in Sources */,
 				A8E1C7B527C4A0FB0054EF15 /* DhcpLogViewController.m in Sources */,
 				A8F9898927C3613B00EF772F /* AfpSharePointsViewController.m in Sources */,
+				A8E1C94C27CDDAF30054EF15 /* SmbSharePointsViewController.m in Sources */,
 				A8E1C82D27CAB3A20054EF15 /* iChatLogsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
