@@ -15,6 +15,14 @@
 		A8637D0027CF2A9600D84B4F /* SoftwareUpdateUpdatesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8637CFE27CF2A9600D84B4F /* SoftwareUpdateUpdatesViewController.xib */; };
 		A8637D0427CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8637D0227CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.m */; };
 		A8637D0527CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8637D0327CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.xib */; };
+		A8637D0927CF2FEE00D84B4F /* VpnOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8637D0727CF2FEE00D84B4F /* VpnOverviewViewController.m */; };
+		A8637D0A27CF2FEE00D84B4F /* VpnOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8637D0827CF2FEE00D84B4F /* VpnOverviewViewController.xib */; };
+		A8637D0E27CF2FFD00D84B4F /* VpnLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8637D0C27CF2FFD00D84B4F /* VpnLogViewController.m */; };
+		A8637D0F27CF2FFD00D84B4F /* VpnLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8637D0D27CF2FFD00D84B4F /* VpnLogViewController.xib */; };
+		A8637D1327CF300A00D84B4F /* VpnConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8637D1127CF300A00D84B4F /* VpnConnectionsViewController.m */; };
+		A8637D1427CF300A00D84B4F /* VpnConnectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8637D1227CF300A00D84B4F /* VpnConnectionsViewController.xib */; };
+		A8637D1827CF302000D84B4F /* VpnSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8637D1627CF302000D84B4F /* VpnSettingsViewController.m */; };
+		A8637D1927CF302000D84B4F /* VpnSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8637D1727CF302000D84B4F /* VpnSettingsViewController.xib */; };
 		A8E1C7B027C4A0EE0054EF15 /* DhcpOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7AE27C4A0EE0054EF15 /* DhcpOverviewViewController.m */; };
 		A8E1C7B127C4A0EE0054EF15 /* DhcpOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7AF27C4A0EE0054EF15 /* DhcpOverviewViewController.xib */; };
 		A8E1C7B527C4A0FB0054EF15 /* DhcpLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7B327C4A0FB0054EF15 /* DhcpLogViewController.m */; };
@@ -303,6 +311,18 @@
 		A8637D0127CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoftwareUpdateSettingsViewController.h; sourceTree = "<group>"; };
 		A8637D0227CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftwareUpdateSettingsViewController.m; sourceTree = "<group>"; };
 		A8637D0327CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SoftwareUpdateSettingsViewController.xib; sourceTree = "<group>"; };
+		A8637D0627CF2FEE00D84B4F /* VpnOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VpnOverviewViewController.h; sourceTree = "<group>"; };
+		A8637D0727CF2FEE00D84B4F /* VpnOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VpnOverviewViewController.m; sourceTree = "<group>"; };
+		A8637D0827CF2FEE00D84B4F /* VpnOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VpnOverviewViewController.xib; sourceTree = "<group>"; };
+		A8637D0B27CF2FFD00D84B4F /* VpnLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VpnLogViewController.h; sourceTree = "<group>"; };
+		A8637D0C27CF2FFD00D84B4F /* VpnLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VpnLogViewController.m; sourceTree = "<group>"; };
+		A8637D0D27CF2FFD00D84B4F /* VpnLogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VpnLogViewController.xib; sourceTree = "<group>"; };
+		A8637D1027CF300A00D84B4F /* VpnConnectionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VpnConnectionsViewController.h; sourceTree = "<group>"; };
+		A8637D1127CF300A00D84B4F /* VpnConnectionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VpnConnectionsViewController.m; sourceTree = "<group>"; };
+		A8637D1227CF300A00D84B4F /* VpnConnectionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VpnConnectionsViewController.xib; sourceTree = "<group>"; };
+		A8637D1527CF302000D84B4F /* VpnSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VpnSettingsViewController.h; sourceTree = "<group>"; };
+		A8637D1627CF302000D84B4F /* VpnSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VpnSettingsViewController.m; sourceTree = "<group>"; };
+		A8637D1727CF302000D84B4F /* VpnSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VpnSettingsViewController.xib; sourceTree = "<group>"; };
 		A8E1C7AD27C4A0EE0054EF15 /* DhcpOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DhcpOverviewViewController.h; sourceTree = "<group>"; };
 		A8E1C7AE27C4A0EE0054EF15 /* DhcpOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DhcpOverviewViewController.m; sourceTree = "<group>"; };
 		A8E1C7AF27C4A0EE0054EF15 /* DhcpOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DhcpOverviewViewController.xib; sourceTree = "<group>"; };
@@ -1360,6 +1380,18 @@
 				A8F9893D27BCBEF100EF772F /* VpnViewController.h */,
 				A8F9893E27BCBEF100EF772F /* VpnViewController.m */,
 				A8F9893F27BCBEF100EF772F /* VpnViewController.xib */,
+				A8637D0627CF2FEE00D84B4F /* VpnOverviewViewController.h */,
+				A8637D0727CF2FEE00D84B4F /* VpnOverviewViewController.m */,
+				A8637D0827CF2FEE00D84B4F /* VpnOverviewViewController.xib */,
+				A8637D0B27CF2FFD00D84B4F /* VpnLogViewController.h */,
+				A8637D0C27CF2FFD00D84B4F /* VpnLogViewController.m */,
+				A8637D0D27CF2FFD00D84B4F /* VpnLogViewController.xib */,
+				A8637D1027CF300A00D84B4F /* VpnConnectionsViewController.h */,
+				A8637D1127CF300A00D84B4F /* VpnConnectionsViewController.m */,
+				A8637D1227CF300A00D84B4F /* VpnConnectionsViewController.xib */,
+				A8637D1527CF302000D84B4F /* VpnSettingsViewController.h */,
+				A8637D1627CF302000D84B4F /* VpnSettingsViewController.m */,
+				A8637D1727CF302000D84B4F /* VpnSettingsViewController.xib */,
 			);
 			path = VPN;
 			sourceTree = "<group>";
@@ -1725,6 +1757,7 @@
 				A8E1C7CA27C4A12C0054EF15 /* DhcpSettingsViewController.xib in Resources */,
 				A8E1C8DD27CC521E0054EF15 /* PrintLogsViewController.xib in Resources */,
 				A8637D0527CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.xib in Resources */,
+				A8637D0F27CF2FFD00D84B4F /* VpnLogViewController.xib in Resources */,
 				A8F9892827BCBEBA00EF772F /* PushNotificationViewController.xib in Resources */,
 				A8F9894627BCBEF900EF772F /* WebViewController.xib in Resources */,
 				A8E1C92927CC9A3B0054EF15 /* XgridOverviewViewController.xib in Resources */,
@@ -1742,12 +1775,14 @@
 				A8F9890027BCBE6200EF772F /* MailViewController.xib in Resources */,
 				A8F988F627BCBE5000EF772F /* iCalViewController.xib in Resources */,
 				A8E1C7BB27C4A1060054EF15 /* DhcpClientsViewController.xib in Resources */,
+				A8637D0A27CF2FEE00D84B4F /* VpnOverviewViewController.xib in Resources */,
 				A8E1C8FB27CC8A060054EF15 /* QuickTimeStreamingOverviewViewController.xib in Resources */,
 				A8E1C88827CB13910054EF15 /* NetBootConnectionsViewController.xib in Resources */,
 				A8E1C7C027C4A1140054EF15 /* DhcpSubnetsViewController.xib in Resources */,
 				A8F9898F27C3614A00EF772F /* AfpSettingsViewController.xib in Resources */,
 				A8F9893227BCBED100EF772F /* RadiusViewController.xib in Resources */,
 				A8E1C91527CC971A0054EF15 /* RadiusOverviewViewController.xib in Resources */,
+				A8637D1427CF300A00D84B4F /* VpnConnectionsViewController.xib in Resources */,
 				A8E1C82427CAAFA30054EF15 /* iCalSettingsViewController.xib in Resources */,
 				A8F988DD27BCBE1700EF772F /* AddressBookViewController.xib in Resources */,
 				A8E1C95227CDDAFF0054EF15 /* SmbSettingsViewController.xib in Resources */,
@@ -1818,6 +1853,7 @@
 				A8E1C94727CDDADE0054EF15 /* SmbConnectionsViewController.xib in Resources */,
 				A8F9890F27BCBE8300EF772F /* NatViewController.xib in Resources */,
 				A8F9897627C360F700EF772F /* AfpOverviewViewController.xib in Resources */,
+				A8637D1927CF302000D84B4F /* VpnSettingsViewController.xib in Resources */,
 				A8E1C82927CAB3940054EF15 /* iChatOverviewViewController.xib in Resources */,
 				A8F9890527BCBE6C00EF772F /* MobileAccessViewController.xib in Resources */,
 				A8E1C8EC27CC52480054EF15 /* PrintSettingsViewController.xib in Resources */,
@@ -1878,6 +1914,7 @@
 				A8E1C91927CC97240054EF15 /* RadiusLogsViewController.m in Sources */,
 				A8F9890427BCBE6C00EF772F /* MobileAccessViewController.m in Sources */,
 				A8E1C8C827CB50E60054EF15 /* PodcastProducerCamerasViewController.m in Sources */,
+				A8637D1827CF302000D84B4F /* VpnSettingsViewController.m in Sources */,
 				A8E1C80527CAA7970054EF15 /* FtpGraphsViewController.m in Sources */,
 				A8E1C86427CACFC50054EF15 /* MySqlOverviewViewController.m in Sources */,
 				A8637CFA27CF2A8800D84B4F /* SoftwareUpdateLogViewController.m in Sources */,
@@ -1904,6 +1941,7 @@
 				A8E1C8D727CC52140054EF15 /* PrintOverviewViewController.m in Sources */,
 				A8E1C89127CB13A40054EF15 /* NetBootSettingsViewController.m in Sources */,
 				A8F988A227BCBCF800EF772F /* OpenDirectoryModel.m in Sources */,
+				A8637D1327CF300A00D84B4F /* VpnConnectionsViewController.m in Sources */,
 				A8E1C7E727C8A42F0054EF15 /* FirewallOverviewViewController.m in Sources */,
 				A8F9897527C360F700EF772F /* AfpOverviewViewController.m in Sources */,
 				A8E1C83C27CAB8080054EF15 /* MailLogsViewController.m in Sources */,
@@ -1919,7 +1957,9 @@
 				A8E1C8AF27CB47C50054EF15 /* OpenDirectoryLogsViewController.m in Sources */,
 				A8E1C8F527CC58E50054EF15 /* PushNotificationLogsViewController.m in Sources */,
 				A8F9896B27C2AB6100EF772F /* AddressBookLogsViewController.m in Sources */,
+				A8637D0927CF2FEE00D84B4F /* VpnOverviewViewController.m in Sources */,
 				A8F988FA27BCBE5900EF772F /* iChatViewController.m in Sources */,
+				A8637D0E27CF2FFD00D84B4F /* VpnLogViewController.m in Sources */,
 				A8F9898427C3612A00EF772F /* AfpConnectionsViewController.m in Sources */,
 				A8E1C90527CC8B030054EF15 /* QuickTimeStreamingGraphsViewController.m in Sources */,
 				A8E1C7F127C8A44E0054EF15 /* FirewallActiveRulesViewController.m in Sources */,
