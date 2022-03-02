@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8637CF527CF2A7900D84B4F /* SoftwareUpdateOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8637CF327CF2A7900D84B4F /* SoftwareUpdateOverviewViewController.m */; };
+		A8637CF627CF2A7900D84B4F /* SoftwareUpdateOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8637CF427CF2A7900D84B4F /* SoftwareUpdateOverviewViewController.xib */; };
+		A8637CFA27CF2A8800D84B4F /* SoftwareUpdateLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8637CF827CF2A8800D84B4F /* SoftwareUpdateLogViewController.m */; };
+		A8637CFB27CF2A8800D84B4F /* SoftwareUpdateLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8637CF927CF2A8800D84B4F /* SoftwareUpdateLogViewController.xib */; };
+		A8637CFF27CF2A9600D84B4F /* SoftwareUpdateUpdatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8637CFD27CF2A9600D84B4F /* SoftwareUpdateUpdatesViewController.m */; };
+		A8637D0027CF2A9600D84B4F /* SoftwareUpdateUpdatesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8637CFE27CF2A9600D84B4F /* SoftwareUpdateUpdatesViewController.xib */; };
+		A8637D0427CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8637D0227CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.m */; };
+		A8637D0527CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8637D0327CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.xib */; };
 		A8E1C7B027C4A0EE0054EF15 /* DhcpOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7AE27C4A0EE0054EF15 /* DhcpOverviewViewController.m */; };
 		A8E1C7B127C4A0EE0054EF15 /* DhcpOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7AF27C4A0EE0054EF15 /* DhcpOverviewViewController.xib */; };
 		A8E1C7B527C4A0FB0054EF15 /* DhcpLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7B327C4A0FB0054EF15 /* DhcpLogViewController.m */; };
@@ -283,6 +291,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8637CF227CF2A7900D84B4F /* SoftwareUpdateOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoftwareUpdateOverviewViewController.h; sourceTree = "<group>"; };
+		A8637CF327CF2A7900D84B4F /* SoftwareUpdateOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftwareUpdateOverviewViewController.m; sourceTree = "<group>"; };
+		A8637CF427CF2A7900D84B4F /* SoftwareUpdateOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SoftwareUpdateOverviewViewController.xib; sourceTree = "<group>"; };
+		A8637CF727CF2A8700D84B4F /* SoftwareUpdateLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoftwareUpdateLogViewController.h; sourceTree = "<group>"; };
+		A8637CF827CF2A8800D84B4F /* SoftwareUpdateLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftwareUpdateLogViewController.m; sourceTree = "<group>"; };
+		A8637CF927CF2A8800D84B4F /* SoftwareUpdateLogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SoftwareUpdateLogViewController.xib; sourceTree = "<group>"; };
+		A8637CFC27CF2A9600D84B4F /* SoftwareUpdateUpdatesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoftwareUpdateUpdatesViewController.h; sourceTree = "<group>"; };
+		A8637CFD27CF2A9600D84B4F /* SoftwareUpdateUpdatesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftwareUpdateUpdatesViewController.m; sourceTree = "<group>"; };
+		A8637CFE27CF2A9600D84B4F /* SoftwareUpdateUpdatesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SoftwareUpdateUpdatesViewController.xib; sourceTree = "<group>"; };
+		A8637D0127CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoftwareUpdateSettingsViewController.h; sourceTree = "<group>"; };
+		A8637D0227CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftwareUpdateSettingsViewController.m; sourceTree = "<group>"; };
+		A8637D0327CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SoftwareUpdateSettingsViewController.xib; sourceTree = "<group>"; };
 		A8E1C7AD27C4A0EE0054EF15 /* DhcpOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DhcpOverviewViewController.h; sourceTree = "<group>"; };
 		A8E1C7AE27C4A0EE0054EF15 /* DhcpOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DhcpOverviewViewController.m; sourceTree = "<group>"; };
 		A8E1C7AF27C4A0EE0054EF15 /* DhcpOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DhcpOverviewViewController.xib; sourceTree = "<group>"; };
@@ -1317,6 +1337,18 @@
 				A8F9893827BCBEE500EF772F /* SoftwareUpdateViewController.h */,
 				A8F9893927BCBEE500EF772F /* SoftwareUpdateViewController.m */,
 				A8F9893A27BCBEE500EF772F /* SoftwareUpdateViewController.xib */,
+				A8637CF227CF2A7900D84B4F /* SoftwareUpdateOverviewViewController.h */,
+				A8637CF327CF2A7900D84B4F /* SoftwareUpdateOverviewViewController.m */,
+				A8637CF427CF2A7900D84B4F /* SoftwareUpdateOverviewViewController.xib */,
+				A8637CF727CF2A8700D84B4F /* SoftwareUpdateLogViewController.h */,
+				A8637CF827CF2A8800D84B4F /* SoftwareUpdateLogViewController.m */,
+				A8637CF927CF2A8800D84B4F /* SoftwareUpdateLogViewController.xib */,
+				A8637CFC27CF2A9600D84B4F /* SoftwareUpdateUpdatesViewController.h */,
+				A8637CFD27CF2A9600D84B4F /* SoftwareUpdateUpdatesViewController.m */,
+				A8637CFE27CF2A9600D84B4F /* SoftwareUpdateUpdatesViewController.xib */,
+				A8637D0127CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.h */,
+				A8637D0227CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.m */,
+				A8637D0327CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.xib */,
 			);
 			path = SoftwareUpdate;
 			sourceTree = "<group>";
@@ -1692,6 +1724,7 @@
 				A8E1C86527CACFC50054EF15 /* MySqlOverviewViewController.xib in Resources */,
 				A8E1C7CA27C4A12C0054EF15 /* DhcpSettingsViewController.xib in Resources */,
 				A8E1C8DD27CC521E0054EF15 /* PrintLogsViewController.xib in Resources */,
+				A8637D0527CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.xib in Resources */,
 				A8F9892827BCBEBA00EF772F /* PushNotificationViewController.xib in Resources */,
 				A8F9894627BCBEF900EF772F /* WebViewController.xib in Resources */,
 				A8E1C92927CC9A3B0054EF15 /* XgridOverviewViewController.xib in Resources */,
@@ -1744,6 +1777,7 @@
 				A8F988F127BCBE4300EF772F /* FtpViewController.xib in Resources */,
 				A8E1C81027CAA7B00054EF15 /* FtpSharePointsViewController.xib in Resources */,
 				A8E1C7CF27C714C40054EF15 /* DnsOverviewViewController.xib in Resources */,
+				A8637CF627CF2A7900D84B4F /* SoftwareUpdateOverviewViewController.xib in Resources */,
 				A8E1C8D327CB50FC0054EF15 /* PodcastProducerSettingsViewController.xib in Resources */,
 				A8F988FB27BCBE5900EF772F /* iChatViewController.xib in Resources */,
 				A8F988E727BCBE2F00EF772F /* DnsViewController.xib in Resources */,
@@ -1752,7 +1786,9 @@
 				A8E1C83827CAB7FF0054EF15 /* MailOverviewViewController.xib in Resources */,
 				A8F988E227BCBE2200EF772F /* DhcpViewController.xib in Resources */,
 				A8F988D827BCBE0400EF772F /* AfpViewController.xib in Resources */,
+				A8637D0027CF2A9600D84B4F /* SoftwareUpdateUpdatesViewController.xib in Resources */,
 				A8E1C7E327C7150A0054EF15 /* DnsSettingsViewController.xib in Resources */,
+				A8637CFB27CF2A8800D84B4F /* SoftwareUpdateLogViewController.xib in Resources */,
 				A8E1C93327CC9A500054EF15 /* XgridSettingsViewController.xib in Resources */,
 				A8F9898027C3611700EF772F /* AfpGraphsViewController.xib in Resources */,
 				A8F9882F27BCB6FC00EF772F /* Assets.xcassets in Resources */,
@@ -1812,8 +1848,10 @@
 				A8E1C8E127CC52290054EF15 /* PrintJobStatusViewController.m in Sources */,
 				A8F9888A27BCBC9700EF772F /* iCalModel.m in Sources */,
 				A8F988B727BCBD5E00EF772F /* QuickTimeStreamingModel.m in Sources */,
+				A8637CFF27CF2A9600D84B4F /* SoftwareUpdateUpdatesViewController.m in Sources */,
 				A8F988D727BCBE0400EF772F /* AfpViewController.m in Sources */,
 				A8E1C8FF27CC8AF30054EF15 /* QuickTimeStreamingLogsViewController.m in Sources */,
+				A8637D0427CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.m in Sources */,
 				A8F988A827BCBD0F00EF772F /* PrintModel.m in Sources */,
 				A8F9891327BCBE9100EF772F /* NetBootViewController.m in Sources */,
 				A8E1C93227CC9A500054EF15 /* XgridSettingsViewController.m in Sources */,
@@ -1842,6 +1880,7 @@
 				A8E1C8C827CB50E60054EF15 /* PodcastProducerCamerasViewController.m in Sources */,
 				A8E1C80527CAA7970054EF15 /* FtpGraphsViewController.m in Sources */,
 				A8E1C86427CACFC50054EF15 /* MySqlOverviewViewController.m in Sources */,
+				A8637CFA27CF2A8800D84B4F /* SoftwareUpdateLogViewController.m in Sources */,
 				A8E1C84127CAB8140054EF15 /* MailConnectionsViewController.m in Sources */,
 				A8E1C93C27CDDAC00054EF15 /* SmbLogsViewController.m in Sources */,
 				A8F9890E27BCBE8300EF772F /* NatViewController.m in Sources */,
@@ -1896,6 +1935,7 @@
 				A8E1C8AA27CB47BA0054EF15 /* OpenDirectoryOverviewViewController.m in Sources */,
 				A8F988B127BCBD3F00EF772F /* AfpModel.m in Sources */,
 				A8F988F027BCBE4300EF772F /* FtpViewController.m in Sources */,
+				A8637CF527CF2A7900D84B4F /* SoftwareUpdateOverviewViewController.m in Sources */,
 				A8F9896627C2AB5200EF772F /* AddressBookOverviewViewController.m in Sources */,
 				A8E1C87827CB11C40054EF15 /* NatSettingsViewController.m in Sources */,
 				A8F988CD27BCBDEC00EF772F /* InformationViewController.m in Sources */,
