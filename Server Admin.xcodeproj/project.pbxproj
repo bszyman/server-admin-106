@@ -23,6 +23,16 @@
 		A8637D1427CF300A00D84B4F /* VpnConnectionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8637D1227CF300A00D84B4F /* VpnConnectionsViewController.xib */; };
 		A8637D1827CF302000D84B4F /* VpnSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8637D1627CF302000D84B4F /* VpnSettingsViewController.m */; };
 		A8637D1927CF302000D84B4F /* VpnSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8637D1727CF302000D84B4F /* VpnSettingsViewController.xib */; };
+		A8637D1D27CF366E00D84B4F /* WebOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8637D1B27CF366E00D84B4F /* WebOverviewViewController.m */; };
+		A8637D1E27CF366E00D84B4F /* WebOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8637D1C27CF366E00D84B4F /* WebOverviewViewController.xib */; };
+		A8637D2227CF367800D84B4F /* WebLogsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8637D2027CF367800D84B4F /* WebLogsViewController.m */; };
+		A8637D2327CF367800D84B4F /* WebLogsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8637D2127CF367800D84B4F /* WebLogsViewController.xib */; };
+		A8637D2727CF368B00D84B4F /* WebGraphsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8637D2527CF368B00D84B4F /* WebGraphsViewController.m */; };
+		A8637D2827CF368B00D84B4F /* WebGraphsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8637D2627CF368B00D84B4F /* WebGraphsViewController.xib */; };
+		A8637D2C27CF369600D84B4F /* WebSitesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8637D2A27CF369600D84B4F /* WebSitesViewController.m */; };
+		A8637D2D27CF369600D84B4F /* WebSitesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8637D2B27CF369600D84B4F /* WebSitesViewController.xib */; };
+		A8637D3127CF36A200D84B4F /* WebSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8637D2F27CF36A200D84B4F /* WebSettingsViewController.m */; };
+		A8637D3227CF36A200D84B4F /* WebSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8637D3027CF36A200D84B4F /* WebSettingsViewController.xib */; };
 		A8E1C7B027C4A0EE0054EF15 /* DhcpOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7AE27C4A0EE0054EF15 /* DhcpOverviewViewController.m */; };
 		A8E1C7B127C4A0EE0054EF15 /* DhcpOverviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E1C7AF27C4A0EE0054EF15 /* DhcpOverviewViewController.xib */; };
 		A8E1C7B527C4A0FB0054EF15 /* DhcpLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E1C7B327C4A0FB0054EF15 /* DhcpLogViewController.m */; };
@@ -323,6 +333,21 @@
 		A8637D1527CF302000D84B4F /* VpnSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VpnSettingsViewController.h; sourceTree = "<group>"; };
 		A8637D1627CF302000D84B4F /* VpnSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VpnSettingsViewController.m; sourceTree = "<group>"; };
 		A8637D1727CF302000D84B4F /* VpnSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VpnSettingsViewController.xib; sourceTree = "<group>"; };
+		A8637D1A27CF366E00D84B4F /* WebOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebOverviewViewController.h; sourceTree = "<group>"; };
+		A8637D1B27CF366E00D84B4F /* WebOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebOverviewViewController.m; sourceTree = "<group>"; };
+		A8637D1C27CF366E00D84B4F /* WebOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebOverviewViewController.xib; sourceTree = "<group>"; };
+		A8637D1F27CF367800D84B4F /* WebLogsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebLogsViewController.h; sourceTree = "<group>"; };
+		A8637D2027CF367800D84B4F /* WebLogsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebLogsViewController.m; sourceTree = "<group>"; };
+		A8637D2127CF367800D84B4F /* WebLogsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebLogsViewController.xib; sourceTree = "<group>"; };
+		A8637D2427CF368B00D84B4F /* WebGraphsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebGraphsViewController.h; sourceTree = "<group>"; };
+		A8637D2527CF368B00D84B4F /* WebGraphsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebGraphsViewController.m; sourceTree = "<group>"; };
+		A8637D2627CF368B00D84B4F /* WebGraphsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebGraphsViewController.xib; sourceTree = "<group>"; };
+		A8637D2927CF369600D84B4F /* WebSitesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebSitesViewController.h; sourceTree = "<group>"; };
+		A8637D2A27CF369600D84B4F /* WebSitesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSitesViewController.m; sourceTree = "<group>"; };
+		A8637D2B27CF369600D84B4F /* WebSitesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebSitesViewController.xib; sourceTree = "<group>"; };
+		A8637D2E27CF36A200D84B4F /* WebSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebSettingsViewController.h; sourceTree = "<group>"; };
+		A8637D2F27CF36A200D84B4F /* WebSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSettingsViewController.m; sourceTree = "<group>"; };
+		A8637D3027CF36A200D84B4F /* WebSettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebSettingsViewController.xib; sourceTree = "<group>"; };
 		A8E1C7AD27C4A0EE0054EF15 /* DhcpOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DhcpOverviewViewController.h; sourceTree = "<group>"; };
 		A8E1C7AE27C4A0EE0054EF15 /* DhcpOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DhcpOverviewViewController.m; sourceTree = "<group>"; };
 		A8E1C7AF27C4A0EE0054EF15 /* DhcpOverviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DhcpOverviewViewController.xib; sourceTree = "<group>"; };
@@ -1403,6 +1428,21 @@
 				A8F9894227BCBEF900EF772F /* WebViewController.h */,
 				A8F9894327BCBEF900EF772F /* WebViewController.m */,
 				A8F9894427BCBEF900EF772F /* WebViewController.xib */,
+				A8637D1A27CF366E00D84B4F /* WebOverviewViewController.h */,
+				A8637D1B27CF366E00D84B4F /* WebOverviewViewController.m */,
+				A8637D1C27CF366E00D84B4F /* WebOverviewViewController.xib */,
+				A8637D1F27CF367800D84B4F /* WebLogsViewController.h */,
+				A8637D2027CF367800D84B4F /* WebLogsViewController.m */,
+				A8637D2127CF367800D84B4F /* WebLogsViewController.xib */,
+				A8637D2427CF368B00D84B4F /* WebGraphsViewController.h */,
+				A8637D2527CF368B00D84B4F /* WebGraphsViewController.m */,
+				A8637D2627CF368B00D84B4F /* WebGraphsViewController.xib */,
+				A8637D2927CF369600D84B4F /* WebSitesViewController.h */,
+				A8637D2A27CF369600D84B4F /* WebSitesViewController.m */,
+				A8637D2B27CF369600D84B4F /* WebSitesViewController.xib */,
+				A8637D2E27CF36A200D84B4F /* WebSettingsViewController.h */,
+				A8637D2F27CF36A200D84B4F /* WebSettingsViewController.m */,
+				A8637D3027CF36A200D84B4F /* WebSettingsViewController.xib */,
 			);
 			path = Web;
 			sourceTree = "<group>";
@@ -1727,6 +1767,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8637D2327CF367800D84B4F /* WebLogsViewController.xib in Resources */,
 				A8E1C7DE27C714F60054EF15 /* DnsBonjourViewController.xib in Resources */,
 				A8E1C80127CAA78C0054EF15 /* FtpLogViewController.xib in Resources */,
 				A8E1C8F627CC58E50054EF15 /* PushNotificationLogsViewController.xib in Resources */,
@@ -1752,6 +1793,7 @@
 				A8E1C7B127C4A0EE0054EF15 /* DhcpOverviewViewController.xib in Resources */,
 				A8F9898527C3612A00EF772F /* AfpConnectionsViewController.xib in Resources */,
 				A8E1C85B27CACB230054EF15 /* MobileAccessAccessViewController.xib in Resources */,
+				A8637D3227CF36A200D84B4F /* WebSettingsViewController.xib in Resources */,
 				A8E1C86A27CACFCE0054EF15 /* MySqlLogsViewController.xib in Resources */,
 				A8E1C86527CACFC50054EF15 /* MySqlOverviewViewController.xib in Resources */,
 				A8E1C7CA27C4A12C0054EF15 /* DhcpSettingsViewController.xib in Resources */,
@@ -1772,6 +1814,7 @@
 				A8F988EC27BCBE3900EF772F /* FirewallViewController.xib in Resources */,
 				A8E1C90B27CC8B130054EF15 /* QuickTimeStreamingConnectionsViewController.xib in Resources */,
 				A8E1C7B627C4A0FB0054EF15 /* DhcpLogViewController.xib in Resources */,
+				A8637D2D27CF369600D84B4F /* WebSitesViewController.xib in Resources */,
 				A8F9890027BCBE6200EF772F /* MailViewController.xib in Resources */,
 				A8F988F627BCBE5000EF772F /* iCalViewController.xib in Resources */,
 				A8E1C7BB27C4A1060054EF15 /* DhcpClientsViewController.xib in Resources */,
@@ -1790,6 +1833,7 @@
 				A8E1C91027CC8B220054EF15 /* QuickTimeStreamingSettingsViewController.xib in Resources */,
 				A8E1C7E827C8A42F0054EF15 /* FirewallOverviewViewController.xib in Resources */,
 				A8E1C83327CAB3AC0054EF15 /* iChatSettingsViewController.xib in Resources */,
+				A8637D2827CF368B00D84B4F /* WebGraphsViewController.xib in Resources */,
 				A8E1C7D427C714D00054EF15 /* DnsLogViewController.xib in Resources */,
 				A8E1C87927CB11C40054EF15 /* NatSettingsViewController.xib in Resources */,
 				A8F9896727C2AB5200EF772F /* AddressBookOverviewViewController.xib in Resources */,
@@ -1804,6 +1848,7 @@
 				A8E1C87E27CB137A0054EF15 /* NetBootOverviewViewController.xib in Resources */,
 				A8E1C7C527C4A1210054EF15 /* DhcpStaticMapsViewController.xib in Resources */,
 				A8E1C88327CB13840054EF15 /* NetBootLogViewController.xib in Resources */,
+				A8637D1E27CF366E00D84B4F /* WebOverviewViewController.xib in Resources */,
 				A8E1C81F27CAAF980054EF15 /* iCalLogsViewController.xib in Resources */,
 				A8E1C8B527CB47D10054EF15 /* OpenDirectoryArchiveViewController.xib in Resources */,
 				A8E1C85127CACB0D0054EF15 /* MobileAccessOverviewViewController.xib in Resources */,
@@ -1877,6 +1922,7 @@
 				A8E1C89627CB445E0054EF15 /* NfsOverviewViewController.m in Sources */,
 				A8E1C80F27CAA7B00054EF15 /* FtpSharePointsViewController.m in Sources */,
 				A8F988A527BCBD0300EF772F /* PodcastProducerModel.m in Sources */,
+				A8637D1D27CF366E00D84B4F /* WebOverviewViewController.m in Sources */,
 				A8E1C86E27CACFDC0054EF15 /* MySqlSettingsViewController.m in Sources */,
 				A8E1C92327CC973A0054EF15 /* RadiusSettingsViewController.m in Sources */,
 				A8E1C7CE27C714C40054EF15 /* DnsOverviewViewController.m in Sources */,
@@ -1886,6 +1932,7 @@
 				A8F988B727BCBD5E00EF772F /* QuickTimeStreamingModel.m in Sources */,
 				A8637CFF27CF2A9600D84B4F /* SoftwareUpdateUpdatesViewController.m in Sources */,
 				A8F988D727BCBE0400EF772F /* AfpViewController.m in Sources */,
+				A8637D2227CF367800D84B4F /* WebLogsViewController.m in Sources */,
 				A8E1C8FF27CC8AF30054EF15 /* QuickTimeStreamingLogsViewController.m in Sources */,
 				A8637D0427CF2AA300D84B4F /* SoftwareUpdateSettingsViewController.m in Sources */,
 				A8F988A827BCBD0F00EF772F /* PrintModel.m in Sources */,
@@ -1897,7 +1944,9 @@
 				A8F988EB27BCBE3900EF772F /* FirewallViewController.m in Sources */,
 				A8E1C93727CDDAB00054EF15 /* SmbOverviewViewController.m in Sources */,
 				A8E1C8DC27CC521E0054EF15 /* PrintLogsViewController.m in Sources */,
+				A8637D3127CF36A200D84B4F /* WebSettingsViewController.m in Sources */,
 				A8F9892C27BCBEC700EF772F /* QuickTimeStreamingViewController.m in Sources */,
+				A8637D2C27CF369600D84B4F /* WebSitesViewController.m in Sources */,
 				A8F9896227C0B01E00EF772F /* ModuleGraphicalTabs.m in Sources */,
 				A8E1C94127CDDACC0054EF15 /* SmbGraphsViewController.m in Sources */,
 				A8E1C7C927C4A12C0054EF15 /* DhcpSettingsViewController.m in Sources */,
@@ -1961,6 +2010,7 @@
 				A8F988FA27BCBE5900EF772F /* iChatViewController.m in Sources */,
 				A8637D0E27CF2FFD00D84B4F /* VpnLogViewController.m in Sources */,
 				A8F9898427C3612A00EF772F /* AfpConnectionsViewController.m in Sources */,
+				A8637D2727CF368B00D84B4F /* WebGraphsViewController.m in Sources */,
 				A8E1C90527CC8B030054EF15 /* QuickTimeStreamingGraphsViewController.m in Sources */,
 				A8E1C7F127C8A44E0054EF15 /* FirewallActiveRulesViewController.m in Sources */,
 				A8E1C7FB27CAA7810054EF15 /* FtpOverviewViewController.m in Sources */,
