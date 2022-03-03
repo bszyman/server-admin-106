@@ -41,6 +41,13 @@ application can connect to FreeBSD servers and manage them.
 This would be a MASSIVE undertaking for a single 
 engineer, though.
 
+## Builds
+
+You can find all current and historical builds of this 
+application in the repo's Downloads section. These are
+compiled and signed app bundles, so you can download
+and enjoy right away!
+
 ## License
 
 This project is licensed under MIT.
